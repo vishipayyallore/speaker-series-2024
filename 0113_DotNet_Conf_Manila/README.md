@@ -1,8 +1,8 @@
 # Microservices using .NET 8, and DAPR (Service to Service communication)
 
-## Date Time: 22-Oct-2023 at 09:00 AM IST
+## Date Time: 13-Jan-2024 at 11:00 AM IST
 
-## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/295456891](https://www.meetup.com/dot-net-learners-house-hyderabad/events/295456891)
+## Event URL: [https://dotnetcopilot.com/net-conf-manila-philippines-2023](https://dotnetcopilot.com/net-conf-manila-philippines-2023)
 
 ## YouTube URL: [https://www.youtube.com/watch?v=zvGDbaUfky0](https://www.youtube.com/watch?v=zvGDbaUfky0)
 
