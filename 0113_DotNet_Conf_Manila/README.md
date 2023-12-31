@@ -28,7 +28,7 @@
 
 ## Information
 
-![Information | 100x100](./Documentation/Images/Information.PNG)
+![Information | 100x100](../Documentation/Images/Information.PNG)
 
 ## What are we doing today?
 
