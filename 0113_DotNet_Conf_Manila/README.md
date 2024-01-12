@@ -35,6 +35,9 @@
 > 1. The Big Picture
 > 1. Look into DAPR (Distributed Application Runtime) from 30,000 foot
 > 1. Creating two Microservices
+> 1. Name Resolution
+> 1. Resiliency
+>    - Timeouts, Retries, and Circuit Breakers
 > 1. How communication works between two services
 > 1. Timeouts, Retries, and Circuit Breaker Pattern.
 > 1. SUMMARY / RECAP / Q&A
@@ -46,6 +49,8 @@
 ![Information | 100x100](../Documentation/Images/SeatBelt.PNG)
 
 ---
+
+> 1. <https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker>
 
 ## The Big Picture
 
