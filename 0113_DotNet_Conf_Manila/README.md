@@ -49,6 +49,8 @@
 
 ## The Big Picture
 
+Dapr is an event-driven, portable runtime created by Microsoft with an open source approach and it is a Cloud Native Computing Foundation (`CNCF`) incubated project.
+
 ### Pre-requisites
 
 > 1. Installation and Initialization of Dapr
