@@ -33,16 +33,16 @@
 ## What are we doing today?
 
 > 1. The Big Picture
-> 1. Look into DAPR (Distributed Application Runtime) from 30,000 foot
+> 1. DAPR (Distributed Application Runtime) from 30,000 foot
 > 1. Creating two Microservices
-> 1. Name Resolution
+> 1. How communication works between two services
+>    - Name Resolution
 > 1. Resiliency
 >    - Timeouts, Retries, and Circuit Breakers
-> 1. How communication works between two services
 > 1. Timeouts, Retries, and Circuit Breaker Pattern.
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-azure-openai) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-dapr) of today's session for more details
 
 ---
 
@@ -54,20 +54,25 @@
 
 ## The Big Picture
 
-Dapr is an event-driven, portable runtime created by Microsoft with an open source approach and it is a Cloud Native Computing Foundation (`CNCF`) incubated project.
-
 ### Pre-requisites
 
-> 1. Installation and Initialization of Dapr
 > 1. Docker should be running
+> 1. Installation and Initialization of Dapr
 
 ![DAPR Service to Service Communication | 100x100](./Documentation/Images/SessionFirstLook.PNG)
 
-## Look into DAPR (Distributed Application Runtime) from 30,000 foot
+## DAPR (Distributed Application Runtime) from 30,000 foot
+
+Dapr is a portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks. It is created by Microsoft with an open source approach and it is a Cloud Native Computing Foundation (`CNCF`) incubated project.
 
 > 1. Discussion and Demo
+> 1. <https://docs.dapr.io/concepts/overview/>
 
 ---
+
+## Creating two Microservices
+
+> 1. Discussion and Demo
 
 ## SUMMARY / RECAP / Q&A
 
