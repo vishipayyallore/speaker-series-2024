@@ -1,6 +1,6 @@
 # Microservices using .NET 8, and DAPR (Service to Service communication)
 
-## Date Time: 13-Jan-2024 at 11:00 AM IST
+## Date Time: 13-Jan-2024 at 12:30 AM IST
 
 ## Event URL: [https://dotnetcopilot.com/net-conf-manila-philippines-2023](https://dotnetcopilot.com/net-conf-manila-philippines-2023)
 
@@ -33,6 +33,8 @@
 ## What are we doing today?
 
 > 1. The Big Picture
+> 1. Installation and Initialization of Dapr
+> 1. Docker should be running
 > 1. To be done
 > 1. SUMMARY / RECAP / Q&A
 
