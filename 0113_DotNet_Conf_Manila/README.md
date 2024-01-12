@@ -1,4 +1,4 @@
-# Microservices using .NET 8, and DAPR (Service to Service communication)
+# Microservices using .NET 8, and DAPR (Service to Service Invocation)
 
 ## Date Time: 13-Jan-2024 at 12:30 AM IST
 
@@ -33,9 +33,10 @@
 ## What are we doing today?
 
 > 1. The Big Picture
-> 1. Installation and Initialization of Dapr
-> 1. Docker should be running
-> 1. To be done
+> 1. Look into DAPR (Distributed Application Runtime) from 30,000 foot
+> 1. Creating two Microservices
+> 1. How communication works between two services
+> 1. Timeouts, Retries, and Circuit Breaker Pattern.
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-azure-openai) of today's session for more details
@@ -48,7 +49,16 @@
 
 ## The Big Picture
 
+### Pre-requisites
+
+> 1. Installation and Initialization of Dapr
+> 1. Docker should be running
+
 ![DAPR Service to Service Communication | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+
+## Look into DAPR (Distributed Application Runtime) from 30,000 foot
+
+> 1. Discussion and Demo
 
 ---
 
