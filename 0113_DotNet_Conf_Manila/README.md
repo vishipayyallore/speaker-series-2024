@@ -79,18 +79,21 @@ Dapr is a portable, event-driven runtime that makes it easy for any developer to
 
 ### Service to Service Invocation
 
+> 1. <https://docs.dapr.io/developing-applications/building-blocks/service-invocation/service-invocation-overview/>
 > 1. Dapr facilitates service-to-service invocation by providing a standardized and language-agnostic approach. Through the Dapr API, services can easily communicate with each other using the sidecar pattern, enabling seamless interaction between microservices. Dapr abstracts away the complexities of network communication, making it straightforward to invoke methods on remote services.
 
 ![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services_2.PNG)
 
 ### Name Resolution
 
+> 1. <https://docs.dapr.io/reference/components-reference/supported-name-resolution/>
 > 1. Name resolution in Dapr involves the ability to dynamically discover and address services within a distributed system. Dapr supports service discovery by allowing services to be addressed using their logical names. This abstraction enhances flexibility, as the actual location or IP address of a service can change without affecting the calling service. Dapr's name resolution simplifies the development and deployment of microservices by providing a consistent and adaptable way to identify and communicate with other services.
 
 ![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services_1.PNG)
 
 ## Resiliency
 
+> 1. <https://docs.dapr.io/operations/resiliency/resiliency-overview/>
 > 1. Resiliency in Dapr refers to the system's ability to recover gracefully from failures and maintain consistent functionality. Dapr supports resiliency by providing features like retries, timeouts, and circuit breakers, which collectively contribute to building robust and fault-tolerant distributed applications.
 > 1. Dapr's resiliency features, including timeouts, retries, and circuit breakers, collectively contribute to building robust and fault-tolerant distributed systems. They help handle transient failures, set boundaries on operation durations, and prevent cascading failures across microservices.
 
