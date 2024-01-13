@@ -71,6 +71,14 @@ Dapr is a portable, event-driven runtime that makes it easy for any developer to
 
 > 1. Discussion and Demo
 
+### Orders Reservation Service
+
+![Orders Service | 100x100](./Documentation/Images/OrdersService.PNG)
+
+### Items Reservation Service
+
+![Items Reservation Service | 100x100](./Documentation/Images/ItemsReservationService.PNG)
+
 ## How communication works between two services
 
 > 1. Discussion and Demo
