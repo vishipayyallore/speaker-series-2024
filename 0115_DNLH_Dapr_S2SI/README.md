@@ -20,7 +20,7 @@
 ### Prior Knowledge
 
 > 1. Programming knowledge in C# / Python
-> 1. Azure
+> 1. Microservices / Distributed applications
 
 ## Technology Stack
 
@@ -55,6 +55,8 @@
 
 > 1. Docker should be running
 > 1. Installation and Initialization of Dapr
+
+### Executing Services in dapr using Resiliency
 
 ![Circuit Breaker | 100x100](./Documentation/Images/SessionFirstLook.PNG)
 
