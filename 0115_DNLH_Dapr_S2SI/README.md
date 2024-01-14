@@ -1,10 +1,10 @@
 # Microservices using .NET 8, and DAPR (Service to Service Invocation)
 
-## Date Time: 13-Jan-2024 at 12:30 AM IST
+## Date Time: 15-Jan-2024 at 09:00 AM IST
 
-## Event URL: [https://dotnetcopilot.com/net-conf-manila-philippines-2023](https://dotnetcopilot.com/net-conf-manila-philippines-2023)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/296871916](https://www.meetup.com/dot-net-learners-house-hyderabad/events/296871916)
 
-## YouTube URL: [https://www.youtube.com/watch?v=zvGDbaUfky0](https://www.youtube.com/watch?v=zvGDbaUfky0)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -12,8 +12,8 @@
 
 ### Software/Tools
 
-> 1. OS: Windows 10 x64
-> 1. Python / .NET 7
+> 1. OS: Windows 10/11 x64
+> 1. Python / .NET 8
 > 1. Visual Studio 2022
 > 1. Visual Studio Code
 
@@ -24,7 +24,7 @@
 
 ## Technology Stack
 
-> 1. .NET 7, Azure, OpenAI
+> 1. .NET 8, DAPR
 
 ## Information
 
