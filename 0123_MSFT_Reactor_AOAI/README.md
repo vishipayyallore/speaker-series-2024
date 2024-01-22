@@ -25,7 +25,7 @@
 
 ## Technology Stack
 
-> 1. .NET 8, Azure
+> 1. .NET 8, Python, Azure
 
 ## Information
 
@@ -52,7 +52,7 @@
 
 ### Pre-requisites
 
-> 1. Azure Open AI
+> 1. Azure Open AI, SQL
 > 1. Python, and .NET 7/8
 
 ### Previous Session
@@ -63,9 +63,19 @@
 
 ![Current Architecture | 100x100](./Documentation/Images/SessionFirstLook.PNG)
 
-## Changes in Python Flask API
+## 1. Python Flask API
 
+> 1. Discussion and Demo. This is created in previous session
+> 1. New Changes
 > 1. <https://learn.microsoft.com/en-gb/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-python>
+
+![Python Flask API | 100x100](./Documentation/Images/PythonFlaskAPI.PNG)
+
+## 2. Blazor Server Admin Application in .NET 7
+
+> 1. Discussion and Demo. This is created in previous session
+
+![Blazor Admin Application | 100x100](./Documentation/Images/Blazor_AdminApp.PNG)
 
 ## Creating .NET 8 Minimal API to store information in Azure SQL Server
 
