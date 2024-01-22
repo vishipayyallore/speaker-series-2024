@@ -21,10 +21,11 @@
 
 > 1. Programming knowledge in C# / Python
 > 1. Microservices / Distributed applications
+> 1. Azure / Azure Open AI
 
 ## Technology Stack
 
-> 1. .NET 8, DAPR
+> 1. .NET 8, Azure
 
 ## Information
 
@@ -33,12 +34,10 @@
 ## What are we doing today?
 
 > 1. The Big Picture
-> 1. DAPR (Distributed Application Runtime) from 30,000 foot
-> 1. Creating two Microservices
-> 1. How communication works between two services
->    - Name Resolution
-> 1. Resiliency
->    - Timeouts, Retries, and Circuit Breakers
+> 1. Creating .NET 8 Minimal API to store information in Azure SQL Server.
+> 1. Integrating Python Flask API, Blazor Server Admin Application, and .NET 8 Minimal API.
+> 1. Creating React 18 Client Application to view information.
+> 1. Integrating Python Flask API, Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application.
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-dapr) of today's session for more details
