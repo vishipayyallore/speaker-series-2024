@@ -1,10 +1,10 @@
-# Microservices using .NET 8, and DAPR (Service to Service Invocation)
+# Azure OpenAI - Travels Solution using AOAI, Python Flask, .NET Blazor Server
 
-## Date Time: 15-Jan-2024 at 09:00 AM IST
+## Date Time: 23-Jan-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/296871916](https://www.meetup.com/dot-net-learners-house-hyderabad/events/296871916)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304](https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304)
 
-## YouTube URL: [https://www.youtube.com/watch?v=0YhKUkLHWgM](https://www.youtube.com/watch?v=0YhKUkLHWgM)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
