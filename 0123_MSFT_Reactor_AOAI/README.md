@@ -63,6 +63,10 @@
 
 ![Current Architecture | 100x100](./Documentation/Images/SessionFirstLook.PNG)
 
+## Changes in Python Flask API
+
+> 1. <https://learn.microsoft.com/en-gb/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-python>
+
 ## Creating .NET 8 Minimal API to store information in Azure SQL Server
 
 > 1. Discussion and Demo
