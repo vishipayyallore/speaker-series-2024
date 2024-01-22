@@ -52,78 +52,34 @@
 
 ### Pre-requisites
 
-> 1. Docker should be running
-> 1. Installation and Initialization of Dapr
+> 1. Azure Open AI
+> 1. Python, and .NET 7/8
 
-### Executing Services in dapr using Resiliency
+### Previous Session
 
-![Circuit Breaker | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+> 1. <https://www.youtube.com/watch?v=9L_ebd9P-xM>
 
-## DAPR (Distributed Application Runtime) from 30,000 foot
+### Current Architecture
 
-Dapr is a portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks. It is created by Microsoft with an open source approach and it is a Cloud Native Computing Foundation (`CNCF`) incubated project.
+![Current Architecture | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+
+## Creating .NET 8 Minimal API to store information in Azure SQL Server
 
 > 1. Discussion and Demo
-> 1. <https://docs.dapr.io/concepts/overview/>
+
+## Integrating Python Flask API, Blazor Server Admin Application, and .NET 8 Minimal API
+
+> 1. Discussion and Demo
+
+## Creating React 18 Client Application to view information
+
+> 1. Discussion and Demo
+
+## Integrating Python Flask API, Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application
+
+> 1. Discussion and Demo
 
 ---
-
-## Creating two Microservices
-
-> 1. Discussion and Demo
-
-### Orders Reservation Service
-
-![Orders Service | 100x100](./Documentation/Images/OrdersService.PNG)
-
-### Items Reservation Service
-
-![Items Reservation Service | 100x100](./Documentation/Images/ItemsReservationService.PNG)
-
-## How communication works between two services
-
-> 1. Discussion and Demo
-
-![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services.PNG)
-
-### Service to Service Invocation
-
-> 1. <https://docs.dapr.io/developing-applications/building-blocks/service-invocation/service-invocation-overview/>
-> 1. Dapr facilitates service-to-service invocation by providing a standardized and language-agnostic approach. Through the Dapr API, services can easily communicate with each other using the sidecar pattern, enabling seamless interaction between microservices. Dapr abstracts away the complexities of network communication, making it straightforward to invoke methods on remote services.
-
-![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services_2.PNG)
-
-### Name Resolution
-
-> 1. <https://docs.dapr.io/reference/components-reference/supported-name-resolution/>
-> 1. Name resolution in Dapr involves the ability to dynamically discover and address services within a distributed system. Dapr supports service discovery by allowing services to be addressed using their logical names. This abstraction enhances flexibility, as the actual location or IP address of a service can change without affecting the calling service. Dapr's name resolution simplifies the development and deployment of microservices by providing a consistent and adaptable way to identify and communicate with other services.
-
-![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services_1.PNG)
-
-## Resiliency
-
-> 1. <https://docs.dapr.io/operations/resiliency/resiliency-overview/>
-> 1. Resiliency in Dapr refers to the system's ability to recover gracefully from failures and maintain consistent functionality. Dapr supports resiliency by providing features like retries, timeouts, and circuit breakers, which collectively contribute to building robust and fault-tolerant distributed applications.
-> 1. Dapr's resiliency features, including timeouts, retries, and circuit breakers, collectively contribute to building robust and fault-tolerant distributed systems. They help handle transient failures, set boundaries on operation durations, and prevent cascading failures across microservices.
-
-### Timeouts
-
-> 1. Timeouts in Dapr represent the maximum allowable duration for an operation to complete. By setting appropriate timeouts, you ensure that your application doesn't wait indefinitely for a response, preventing potential resource exhaustion and improving overall system responsiveness. Timeouts are crucial in managing the performance and reliability of distributed systems.
-
-### Retries
-
-> 1. Dapr supports automatic retries to handle transient failures that might occur during communication with external services. By specifying a retry policy, you can instruct Dapr to reattempt an operation if the initial attempt fails, helping to mitigate temporary issues and enhance the reliability of interactions between microservices.
-
-![Retry | 100x100](./Documentation/Images/DAPR_Retry.PNG)
-
-### Circuit Breaker
-
-> 1. <https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker>
-> 1. The circuit breaker pattern in Dapr is a mechanism to prevent continuous retries during persistent failures. It monitors the health of an external service, and if a predefined failure threshold is reached, the circuit breaker "trips," temporarily preventing further attempts. This helps to avoid overloading the failing service and allows it time to recover before resuming normal operation.
-
-![Circuit Breaker | 100x100](./Documentation/Images/SessionFirstLook.PNG)
-
-![Circuit Breaker | 100x100](./Documentation/Images/DAPR_Circuit_Breaker.PNG)
 
 ## SUMMARY / RECAP / Q&A
 
