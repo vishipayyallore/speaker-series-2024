@@ -101,19 +101,23 @@ CREATE TABLE CountriesInfo (
 
 ![Azure Data Studio | 100x100](./Documentation/Images/AzureSQL_2.PNG)
 
-## Creating .NET 8 Minimal API to store information in Azure SQL Server
+## 4. Creating .NET 8 Minimal API to store Countries information in Azure SQL Server
 
 > 1. Discussion and Demo
 
-## Integrating Python Flask API, Blazor Server Admin Application, and .NET 8 Minimal API
+![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_1.PNG)
+
+## 5. Integrating Python Flask API, Blazor Server Admin Application, and .NET 8 Minimal API
 
 > 1. Discussion and Demo
 
-## Creating React 18 Client Application to view information
+![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_2.PNG)
+
+## 6. Creating React 18 Client Application to view information
 
 > 1. Discussion and Demo
 
-## Integrating Python Flask API, Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application
+## 7. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application
 
 > 1. Discussion and Demo
 
