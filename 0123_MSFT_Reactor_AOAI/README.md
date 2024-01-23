@@ -77,6 +77,30 @@
 
 ![Blazor Admin Application | 100x100](./Documentation/Images/Blazor_AdminApp.PNG)
 
+## 3. Azure SQL Server, and SQL Scripts
+
+> 1. Discussion and Demo
+
+### SQL Scripts
+
+```sql
+CREATE TABLE CountriesInfo (
+    [CountryId] INT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
+    CountryName NVARCHAR(100),
+    CapitalState NVARCHAR(100),
+    NationalBird NVARCHAR(100),
+    CountryPopulation BIGINT
+);
+```
+
+### Azure SQL Database
+
+> 1. Discussion and Demo
+
+![Azure SQL Database | 100x100](./Documentation/Images/AzureSQL_1.PNG)
+
+![Azure Data Studio | 100x100](./Documentation/Images/AzureSQL_2.PNG)
+
 ## Creating .NET 8 Minimal API to store information in Azure SQL Server
 
 > 1. Discussion and Demo
