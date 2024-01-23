@@ -125,9 +125,13 @@ CREATE TABLE CountriesInfo (
 
 > 1. Discussion and Demo
 
+![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App.PNG)
+
 ## 8. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application
 
 > 1. Discussion and Demo
+
+![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App_1.PNG)
 
 ---
 
