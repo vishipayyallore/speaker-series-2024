@@ -4,7 +4,9 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304](https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=2D3SnQG0OUE](https://www.youtube.com/watch?v=2D3SnQG0OUE)
+
+## MS Learn Module: [https://aka.ms/Buildnaturallanguagesolutions](https://aka.ms/Buildnaturallanguagesolutions)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
