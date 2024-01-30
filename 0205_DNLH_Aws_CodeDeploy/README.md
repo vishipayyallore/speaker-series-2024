@@ -1,6 +1,6 @@
 # AWS - Code Commit, Build, Deploy with .NET 8 Minimal API
 
-## Date Time: 30-Jan-2024 at 09:00 AM IST
+## Date Time: 05-Feb-2024 at 09:00 AM IST
 
 ## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/297030488](https://www.meetup.com/dot-net-learners-house-hyderabad/events/297030488)
 
