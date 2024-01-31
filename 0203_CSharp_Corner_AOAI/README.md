@@ -1,12 +1,10 @@
-# Azure OpenAI - Travels Solution using AOAI, Python Flask, .NET Blazor Server
+# Travels Solution - Azure Open AI, Python Flask, .NET Blazor Server, Minimal API, and ReactJS
 
-## Date Time: 23-Jan-2024 at 05:00 PM IST
+## Date Time: 03-Feb-2024 at 11:00 AM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304](https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304)
+## Event URL: [https://www.c-sharpcorner.com/events/mastering-modern-tech-a-deep-dive-into-flutter-azure-openai-power-a](https://www.c-sharpcorner.com/events/mastering-modern-tech-a-deep-dive-into-flutter-azure-openai-power-a)
 
-## YouTube URL: [https://www.youtube.com/watch?v=2D3SnQG0OUE](https://www.youtube.com/watch?v=2D3SnQG0OUE)
-
-## MS Learn Module: [https://aka.ms/Buildnaturallanguagesolutions](https://aka.ms/Buildnaturallanguagesolutions)
+## YouTube URL: [N/A](N/A)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
