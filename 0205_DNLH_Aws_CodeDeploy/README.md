@@ -82,41 +82,87 @@
 
 ## 2. Create .NET 8 Minimal API
 
+> 1. Discussion and Demo
+
 ### Discusion on .NET 8 Minimal API
+
+> 1. Discussion and Demo
 
 ### Execute it locally using Swagger / Postman
 
+> 1. Discussion and Demo
+
 ## 3. AWS Code Commit
+
+> 1. Discussion and Demo
 
 ### Check in and Check out the code
 
+> 1. Discussion and Demo
+
+![Clone Repo to Local | 100x100](./Documentation/Images/Clone_Repo_To_Local.PNG)
+
 ### Branching, Pull Request
+
+> 1. Discussion and Demo
 
 ## 4. AWS Code Build
 
+> 1. Discussion and Demo
+
 ### Create buildspec.yml
+
+> 1. Discussion and Demo
 
 ### Build the repo
 
+> 1. Discussion and Demo
+
 ### Store artifacts
+
+> 1. Discussion and Demo
 
 ### Download the artifacts and verify
 
+> 1. Discussion and Demo
+
 ## 5. Preparing EC2 instance for deployment
+
+> 1. Discussion and Demo
 
 ### Creating a new Ubuntu EC2 Instance
 
+> 1. Discussion and Demo
+
 ### Installing required software (wget, .NET 8 runtime)
+
+> 1. Discussion and Demo
 
 ### Installing code deploy agent
 
+> 1. Discussion and Demo
+
 ## 6. AWS Code Deploy
+
+> 1. Discussion and Demo
+
+### Code Deploy - Application, and Deploy Group
+
+![Code Deploy Group | 100x100](./Documentation/Images/AWS_CodeDeploy_Group.PNG)
+
+![Code Deploy Events | 100x100](./Documentation/Images/AWS_CodeDeploy_Events.PNG)
 
 ### Create appspec.yml file
 
+> 1. Discussion and Demo
+
 ### Use Code Deploy to deploy the latest binaries to EC2
 
+> 1. Discussion and Demo
+
 ### Verify the deployed Minimal API using EC2's public IP / DNS
+
+> 1. Discussion and Demo
 
 ---
 
