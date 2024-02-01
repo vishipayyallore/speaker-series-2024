@@ -46,8 +46,8 @@
 >    - Build the repo
 >    - Store artifacts
 >    - Download the artifacts and verify
-> 1. Preparing EC2 instace for deployment
->    - Creating new Ubuntu EC2 Instance
+> 1. Preparing EC2 instance for deployment
+>    - Creating a new Ubuntu EC2 Instance
 >    - Installing required software (wget, .NET 8 runtime)
 >    - Installing code deploy agent
 > 1. AWS Code Deploy
@@ -56,7 +56,7 @@
 >    - Verify the deployed Minimal API using EC2's public IP / DNS
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
+### Please refer to the [**Source Code - TBD**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
 
 ---
 
@@ -76,9 +76,47 @@
 > 1. Code Commit <https://www.youtube.com/watch?v=h6l1GoE8qfw>
 > 1. Code Build <https://www.youtube.com/watch?v=hS2CTmgVNK4>
 
-### Session First Look
+### Big Picture Look
 
 ![Session First Look | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+
+## 2. Create .NET 8 Minimal API
+
+### Discusion on .NET 8 Minimal API
+
+### Execute it locally using Swagger / Postman
+
+## 3. AWS Code Commit
+
+### Check in and Check out the code
+
+### Branching, Pull Request
+
+## 4. AWS Code Build
+
+### Create buildspec.yml
+
+### Build the repo
+
+### Store artifacts
+
+### Download the artifacts and verify
+
+## 5. Preparing EC2 instance for deployment
+
+### Creating a new Ubuntu EC2 Instance
+
+### Installing required software (wget, .NET 8 runtime)
+
+### Installing code deploy agent
+
+## 6. AWS Code Deploy
+
+### Create appspec.yml file
+
+### Use Code Deploy to deploy the latest binaries to EC2
+
+### Verify the deployed Minimal API using EC2's public IP / DNS
 
 ---
 
