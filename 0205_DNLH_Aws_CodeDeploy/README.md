@@ -16,16 +16,17 @@
 > 1. Python / .NET 8
 > 1. Visual Studio 2022
 > 1. Visual Studio Code
+> 1. AWS Cli
 
 ### Prior Knowledge
 
-> 1. Programming knowledge in C# / Python
+> 1. Programming knowledge in C#
 > 1. Microservices / Distributed applications
-> 1. Azure / Azure Open AI
+> 1. AWS, CI/CD
 
 ## Technology Stack
 
-> 1. .NET 8, Python, Azure
+> 1. .NET 8, C#, AWS, CI/CD
 
 ## Information
 
