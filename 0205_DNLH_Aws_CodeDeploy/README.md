@@ -13,19 +13,20 @@
 ### Software/Tools
 
 > 1. OS: Windows 10/11 x64
-> 1. Python / .NET 8
+> 1. .NET 8
 > 1. Visual Studio 2022
 > 1. Visual Studio Code
+> 1. AWS Cli
 
 ### Prior Knowledge
 
-> 1. Programming knowledge in C# / Python
+> 1. Programming knowledge in C#
 > 1. Microservices / Distributed applications
-> 1. Azure / Azure Open AI
+> 1. AWS, CI/CD
 
 ## Technology Stack
 
-> 1. .NET 8, Python, Azure
+> 1. .NET 8, C#, AWS, CI/CD
 
 ## Information
 
@@ -34,21 +35,28 @@
 ## What are we doing today?
 
 > 1. The Big Picture
->    - Pre-requisites
->    - Previous Session
->    - Current Architecture
-> 1. Python Flask API interacting with Azure Open AI
-> 1. .NET 7 Blazor Server Admin Application interacting with Python Flask API
-> 1. Azure SQL Server, Database, and SQL Scripts
->    - SQL Scripts
->    - Azure SQL Database, and Azure Data Studio
-> 1. Creating .NET 8 Minimal API to store Countries information in Azure SQL Server
-> 1. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, and .NET 8 Minimal API
-> 1. Creating React 18 Client Application to view information.
-> 1. Integrating Python Flask API, Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application.
+> 1. Create .NET 8 Minimal API
+>    - Discusion on .NET 8 Minimal API
+>    - Execute it locally using Swagger / Postman
+> 1. AWS Code Commit
+>    - Check in and Check out the code
+>    - Branching, Pull Request
+> 1. AWS Code Build
+>    - Create buildspec.yml
+>    - Build the repo
+>    - Store artifacts
+>    - Download the artifacts and verify
+> 1. Preparing EC2 instance for deployment
+>    - Creating a new Ubuntu EC2 Instance
+>    - Installing required software (wget, .NET 8 runtime)
+>    - Installing code deploy agent
+> 1. AWS Code Deploy
+>    - Create appspec.yml file
+>    - Use Code Deploy to deploy the latest binaries to EC2
+>    - Verify the deployed Minimal API using EC2's public IP / DNS
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
+### Please refer to the [**Source Code - TBD**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
 
 ---
 
@@ -60,82 +68,105 @@
 
 ### Pre-requisites
 
-> 1. Azure Open AI, SQL
-> 1. Python, and .NET 7/8
+> 1. AWS
+> 1. .NET 8
 
 ### Previous Session
 
-> 1. <https://www.youtube.com/watch?v=9L_ebd9P-xM>
+> 1. Code Commit <https://www.youtube.com/watch?v=h6l1GoE8qfw>
+> 1. Code Build <https://www.youtube.com/watch?v=hS2CTmgVNK4>
 
-### Current Architecture
+### Big Picture Look
 
-![Current Architecture | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+![Session First Look | 100x100](./Documentation/Images/SessionFirstLook.PNG)
 
-## 2. Python Flask API interacting with Azure Open AI
-
-> 1. Discussion and Demo. This is created in previous session
-> 1. New Changes
-> 1. <https://learn.microsoft.com/en-gb/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-python>
-
-![Python Flask API | 100x100](./Documentation/Images/PythonFlaskAPI.PNG)
-
-## 3. .NET 7 Blazor Server Admin Application interacting with Python Flask API
-
-> 1. Discussion and Demo. This is created in previous session
-
-![Blazor Admin Application | 100x100](./Documentation/Images/Blazor_AdminApp.PNG)
-
-## 4. Azure SQL Server, Database, and SQL Scripts
+## 2. Create .NET 8 Minimal API
 
 > 1. Discussion and Demo
 
-### SQL Scripts
-
-```sql
-CREATE TABLE CountriesInfo (
-    [CountryId] INT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
-    CountryName NVARCHAR(100),
-    CapitalState NVARCHAR(100),
-    NationalBird NVARCHAR(100),
-    CountryPopulation BIGINT
-);
-```
-
-### Azure SQL Database, and Azure Data Studio
+### Discusion on .NET 8 Minimal API
 
 > 1. Discussion and Demo
 
-![Azure SQL Database | 100x100](./Documentation/Images/AzureSQL_1.PNG)
-
-![Azure Data Studio | 100x100](./Documentation/Images/AzureSQL_2.PNG)
-
-## 5. Creating .NET 8 Minimal API to store Countries information in Azure SQL Server
+### Execute it locally using Swagger / Postman
 
 > 1. Discussion and Demo
 
-![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_1.PNG)
-
-## 6. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, and .NET 8 Minimal API
+## 3. AWS Code Commit
 
 > 1. Discussion and Demo
 
-![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_2.PNG)
-
-## 7. Creating React 18 Client Application to view information
+### Check in and Check out the code
 
 > 1. Discussion and Demo
 
-![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App.PNG)
+![Clone Repo to Local | 100x100](./Documentation/Images/Clone_Repo_To_Local.PNG)
 
-## 8. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application
+### Branching, Pull Request
 
 > 1. Discussion and Demo
 
-![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App_1.PNG)
+## 4. AWS Code Build
+
+> 1. Discussion and Demo
+
+### Create buildspec.yml
+
+> 1. Discussion and Demo
+
+### Build the repo
+
+> 1. Discussion and Demo
+
+### Store artifacts
+
+> 1. Discussion and Demo
+
+### Download the artifacts and verify
+
+> 1. Discussion and Demo
+
+## 5. Preparing EC2 instance for deployment
+
+> 1. Discussion and Demo
+
+### Creating a new Ubuntu EC2 Instance
+
+> 1. Discussion and Demo
+
+### Installing required software (wget, .NET 8 runtime)
+
+> 1. Discussion and Demo
+
+### Installing code deploy agent
+
+> 1. Discussion and Demo
+
+## 6. AWS Code Deploy
+
+> 1. Discussion and Demo
+
+### Code Deploy - Application, and Deploy Group
+
+![Code Deploy Group | 100x100](./Documentation/Images/AWS_CodeDeploy_Group.PNG)
+
+![Code Deploy Events | 100x100](./Documentation/Images/AWS_CodeDeploy_Events.PNG)
+
+### Create appspec.yml file
+
+> 1. Discussion and Demo
+
+### Use Code Deploy to deploy the latest binaries to EC2
+
+> 1. Discussion and Demo
+
+### Verify the deployed Minimal API using EC2's public IP / DNS
+
+> 1. Discussion and Demo
 
 ---
 
-## 9. SUMMARY / RECAP / Q&A
+## X. SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
 > 2. Any open queries, I will get back through meetup chat/twitter.
