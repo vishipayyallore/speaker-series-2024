@@ -263,7 +263,7 @@ sudo apt-get update && \
 > 1. Discussion and Demo
 > 1. <https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html>
 
-### Code Deploy - Application, and Deploy Group
+### Code Deploy - Application, Deployment Group, and Deployment
 
 ![Code Deploy Group | 100x100](./Documentation/Images/AWS_CodeDeploy_Group.PNG)
 
@@ -273,13 +273,53 @@ sudo apt-get update && \
 
 > 1. Discussion and Demo
 
+```yml
+version: 0.0
+os: linux
+
+resources:
+  - ec2-codedeploy-002
+
+files:
+  - source: /target
+    destination: /home/ubuntu/schoolapp
+  - source: /Scripts/webapi.service
+    destination: /etc/systemd/system
+
+hooks:
+  BeforeInstall:
+    - location: Scripts/before_install.sh
+      timeout: 300
+      runas: root
+
+  ApplicationStart:
+    - location: Scripts/application_start.sh
+      timeout: 300
+      runas: root
+
+  ApplicationStop:
+    - location: Scripts/application_stop.sh
+      timeout: 300
+      runas: root
+```
+
 ### Use Code Deploy to deploy the latest binaries to EC2
 
 > 1. Discussion and Demo
 
+![Code Deploy Binaries to EC2 | 100x100](./Documentation/Images/AWS_CodeDeploy_Binaries_EC2.PNG)
+
 ### Verify the deployed Minimal API using EC2's public IP / DNS
 
 > 1. Discussion and Demo
+
+![Code Deploy Binaries to EC2 | 100x100](./Documentation/Images/AWS_CodeDeploy_WebAPI_Output.PNG)
+
+```bash
+systemctl status webapi.service
+```
+
+![Code Deploy Binaries to EC2 | 100x100](./Documentation/Images/AWS_CodeDeploy_WebAPI_Logs.PNG)
 
 ---
 
