@@ -142,9 +142,15 @@
 
 > 1. Discussion and Demo
 
+![AWS Code Build Project | 100x100](./Documentation/Images/AWS_CodeBuild_Project.PNG)
+
 ### Create buildspec.yml
 
 > 1. Discussion and Demo
+
+#### Verify the Commands locally
+
+![AWS Code Build Project | 100x100](./Documentation/Images/AWS_CodeBuild_Commands.PNG)
 
 ### Build the repo
 
