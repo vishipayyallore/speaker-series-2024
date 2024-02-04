@@ -35,9 +35,11 @@
 ## What are we doing today?
 
 > 1. The Big Picture
+>    - Pre-requisites
+>    - Previous sessions
 > 1. Create .NET 8 Minimal API
 >    - Discusion on .NET 8 Minimal API
->    - Execute it locally using Swagger / Postman
+>    - Execute it locally using Swagger / Postman / .http file
 > 1. AWS Code Commit
 >    - Check in and Check out the code
 >    - Branching, Pull Request
@@ -88,9 +90,11 @@
 
 > 1. Discussion and Demo
 
-### Execute it locally using Swagger / Postman
+### Execute it locally using Swagger / Postman / .http file
 
 > 1. Discussion and Demo
+
+![Http File | 100x100](./Documentation/Images/MinimalAPI_HttpFile.PNG)
 
 ## 3. AWS Code Commit
 
