@@ -98,6 +98,8 @@
 
 ![Http File | 100x100](./Documentation/Images/MinimalAPI_HttpFile.PNG)
 
+![Pull Request and Merge | 100x100](./Documentation/Images/MinimalAPI_LogData.PNG)
+
 ## 3. AWS Code Commit
 
 > 1. Discussion and Demo
@@ -114,9 +116,17 @@
 
 ![Branches and Feature Branch | 100x100](./Documentation/Images/AWS_CodeCommit_Branches.PNG)
 
+### Feature development, and Commits
+
+> 1. Discussion and Demo
+
+![Feature development, and Commits | 100x100](./Documentation/Images/AWS_CodeCommit_Commits.PNG)
+
 ### Pull Request and Merge
 
 > 1. Discussion and Demo
+
+![Pull Request and Merge | 100x100](./Documentation/Images/AWS_CodeCommit_PR.PNG)
 
 ## 4. AWS Code Build
 
