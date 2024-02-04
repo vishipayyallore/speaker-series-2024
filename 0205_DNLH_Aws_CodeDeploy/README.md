@@ -210,15 +210,40 @@ artifacts:
 
 > 1. Discussion and Demo
 
+### Creating the required roles
+
+> 1. Discussion and Demo
+
+![AWS Code Deploy Roles | 100x100](./Documentation/Images/AWS_CodeDeploy_Roles.PNG)
+
 ### Creating a new Ubuntu EC2 Instance
 
 > 1. Discussion and Demo
 
-### Installing required software (wget, .NET 8 runtime)
-
-> 1. Discussion and Demo
+![AWS Code Deploy EC2 | 100x100](./Documentation/Images/AWS_CodeDeploy_EC2_Instance.PNG)
 
 ### Installing code deploy agent
+
+> 1. Discussion and Demo
+> 1. <https://mabdullahabid.medium.com/install-codedeploy-agent-for-ubuntu-server-6e87db526dba>
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install ruby wget
+
+cd /home/ubuntu
+wget https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
+chmod +x ./install
+sudo ./install auto
+
+sudo service codedeploy-agent status
+sudo service codedeploy-agent start
+```
+
+![AWS Code Deploy Agent | 100x100](./Documentation/Images/AWS_CodeDeploy_Agent.PNG)
+
+### Installing required software (.NET 8 runtime)
 
 > 1. Discussion and Demo
 
