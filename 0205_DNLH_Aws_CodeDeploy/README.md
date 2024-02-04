@@ -104,6 +104,12 @@
 
 > 1. Discussion and Demo
 
+### Create Repository for the project code
+
+> 1. Discussion and Demo
+
+![Repository for the project | 100x100](./Documentation/Images/AWS_CodeCommit_Repos.PNG)
+
 ### Check in and Check out the code
 
 > 1. Discussion and Demo
@@ -133,6 +139,10 @@
 > 1. Discussion and Demo
 
 ### Create buildspec.yml
+
+> 1. Discussion and Demo
+
+### Create the Code Build Project
 
 > 1. Discussion and Demo
 
