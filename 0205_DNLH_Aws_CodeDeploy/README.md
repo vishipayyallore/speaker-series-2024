@@ -152,9 +152,41 @@
 
 ![AWS Code Build Project | 100x100](./Documentation/Images/AWS_CodeBuild_Commands.PNG)
 
+#### buildspec.yml
+
+```yml
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8.0
+    commands:
+      - curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel 8.0
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Build started on `date`
+      - dotnet restore ./School-App.sln
+      - dotnet build ./School-App.sln
+      - dotnet publish  ./School-App.sln -c Release -o target
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - target/**/*
+    - appspec.yml
+    - Scripts/**/*
+```
+
 ### Build the repo
 
 > 1. Discussion and Demo
+
+![AWS Code Build Logs | 100x100](./Documentation/Images/AWS_CodeBuild_BuildLogs.PNG)
 
 ### Download the artifacts and verify
 
