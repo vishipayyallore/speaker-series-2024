@@ -39,7 +39,7 @@
 >    - Previous sessions
 > 1. Create .NET 8 Minimal API
 >    - Discusion on .NET 8 Minimal API
->    - Execute it locally using Swagger / Postman / .http file
+>    - Execute Minimal API locally using Swagger / Postman / .http file
 > 1. AWS Code Commit
 >    - Check in and Check out the code
 >    - Branching, Pull Request
@@ -58,7 +58,7 @@
 >    - Verify the deployed Minimal API using EC2's public IP / DNS
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code - TBD**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/minimal-apis) of today's session for more details
 
 ---
 
@@ -90,7 +90,9 @@
 
 > 1. Discussion and Demo
 
-### Execute it locally using Swagger / Postman / .http file
+![.NET 8 Minimal API | 100x100](./Documentation/Images/MinimalAPI_VS2022.PNG)
+
+### Execute Minimal API locally using Swagger / Postman / .http file
 
 > 1. Discussion and Demo
 
