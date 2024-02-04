@@ -247,6 +247,17 @@ sudo service codedeploy-agent start
 
 > 1. Discussion and Demo
 
+```bash
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+
+sudo apt-get update && \
+  sudo apt-get install -y aspnetcore-runtime-8.0
+```
+
+![AWS Code Deploy DotNet 8 | 100x100](./Documentation/Images/AWS_CodeDeploy_DotNet.PNG)
+
 ## 6. AWS Code Deploy
 
 > 1. Discussion and Demo
