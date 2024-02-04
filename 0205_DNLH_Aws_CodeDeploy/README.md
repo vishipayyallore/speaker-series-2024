@@ -152,7 +152,7 @@
 
 ![AWS Code Build Project | 100x100](./Documentation/Images/AWS_CodeBuild_Commands.PNG)
 
-#### buildspec.yml
+#### Current demos `buildspec.yml` file
 
 ```yml
 version: 0.2
@@ -191,6 +191,8 @@ artifacts:
 ### Download the artifacts and verify
 
 > 1. Discussion and Demo
+
+![AWS Code Build Artifacts | 100x100](./Documentation/Images/AWS_CodeBuild_Artifacts.PNG)
 
 ## 5. Preparing EC2 instance for deployment
 
