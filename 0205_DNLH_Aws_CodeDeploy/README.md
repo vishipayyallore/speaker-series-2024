@@ -138,6 +138,12 @@
 
 > 1. Discussion and Demo
 
+### Create the S3 Bucket to store artifacts
+
+> 1. Discussion and Demo
+
+![AWS Code Build Project | 100x100](./Documentation/Images/AWS_CodeBuild_S3Bucket.PNG)
+
 ### Create the Code Build Project
 
 > 1. Discussion and Demo
@@ -149,6 +155,12 @@
 > 1. Discussion and Demo
 
 #### Verify the Commands locally
+
+```bash
+dotnet restore ./School-App.sln
+dotnet build ./School-App.sln
+dotnet publish  ./School-App.sln -c Release -o target
+```
 
 ![AWS Code Build Project | 100x100](./Documentation/Images/AWS_CodeBuild_Commands.PNG)
 
@@ -213,6 +225,7 @@ artifacts:
 ## 6. AWS Code Deploy
 
 > 1. Discussion and Demo
+> 1. <https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html>
 
 ### Code Deploy - Application, and Deploy Group
 
