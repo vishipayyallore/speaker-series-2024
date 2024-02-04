@@ -138,19 +138,15 @@
 
 > 1. Discussion and Demo
 
-### Create buildspec.yml
-
-> 1. Discussion and Demo
-
 ### Create the Code Build Project
 
 > 1. Discussion and Demo
 
-### Build the repo
+### Create buildspec.yml
 
 > 1. Discussion and Demo
 
-### Store artifacts
+### Build the repo
 
 > 1. Discussion and Demo
 
