@@ -106,9 +106,15 @@
 
 > 1. Discussion and Demo
 
-![Clone Repo to Local | 100x100](./Documentation/Images/Clone_Repo_To_Local.PNG)
+![Clone Repo to Local | 100x100](./Documentation/Images/AWS_CodeCommit_Clone_Repo.PNG)
 
-### Branching, Pull Request
+### Branches and Feature Branch
+
+> 1. Discussion and Demo
+
+![Branches and Feature Branch | 100x100](./Documentation/Images/AWS_CodeCommit_Branches.PNG)
+
+### Pull Request and Merge
 
 > 1. Discussion and Demo
 
