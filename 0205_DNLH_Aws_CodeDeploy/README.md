@@ -41,18 +41,24 @@
 >    - Discusion on .NET 8 Minimal API
 >    - Execute Minimal API locally using Swagger / Postman / .http file
 > 1. AWS Code Commit
+>    - Create Repository for the project code
 >    - Check in and Check out the code
->    - Branching, Pull Request
+>    - Branches and Feature Branch
+>    - Feature development, and Commits
+>    - Pull Request and Merge
 > 1. AWS Code Build
+>    - Create the S3 Bucket to store artifacts
+>    - Create the Code Build Project
 >    - Create buildspec.yml
 >    - Build the repo
->    - Store artifacts
 >    - Download the artifacts and verify
 > 1. Preparing EC2 instance for deployment
+>    - Creating the required roles
 >    - Creating a new Ubuntu EC2 Instance
->    - Installing required software (wget, .NET 8 runtime)
 >    - Installing code deploy agent
+>    - Installing required software (.NET 8 runtime)
 > 1. AWS Code Deploy
+>    - Code Deploy - Application, Deployment Group, and Deployment
 >    - Create appspec.yml file
 >    - Use Code Deploy to deploy the latest binaries to EC2
 >    - Verify the deployed Minimal API using EC2's public IP / DNS
