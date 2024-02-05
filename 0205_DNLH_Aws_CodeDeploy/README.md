@@ -281,6 +281,7 @@ sudo apt-get update && \
 ### Create appspec.yml file
 
 > 1. Discussion and Demo
+> 1. <https://github.com/vishipayyallore/speaker-series-2022/tree/main/aws-learning/S3_15Jan2022_.NET6_In_AWS_EC2>
 
 ```yml
 version: 0.0
