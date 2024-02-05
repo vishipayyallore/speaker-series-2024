@@ -225,6 +225,7 @@ artifacts:
 ### Creating a new Ubuntu EC2 Instance
 
 > 1. Discussion and Demo
+> 1. <https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html>
 
 ![AWS Code Deploy EC2 | 100x100](./Documentation/Images/AWS_CodeDeploy_EC2_Instance.PNG)
 
@@ -232,6 +233,7 @@ artifacts:
 
 > 1. Discussion and Demo
 > 1. <https://mabdullahabid.medium.com/install-codedeploy-agent-for-ubuntu-server-6e87db526dba>
+> 1. <https://docs.aws.amazon.com/codedeploy/latest/userguide/resource-kit.html>
 
 ```bash
 sudo apt-get update
@@ -252,6 +254,7 @@ sudo service codedeploy-agent start
 ### Installing required software (.NET 8 runtime)
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-gb/dotnet/core/install/linux-ubuntu-2004>
 
 ```bash
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
