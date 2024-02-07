@@ -1,12 +1,15 @@
-# Azure OpenAI - Travels Solution using AOAI, Python Flask, .NET Blazor Server
+# AI 102 - Prepare, Create, and Consume Azure AI services
 
-## Date Time: 23-Jan-2024 at 05:00 PM IST
+## Date Time: 29-Feb-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304](https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375](https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375)
 
-## YouTube URL: [https://www.youtube.com/watch?v=2D3SnQG0OUE](https://www.youtube.com/watch?v=2D3SnQG0OUE)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
-## MS Learn Module: [https://aka.ms/Buildnaturallanguagesolutions](https://aka.ms/Buildnaturallanguagesolutions)
+## MS Learn Module(s)
+
+> 1. <https://learn.microsoft.com/en-us/training/modules/prepare-to-develop-ai-solutions-azure/>
+> 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
