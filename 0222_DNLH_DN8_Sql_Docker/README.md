@@ -1,10 +1,10 @@
-# AWS - Code Commit, Build, Deploy with .NET 8 Minimal API
+# Microservices Series - MS SQL Server, Docker, Azure Data Studio, .NET 8, and EF Core
 
-## Date Time: 05-Feb-2024 at 09:00 AM IST
+## Date Time: 22-Feb-2024 at 09:00 AM IST
 
-## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/297030488](https://www.meetup.com/dot-net-learners-house-hyderabad/events/297030488)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/297294484](https://www.meetup.com/dot-net-learners-house-hyderabad/events/297294484)
 
-## YouTube URL: [https://www.youtube.com/watch?v=4A5j9gl_0uc](https://www.youtube.com/watch?v=4A5j9gl_0uc)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -16,17 +16,18 @@
 > 1. .NET 8
 > 1. Visual Studio 2022
 > 1. Visual Studio Code
-> 1. AWS Cli
+> 1. Azure CLI
+> 1. Docker
 
 ### Prior Knowledge
 
 > 1. Programming knowledge in C#
 > 1. Microservices / Distributed applications
-> 1. AWS, CI/CD
+> 1. Azure, MS SQL
 
 ## Technology Stack
 
-> 1. .NET 8, C#, AWS, CI/CD
+> 1. .NET 8, C#, Azure, MS SQL
 
 ## Information
 
@@ -35,33 +36,13 @@
 ## What are we doing today?
 
 > 1. The Big Picture
->    - Pre-requisites
->    - Previous sessions
-> 1. Create .NET 8 Minimal API
->    - Discusion on .NET 8 Minimal API
->    - Execute Minimal API locally using Swagger / Postman / .http file
-> 1. AWS Code Commit
->    - Create Repository for the project code
->    - Check in and Check out the code
->    - Branches and Feature Branch
->    - Feature development, and Commits
->    - Pull Request and Merge
-> 1. AWS Code Build
->    - Create the S3 Bucket to store artifacts
->    - Create the Code Build Project
->    - Create buildspec.yml
->    - Build the repo
->    - Download the artifacts and verify
-> 1. Preparing EC2 instance for deployment
->    - Creating the required roles
->    - Creating a new Ubuntu EC2 Instance
->    - Installing code deploy agent
->    - Installing required software (.NET 8 runtime)
-> 1. AWS Code Deploy
->    - Code Deploy - Application, Deployment Group, and Deployment
->    - Create appspec.yml file
->    - Use Code Deploy to deploy the latest binaries to EC2
->    - Verify the deployed Minimal API using EC2's public IP / DNS
+> 1. Creating SQL Database Project
+> 1. Creating SQL Database in MS Sql Local Db
+> 1. Creating SQL Database in Azure
+> 1. Creating SQL Database in Docker
+> 1. Deploying SQL using VS 2022
+> 1. Accessing SQL Database in VS 2022, VS Code, and Azure Data Studio
+> 1. Creating Simple Console Application to access SQL database using EF Core
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/minimal-apis) of today's session for more details
@@ -76,13 +57,14 @@
 
 ### Pre-requisites
 
-> 1. AWS
+> 1. Azure
+> 1. Docker
 > 1. .NET 8
+> 1. VS 2022, VS Code, Azure Data Studio
 
 ### Previous Session
 
-> 1. Code Commit <https://www.youtube.com/watch?v=h6l1GoE8qfw>
-> 1. Code Build <https://www.youtube.com/watch?v=hS2CTmgVNK4>
+> 1. Playlist <https://www.youtube.com/watch?v=R6_4ZoqiwDk&list=PLdLQDTLMjAzq4EASDtbRkgIVhDAlb8drR>
 
 ### Big Picture Look
 
