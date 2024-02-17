@@ -70,9 +70,12 @@
 
 ![Session First Look | 100x100](./Documentation/Images/SessionFirstLook.PNG)
 
-## 2. Create .NET 8 Minimal API
+## 2. Creating SQL Database Project
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/azure-data-studio/extensions/sql-database-project-extension>
+
+![.Sqlproj | 100x100](./Documentation/Images/SQLProj_1.PNG)
 
 ---
 
