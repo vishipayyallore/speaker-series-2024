@@ -9,7 +9,7 @@ This Repository contains the Demo Script, Code for all the sessions which I will
 | **23rd Jan** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/297809304> | Travels Solution - Azure Open AI, Python Flask, .NET Blazor Server, Minimal API, and ReactJS |
 | **03rd Feb** | C# Corner | <https://www.c-sharpcorner.com/events/mastering-modern-tech-a-deep-dive-into-flutter-azure-openai-power-a> | Travels Solution - Azure Open AI, Python Flask, .NET Blazor Server, Minimal API, and ReactJS |
 | **05th Feb** | Dot Net Learners House | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/297030488> | AWS - Code Commit, Build, Deploy with .NET 8 Minimal API |
-| **12th Feb** | Dot Net Learners House | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/297294484> | Microservices Series - MS SQL Server, Docker, Azure Data Studio, .NET 8, and EF Core |
+| **22nd Feb** | Dot Net Learners House | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/297294484> | Microservices Series - MS SQL Server, Docker, Azure Data Studio, .NET 8, and EF Core |
 | -------- | ------- | -------- | ------- |
 | -------- | ------- | -------- | ------- |
 | -------- | ------- | -------- | ------- |

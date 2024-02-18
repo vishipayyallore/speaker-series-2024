@@ -38,14 +38,14 @@
 > 1. The Big Picture
 > 1. Creating SQL Database Project
 > 1. Creating SQL Database in MS Sql Local Db
-> 1. Creating SQL Database in Azure
 > 1. Creating SQL Database in Docker
+> 1. Creating SQL Database in Azure
 > 1. Deploying SQL using VS 2022
 > 1. Accessing SQL Database in VS 2022, VS Code, and Azure Data Studio
 > 1. Creating Simple Console Application to access SQL database using EF Core
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/minimal-apis) of today's session for more details
+### Please refer to the [**Source Code To Be Done**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/minimal-apis) of today's session for more details
 
 ---
 
@@ -75,7 +75,45 @@
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/azure-data-studio/extensions/sql-database-project-extension>
 
+### Creating the .sqlproj
+
 ![.Sqlproj | 100x100](./Documentation/Images/SQLProj_1.PNG)
+
+### Creating the database objects
+
+![Database Objects | 100x100](./Documentation/Images/SQLProj_2.PNG)
+
+### Creating the Seed Data
+
+![Seed Data | 100x100](./Documentation/Images/SQLProj_3.PNG)
+
+### Creating the post deployment scripts
+
+![Post Deployment Scripts | 100x100](./Documentation/Images/SQLProj_4.PNG)
+
+## 3. Creating SQL Database in MS Sql Local Db
+
+> 1. Discussion and Demo
+
+### Project Settings
+
+![.Sqlproj Project Settings | 100x100](./Documentation/Images/SQLProj_Settings.PNG)
+
+### MS Sql Local Db Connection String
+
+![MSSqlLocalDb Connection String | 100x100](./Documentation/Images/MSSqlLocalDb_1.PNG)
+
+### Deployment to MS Sql Local Db
+
+![Deployment to MS Sql Local Db | 100x100](./Documentation/Images/MSSqlLocalDb_2.PNG)
+
+## 4. Creating SQL Database in Docker
+
+> 1. Discussion and Demo
+
+## 5. Creating SQL Database in Azure
+
+> 1. Discussion and Demo
 
 ---
 
