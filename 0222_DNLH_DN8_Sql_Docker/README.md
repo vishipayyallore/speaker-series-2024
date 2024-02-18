@@ -77,6 +77,8 @@
 
 ![.Sqlproj | 100x100](./Documentation/Images/SQLProj_1.PNG)
 
+![.Sqlproj Objects | 100x100](./Documentation/Images/SQLProj_2.PNG)
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
