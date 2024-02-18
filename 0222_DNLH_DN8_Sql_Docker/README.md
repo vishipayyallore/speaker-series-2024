@@ -107,9 +107,29 @@
 
 ![Deployment to MS Sql Local Db | 100x100](./Documentation/Images/MSSqlLocalDb_2.PNG)
 
-## 4. Creating SQL Database in Docker
+## 4. Creating SQL Database in a Docker Container
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-configure?view=sql-server-ver16&pivots=cs1-bash>
+> 1. Physical path of docker volumes `\\wsl$\docker-desktop-data\data\docker\volumes`
+
+### Creating SQL Server 2022 docker container with Volume
+
+```bash
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=YourStrongPassword@1" -p 1433:1433 --name books-datastore --hostname books-datastore -e 'MSSQL_PID=Standard' -v books-datastore-volume:/var/opt/mssql -d mcr.microsoft.com/mssql/server:2022-latest
+
+docker volume ls
+```
+
+![MS Sql Server Docker | 100x100](./Documentation/Images/SQLServer_Docker_1.PNG)
+
+### Deployment to MS Sql inside docker
+
+```text
+Data Source=localhost;Initial Catalog=BooksDataStore;Persist Security Info=False;User ID=sa;Pooling=False;Multiple Active Result Sets=False;Connect Timeout=60;Encrypt=True;Trust Server Certificate=True;Command Timeout=0
+```
+
+![Deployment into MS Sql Server Docker | 100x100](./Documentation/Images/SQLServer_Docker_2.PNG)
 
 ## 5. Creating SQL Database in Azure
 
