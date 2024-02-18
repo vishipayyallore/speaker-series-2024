@@ -81,19 +81,31 @@
 
 ### Creating the database objects
 
-![.Sqlproj Objects | 100x100](./Documentation/Images/SQLProj_2.PNG)
+![Database Objects | 100x100](./Documentation/Images/SQLProj_2.PNG)
 
 ### Creating the Seed Data
 
-![.Sqlproj Objects | 100x100](./Documentation/Images/SQLProj_3.PNG)
+![Seed Data | 100x100](./Documentation/Images/SQLProj_3.PNG)
 
 ### Creating the post deployment scripts
 
-![.Sqlproj Objects | 100x100](./Documentation/Images/SQLProj_4.PNG)
+![Post Deployment Scripts | 100x100](./Documentation/Images/SQLProj_4.PNG)
 
 ## 3. Creating SQL Database in MS Sql Local Db
 
 > 1. Discussion and Demo
+
+### Project Settings
+
+![.Sqlproj Project Settings | 100x100](./Documentation/Images/SQLProj_Settings.PNG)
+
+### MS Sql Local Db Connection String
+
+![MSSqlLocalDb Connection String | 100x100](./Documentation/Images/MSSqlLocalDb_1.PNG)
+
+### Deployment to MS Sql Local Db
+
+![Deployment to MS Sql Local Db | 100x100](./Documentation/Images/MSSqlLocalDb_2.PNG)
 
 ## 4. Creating SQL Database in Docker
 
