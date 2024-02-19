@@ -101,10 +101,6 @@
 
 ### MS Sql Local Db Connection String
 
-```text
-Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BooksDataStore;Integrated Security=True;Persist Security Info=False;Pooling=False;Multiple Active Result Sets=False;Connect Timeout=60;Encrypt=True;Trust Server Certificate=False;Command Timeout=0
-```
-
 ![MSSqlLocalDb Connection String | 100x100](./Documentation/Images/MSSqlLocalDb_1.PNG)
 
 ### Deployment to MS Sql Local Db
