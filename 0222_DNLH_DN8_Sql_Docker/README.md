@@ -37,10 +37,10 @@
 
 > 1. The Big Picture
 > 1. Creating SQL Database Project
+> 1. Deploying SQL using VS 2022
 > 1. Creating SQL Database in MS Sql Local Db
 > 1. Creating SQL Database in Docker
 > 1. Creating SQL Database in Azure
-> 1. Deploying SQL using VS 2022
 > 1. Accessing SQL Database in VS 2022, VS Code, and Azure Data Studio
 > 1. Creating Simple Console Application to access SQL database using EF Core
 > 1. SUMMARY / RECAP / Q&A
@@ -91,7 +91,11 @@
 
 ![Post Deployment Scripts | 100x100](./Documentation/Images/SQLProj_4.PNG)
 
-## 3. Creating SQL Database in MS Sql Local Db
+## 3. Deploying SQL using VS 2022
+
+> 1. Discussion and Demo
+
+## 4. Creating SQL Database in MS Sql Local Db
 
 > 1. Discussion and Demo
 
@@ -107,7 +111,7 @@
 
 ![Deployment to MS Sql Local Db | 100x100](./Documentation/Images/MSSqlLocalDb_2.PNG)
 
-## 4. Creating SQL Database in a Docker Container
+## 5. Creating SQL Database in a Docker Container
 
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-configure?view=sql-server-ver16&pivots=cs1-bash>
@@ -131,7 +135,7 @@ Data Source=localhost;Initial Catalog=BooksDataStore;Persist Security Info=False
 
 ![Deployment into MS Sql Server Docker | 100x100](./Documentation/Images/SQLServer_Docker_2.PNG)
 
-## 5. Creating SQL Database in Azure
+## 6. Creating SQL Database in Azure
 
 > 1. Discussion and Demo
 > 1. Ensure to change the `Project Settings` to point to `Microsoft Azure SQL database`
@@ -151,6 +155,12 @@ Data Source=tcp:sql-datastore-maship.database.windows.net,1433;Initial Catalog=s
 ### Records in Azure SQL
 
 ![Records in Azure MS Sql Server | 100x100](./Documentation/Images/AzureSQL_3.PNG)
+
+## 7. Accessing SQL Database in VS 2022, VS Code, and Azure Data Studio
+
+> 1. Discussion and Demo
+
+## 8. Creating Simple Console Application to access SQL database using EF Core
 
 ---
 
