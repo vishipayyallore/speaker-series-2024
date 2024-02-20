@@ -134,6 +134,17 @@ Data Source=localhost;Initial Catalog=BooksDataStore;Persist Security Info=False
 ## 5. Creating SQL Database in Azure
 
 > 1. Discussion and Demo
+> 1. Ensure to change the `Project Settings` to point to `Microsoft Azure SQL database`
+
+![Azure MS Sql Server | 100x100](./Documentation/Images/AzureSQL_1.PNG)
+
+### Connection String
+
+```text
+Data Source=tcp:sql-datastore-maship.database.windows.net,1433;Initial Catalog=sqldb-college-datastore;Persist Security Info=False;User ID=demouser;Pooling=False;Multiple Active Result Sets=False;Connect Timeout=60;Encrypt=True;Trust Server Certificate=True;Command Timeout=0
+```
+
+![Deployment to Azure MS Sql Server | 100x100](./Documentation/Images/AzureSQL_2.PNG)
 
 ---
 
