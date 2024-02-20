@@ -144,7 +144,13 @@ Data Source=localhost;Initial Catalog=BooksDataStore;Persist Security Info=False
 Data Source=tcp:sql-datastore-maship.database.windows.net,1433;Initial Catalog=sqldb-college-datastore;Persist Security Info=False;User ID=demouser;Pooling=False;Multiple Active Result Sets=False;Connect Timeout=60;Encrypt=True;Trust Server Certificate=True;Command Timeout=0
 ```
 
+### Deployment to Azure MS Sql Server
+
 ![Deployment to Azure MS Sql Server | 100x100](./Documentation/Images/AzureSQL_2.PNG)
+
+### Records in Azure SQL
+
+![Records in Azure MS Sql Server | 100x100](./Documentation/Images/AzureSQL_3.PNG)
 
 ---
 
