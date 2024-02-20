@@ -162,6 +162,10 @@ Data Source=tcp:sql-datastore-maship.database.windows.net,1433;Initial Catalog=s
 
 ## 8. Creating Simple Console Application to access SQL database using EF Core
 
+> 1. Discussion and Demo
+
+![EF Core Console App | 100x100](./Documentation/Images/EFCore_ConsoleApp.PNG)
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
