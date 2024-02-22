@@ -45,7 +45,7 @@
 > 1. Creating Simple Console Application to access SQL database using EF Core
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code To Be Done**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/minimal-apis) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy) of today's session for more details. Please visit `learn-ms-sql-server` and `learn-ef-core` repos
 
 ---
 
