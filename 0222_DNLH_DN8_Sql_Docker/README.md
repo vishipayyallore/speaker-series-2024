@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/297294484](https://www.meetup.com/dot-net-learners-house-hyderabad/events/297294484)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=UsC238tRFbI](https://www.youtube.com/watch?v=UsC238tRFbI)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -98,6 +98,7 @@
 ## 4. Creating SQL Database in MS Sql Local Db
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver16#install-localdb>
 
 ### Project Settings
 
