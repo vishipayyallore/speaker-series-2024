@@ -46,6 +46,8 @@
 > 1. Few Terms AI, ML, Auto ML, DL, NLP, GAI
 > 1. ELIZA - The early Natural Language Processing (NLP) Chatbot
 > 1. Azure Open AI, Transformer and GPT
+> 1. Prepare to develop AI solutions on Azure
+> 1. Create and consume Azure AI services
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code To be done**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
