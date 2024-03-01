@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375](https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=03dh8I5FZpo](https://www.youtube.com/watch?v=03dh8I5FZpo)
 
 ## MS Learn Module(s)
 
@@ -50,7 +50,7 @@
 > 1. Create and consume Azure AI services
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code To be done**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
 
 ---
 
@@ -179,6 +179,28 @@ Reference(s):
 
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
+
+### Virtual Environment Creation
+
+```powershell
+pip install virtualenv
+python -m venv .venv
+.venv/Scripts/activate
+pip freeze
+deactivate
+```
+
+```powershell
+pip install python-dotenv
+pip install azure-ai-textanalytics==5.3.0
+```
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_1.PNG)
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_2.PNG)
 
 ---
 
