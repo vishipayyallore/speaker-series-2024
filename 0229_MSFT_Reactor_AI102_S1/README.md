@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375](https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=03dh8I5FZpo](https://www.youtube.com/watch?v=03dh8I5FZpo)
 
 ## MS Learn Module(s)
 
@@ -25,8 +25,7 @@
 ### Prior Knowledge
 
 > 1. Programming knowledge in C# / Python
-> 1. Microservices / Distributed applications
-> 1. Azure / Azure Open AI
+> 1. Azure / Azure Open AI / AM/ML
 
 ## Technology Stack
 
@@ -42,18 +41,16 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Python Flask API interacting with Azure Open AI
-> 1. .NET 7 Blazor Server Admin Application interacting with Python Flask API
-> 1. Azure SQL Server, Database, and SQL Scripts
->    - SQL Scripts
->    - Azure SQL Database, and Azure Data Studio
-> 1. Creating .NET 8 Minimal API to store Countries information in Azure SQL Server
-> 1. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, and .NET 8 Minimal API
-> 1. Creating React 18 Client Application to view information.
-> 1. Integrating Python Flask API, Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application.
+> 1. Study guide for Exam AI-102
+> 1. What is Intelligence?
+> 1. Few Terms AI, ML, Auto ML, DL, NLP, GAI
+> 1. ELIZA - The early Natural Language Processing (NLP) Chatbot
+> 1. Azure Open AI, Transformer and GPT
+> 1. Prepare to develop AI solutions on Azure
+> 1. Create and consume Azure AI services
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
 
 ---
 
@@ -65,78 +62,145 @@
 
 ### Pre-requisites
 
-> 1. Azure Open AI, SQL
-> 1. Python, and .NET 7/8
+> 1. Azure Open AI, AI/ML
+> 1. Python, C#, and .NET 8
 
 ### Previous Session
 
-> 1. <https://www.youtube.com/watch?v=9L_ebd9P-xM>
+> 1. NA
 
 ### Current Architecture
 
-![Current Architecture | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+> 1. NA
 
-## 2. Python Flask API interacting with Azure Open AI
+## 2. Study guide for Exam AI-102
 
-> 1. Discussion and Demo. This is created in previous session
-> 1. New Changes
-> 1. <https://learn.microsoft.com/en-gb/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-python>
+> 1. Discussion and Demo.
+> 1. <https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/ai-102>
 
-![Python Flask API | 100x100](./Documentation/Images/PythonFlaskAPI.PNG)
+![AI-102 Study Guide | 100x100](./Documentation/Images/AI102_StudyGuide.PNG)
 
-## 3. .NET 7 Blazor Server Admin Application interacting with Python Flask API
+## 3. What is Intelligence?
 
-> 1. Discussion and Demo. This is created in previous session
+> 1. Discussion
 
-![Blazor Admin Application | 100x100](./Documentation/Images/Blazor_AdminApp.PNG)
+## 4. Few Terms AI, ML, Auto ML, DL, NLP, GAI
 
-## 4. Azure SQL Server, Database, and SQL Scripts
+> **Artificial Intelligence (AI):**
+>
+> - AI refers to the broader field of computer science focused on creating machines and software that can perform tasks that typically require human intelligence.
+> - It encompasses various techniques and approaches, including machine learning and deep learning, to enable systems to reason, learn, perceive, and solve complex problems.
+> - Strong / General AI => Do lots of things
+> - Narrow / Weak AI => Perform specific things
+
+---
+
+> **Machine Learning (ML):**
+>
+> - ML is a subset of AI that involves the development of algorithms and models that allow computers to learn from data and make predictions or decisions without being explicitly programmed.
+> - ML includes supervised learning, unsupervised learning, and reinforcement learning, among others, and finds applications in areas like image recognition and recommendation systems.
+> - Data Collection | Data Preparation | Model Selection | Train Model | Evaluate Model | Parameter tuning | Prediction | (GAI => New Content)
+
+---
+
+> **What is a Model in AI/ML?**
+>
+> - In the context of AI/ML (Artificial Intelligence/Machine Learning), a "model" refers to a mathematical representation or framework that is trained on data to make predictions or decisions without being explicitly programmed. It is a key component in the machine learning process and serves as the learned knowledge from the training data.
+> - In summary, a model in AI/ML is a mathematical representation of learned patterns or relationships in data. It serves as the foundation for making predictions or decisions in various applications, ranging from image recognition and natural language processing to recommendation systems and autonomous vehicles.
+
+---
+
+> **Deep Learning (DL):**
+>
+> - DL is a subfield of ML that focuses on neural networks with many layers (deep neural networks). It excels in handling complex, high-dimensional data, such as images and text.
+> - DL has led to breakthroughs in areas like computer vision, natural language processing, and speech recognition, and it relies on large datasets and powerful hardware like GPUs.
+
+---
+
+> **Natural Language Processing (NLP):**
+>
+> - NLP is a branch of AI that deals with the interaction between computers and human language. It enables machines to understand, interpret, and generate human language.
+> - NLP is used in chatbots, sentiment analysis, machine translation, and more, and it involves tasks like tokenization, part-of-speech tagging, and language generation.
+
+---
+
+> **Generative AI:**
+>
+> - Generative AI refers to AI systems capable of generating new, original content, such as text, images, or music, often with some level of creativity.
+> - It includes techniques like Generative Adversarial Networks (GANs) and variational autoencoders (VAEs), which have applications in art generation, content creation, and data augmentation.
+> - 1. **Generative Adversarial Networks (GANs):**
+>   - GANs are a class of deep learning models consisting of two neural networks, a generator, and a discriminator, which are trained simultaneously through a competitive process.
+>   - The generator aims to create data (e.g., images) that is indistinguishable from real data, while the discriminator tries to distinguish between real and generated data. This adversarial training process results in the generation of high-quality, realistic data and has applications in image generation, style transfer, and more.
+> - 1. **Variational Autoencoders (VAEs):**
+>   - VAEs are another type of generative model used in unsupervised learning. They consist of an encoder network that maps input data into a latent space and a decoder network that reconstructs data from the latent space.
+>   - VAEs are used for generating new data samples and learning meaningful representations of data. They are particularly useful in applications like image generation, anomaly detection, and data compression due to their ability to generate diverse and structured data from a continuous latent space.
+
+## 5. ELIZA - The early Natural Language Processing (NLP) Chatbot
+
+> **ELIZA:**
+>
+> - ELIZA is one of the earliest and most well-known examples of a natural language processing (NLP) chatbot. Developed in the mid-1960s by Joseph Weizenbaum at the Massachusetts Institute of Technology (MIT), ELIZA was designed to simulate a Rogerian psychotherapist. Its primary purpose was to engage users in conversation and provide responses based on simple pattern recognition.
+> - It was one of the first chatbots to use natural language processing techniques to simulate human conversation.
+> - ELIZA demonstrated that even with relatively simple pattern-matching techniques, a computer program could engage users in meaningful conversations. While it was limited in its capabilities compared to modern chatbots, it was a pioneering step in the field of NLP and human-computer interaction.
+
+Reference(s):
+
+> 1. [https://en.wikipedia.org/wiki/ELIZA](https://en.wikipedia.org/wiki/ELIZA)
+
+## 6. Azure Open AI, Transformer and GPT
+
+> **Azure Open AI:**
+>
+> - Azure OpenAI is a cloud-based service provided by Microsoft Azure that offers access to the power of OpenAI's language models, such as GPT-3, GPT-4, and others. It enables developers to integrate natural language understanding and text generation capabilities into their applications and services. Azure OpenAI is designed for a wide range of use cases, including chatbots, content generation, language translation, and more, and it offers scalable and efficient access to advanced AI language capabilities via a RESTful API. It provides developers with the tools they need to build intelligent, language-driven applications.
+
+---
+
+> **Transformer:**
+>
+> - A "Transformer" in the context of artificial intelligence and machine learning is not a physical device but a type of deep learning model architecture that has had a significant impact on various natural language processing (NLP) tasks and other machine learning domains.
+> - These topics are interconnected, with AI being the overarching field that encompasses various subfields like ML, DL, NLP, and Generative AI. Each of these subfields has its own set of techniques and applications, contributing to the advancement of artificial intelligence.
+
+---
+
+> **GPT - Generative Pre-trained Transformer:**
+>
+> - The term "GPT" stands for "Generative Pre-trained Transformer." It refers to a class of deep learning models used for various natural language processing (NLP) tasks. These models are characterized by their ability to generate human-like text and their architecture, which is based on the Transformer neural network.
+>   - **Generative**: GPT models are capable of generating human-readable text. They can be used for tasks like text completion, text summarization, and even creative writing.
+>   - **Pre-trained**: GPT models are initially trained on a large corpus of text data from the internet. This pre-training phase allows them to learn grammar, context, and world knowledge from a wide range of sources.
+>   - **Transformer**: The underlying architecture of GPT models is the Transformer, which is a neural network architecture introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. The Transformer architecture relies on the self-attention mechanism, which allows the model to consider the context and relationships between words in a sequence efficiently.
+> - GPT models, such as GPT-3, GPT-4, and others, have achieved remarkable performance in various NLP tasks and have been widely adopted in the field of artificial intelligence. They have applications in natural language understanding, text generation, language translation, chatbots, and more.
+
+## 7. Prepare to develop AI solutions on Azure
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/training/modules/prepare-to-develop-ai-solutions-azure/>
 
-### SQL Scripts
+## 8. Create and consume Azure AI services
 
-```sql
-CREATE TABLE CountriesInfo (
-    [CountryId] INT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
-    CountryName NVARCHAR(100),
-    CapitalState NVARCHAR(100),
-    NationalBird NVARCHAR(100),
-    CountryPopulation BIGINT
-);
+> 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
+
+### Virtual Environment Creation
+
+```powershell
+pip install virtualenv
+python -m venv .venv
+.venv/Scripts/activate
+pip freeze
+deactivate
 ```
 
-### Azure SQL Database, and Azure Data Studio
+```powershell
+pip install python-dotenv
+pip install azure-ai-textanalytics==5.3.0
+```
 
-> 1. Discussion and Demo
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_1.PNG)
 
-![Azure SQL Database | 100x100](./Documentation/Images/AzureSQL_1.PNG)
-
-![Azure Data Studio | 100x100](./Documentation/Images/AzureSQL_2.PNG)
-
-## 5. Creating .NET 8 Minimal API to store Countries information in Azure SQL Server
-
-> 1. Discussion and Demo
-
-![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_1.PNG)
-
-## 6. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, and .NET 8 Minimal API
-
-> 1. Discussion and Demo
-
-![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_2.PNG)
-
-## 7. Creating React 18 Client Application to view information
-
-> 1. Discussion and Demo
-
-![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App.PNG)
-
-## 8. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application
-
-> 1. Discussion and Demo
-
-![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App_1.PNG)
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_2.PNG)
 
 ---
 
