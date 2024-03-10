@@ -1,8 +1,8 @@
-# Build your own ChatGPT with .NET and Azure Open AI at [On .NET Live](https://dotnet.microsoft.com/en-us/live/on-dotnet-live)
+# Build your own ChatGPT with .NET and Azure Open AI at [C# Corner](https://www.c-sharpcorner.com/events/c-sharp-corner-global-ai-bootcamp-hyderabad)
 
-## Date Time: 30-Oct-2023 at 09:30 PM IST
+## Date Time: 09-Mar-2024 at 10:15 AM IST
 
-## YouTube URL: [https://www.youtube.com/watch?v=3r7bR5ZEJp4](https://www.youtube.com/watch?v=3r7bR5ZEJp4)
+## Event URL: [https://www.c-sharpcorner.com/events/c-sharp-corner-global-ai-bootcamp-hyderabad](https://www.c-sharpcorner.com/events/c-sharp-corner-global-ai-bootcamp-hyderabad)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -42,7 +42,7 @@
 > 1. Our Own ChatGPT with .NET 8 and Azure Open AI
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/vishipayyallore/speaker-series-2023/tree/main/On.NETLiveShows/20231030_BuildYourOwnChatGPT) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-azure-openai/tree/main/src/Cgpt.Azoai) of today's session for more details
 
 ---
 
