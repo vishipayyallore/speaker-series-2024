@@ -80,8 +80,14 @@
 ### Provision an Azure AI Services resource
 
 > 1. Discussion and Demo
+> 1. Azure AI services multi-service account
 
 ![Create Azure AI Services | 100x100](./Documentation/Images/Create_AAI_Services.PNG)
+
+### Retrieve the `Endpoint` and `key`
+
+> 1. Discussion and Demo
+
 
 ### Executing the Text Analytics Sample in C#, and Python
 
