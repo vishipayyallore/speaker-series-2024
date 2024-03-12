@@ -74,33 +74,15 @@
 
 > 1. NA
 
-## 2. Prepare to develop AI solutions on Azure
-
-> 1. Discussion and Demo
-> 1. <https://learn.microsoft.com/en-us/training/modules/prepare-to-develop-ai-solutions-azure/>
-
-## 3. Create and consume Azure AI services
+## 2. Create and consume Azure AI services
 
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
 
+### Executing the Text Analytics Sample in C#, and Python
+
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
-
-### Virtual Environment Creation
-
-```powershell
-pip install virtualenv
-python -m venv .venv
-.venv/Scripts/activate
-pip freeze
-deactivate
-```
-
-```powershell
-pip install python-dotenv
-pip install azure-ai-textanalytics==5.3.0
-```
 
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_1.PNG)
 
