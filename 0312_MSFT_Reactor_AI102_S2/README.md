@@ -74,10 +74,11 @@
 
 > 1. NA
 
-## 2. Create and consume Azure AI services
+## 2. Get Started with Azure AI Services
 
 > 1. Discussion and Demo
-> 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
+> 1. <https://github.com/MicrosoftLearning/mslearn-ai-services/tree/main>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services>
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
 
 ### Executing the Text Analytics Sample in C#, and Python
@@ -87,6 +88,16 @@
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_1.PNG)
 
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_2.PNG)
+
+## 3. Manage Azure AI Services Security
+
+> 1. Discussion and Demo
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
+
+## 4. Monitor Azure AI Services
+
+> 1. Discussion and Demo
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/03-monitor-ai-services.html>
 
 ---
 
