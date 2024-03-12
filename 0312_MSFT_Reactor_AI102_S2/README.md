@@ -42,13 +42,9 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Study guide for Exam AI-102
-> 1. What is Intelligence?
-> 1. Few Terms AI, ML, Auto ML, DL, NLP, GAI
-> 1. ELIZA - The early Natural Language Processing (NLP) Chatbot
-> 1. Azure Open AI, Transformer and GPT
-> 1. Prepare to develop AI solutions on Azure
-> 1. Create and consume Azure AI services
+> 1. Get Started with Azure AI Services
+> 1. Manage Azure AI Services Security
+> 1. Monitor Azure AI Services
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
@@ -80,6 +76,12 @@
 > 1. <https://github.com/MicrosoftLearning/mslearn-ai-services/tree/main>
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services>
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+
+### Provision an Azure AI Services resource
+
+> 1. Discussion and Demo
+
+![Create Azure AI Services | 100x100](./Documentation/Images/Create_AAI_Services.PNG)
 
 ### Executing the Text Analytics Sample in C#, and Python
 
