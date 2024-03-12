@@ -82,14 +82,25 @@
 > 1. Discussion and Demo
 > 1. Azure AI services multi-service account
 
-![Create Azure AI Services | 100x100](./Documentation/Images/Create_AAI_Services.PNG)
+![Create Azure AI Services | 100x100](./Documentation/Images/AAIServices_Create.PNG)
 
 ### Retrieve the `Endpoint` and `key`
 
 > 1. Discussion and Demo
+> 1. Please place these inside your `secrets.json`, OR `appsettings.json` which is placed inside `.gitignore`
 
+![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
 
 ### Executing the Text Analytics Sample in C#, and Python
+
+> 1. Discussion and Demo
+
+```text
+Hola
+Ce document est rédigé en Français.
+おはようございます (ohayo gozaimasu)
+காலை வணக்கம் (Kālai vaṇakkam)
+```
 
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
 
