@@ -1,15 +1,15 @@
-# AI 102 - Prepare, Create, and Consume Azure AI services
+# AI 102 - Secure and Monitor Azure AI Services
 
-## Date Time: 29-Feb-2024 at 05:00 PM IST
+## Date Time: 12-Mar-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375](https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829](https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829)
 
 ## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
-> 1. <https://learn.microsoft.com/en-us/training/modules/prepare-to-develop-ai-solutions-azure/>
-> 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
+> 1. <https://aka.ms/MonitorAzureAIservices>
+> 1. <https://aka.ms/SecureAzureAIservices>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -42,18 +42,16 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Python Flask API interacting with Azure Open AI
-> 1. .NET 7 Blazor Server Admin Application interacting with Python Flask API
-> 1. Azure SQL Server, Database, and SQL Scripts
->    - SQL Scripts
->    - Azure SQL Database, and Azure Data Studio
-> 1. Creating .NET 8 Minimal API to store Countries information in Azure SQL Server
-> 1. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, and .NET 8 Minimal API
-> 1. Creating React 18 Client Application to view information.
-> 1. Integrating Python Flask API, Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application.
+> 1. Study guide for Exam AI-102
+> 1. What is Intelligence?
+> 1. Few Terms AI, ML, Auto ML, DL, NLP, GAI
+> 1. ELIZA - The early Natural Language Processing (NLP) Chatbot
+> 1. Azure Open AI, Transformer and GPT
+> 1. Prepare to develop AI solutions on Azure
+> 1. Create and consume Azure AI services
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/orgs/ViswanathaSwamy-PK-TechSkillz-Academy/repositories?q=travels) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
 
 ---
 
@@ -65,82 +63,52 @@
 
 ### Pre-requisites
 
-> 1. Azure Open AI, SQL
-> 1. Python, and .NET 7/8
+> 1. Azure Open AI, AI/ML
+> 1. Python, C#, and .NET 8
 
 ### Previous Session
 
-> 1. <https://www.youtube.com/watch?v=9L_ebd9P-xM>
+> 1. <https://www.youtube.com/watch?v=03dh8I5FZpo>
 
 ### Current Architecture
 
-![Current Architecture | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+> 1. NA
 
-## 2. Python Flask API interacting with Azure Open AI
-
-> 1. Discussion and Demo. This is created in previous session
-> 1. New Changes
-> 1. <https://learn.microsoft.com/en-gb/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-python>
-
-![Python Flask API | 100x100](./Documentation/Images/PythonFlaskAPI.PNG)
-
-## 3. .NET 7 Blazor Server Admin Application interacting with Python Flask API
-
-> 1. Discussion and Demo. This is created in previous session
-
-![Blazor Admin Application | 100x100](./Documentation/Images/Blazor_AdminApp.PNG)
-
-## 4. Azure SQL Server, Database, and SQL Scripts
+## 2. Prepare to develop AI solutions on Azure
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/training/modules/prepare-to-develop-ai-solutions-azure/>
 
-### SQL Scripts
+## 3. Create and consume Azure AI services
 
-```sql
-CREATE TABLE CountriesInfo (
-    [CountryId] INT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
-    CountryName NVARCHAR(100),
-    CapitalState NVARCHAR(100),
-    NationalBird NVARCHAR(100),
-    CountryPopulation BIGINT
-);
+> 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
+
+### Virtual Environment Creation
+
+```powershell
+pip install virtualenv
+python -m venv .venv
+.venv/Scripts/activate
+pip freeze
+deactivate
 ```
 
-### Azure SQL Database, and Azure Data Studio
+```powershell
+pip install python-dotenv
+pip install azure-ai-textanalytics==5.3.0
+```
 
-> 1. Discussion and Demo
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_1.PNG)
 
-![Azure SQL Database | 100x100](./Documentation/Images/AzureSQL_1.PNG)
-
-![Azure Data Studio | 100x100](./Documentation/Images/AzureSQL_2.PNG)
-
-## 5. Creating .NET 8 Minimal API to store Countries information in Azure SQL Server
-
-> 1. Discussion and Demo
-
-![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_1.PNG)
-
-## 6. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, and .NET 8 Minimal API
-
-> 1. Discussion and Demo
-
-![.NET 8 Minimal API | 100x100](./Documentation/Images/DotNetMinimalAPI_2.PNG)
-
-## 7. Creating React 18 Client Application to view information
-
-> 1. Discussion and Demo
-
-![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App.PNG)
-
-## 8. Integrating Python Flask API, .NET 7 Blazor Server Admin Application, .NET 8 Minimal API, and React 18 Client Application
-
-> 1. Discussion and Demo
-
-![NextJS ReactJS | 100x100](./Documentation/Images/NextJS_ReactJS_App_1.PNG)
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_2.PNG)
 
 ---
 
-## 9. SUMMARY / RECAP / Q&A
+## X. SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
 > 2. Any open queries, I will get back through meetup chat/twitter.
