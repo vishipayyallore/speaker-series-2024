@@ -112,10 +112,28 @@ Ce document est rédigé en Français.
 
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
 
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
+
 ## 3. Manage Azure AI Services Security
 
 > 1. Discussion and Demo
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
+
+## Manage authentication keys
+
+> 1. Discussion and Demo
+> 1. Using Azure Portal, and Azure CLI
+
+```powershell
+$rgname="rg-ai102-dev-001"
+$aaisvs="azais-ai102-dev-002"
+
+az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
+
+az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
+```
+
+![Azure AI Services Az CLI Keys | 100x100](./Documentation/Images/AAIServices_AzCLI_Keys.PNG)
 
 ## 4. Monitor Azure AI Services
 
