@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829](https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=XJS_9O4WePs](https://www.youtube.com/watch?v=XJS_9O4WePs)
 
 ## MS Learn Module(s)
 
@@ -104,6 +104,7 @@ Hola
 Ce document est rédigé en Français.
 おはようございます (ohayo gozaimasu)
 காலை வணக்கம் (Kālai vaṇakkam)
+सुप्रभात!
 ```
 
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
@@ -134,6 +135,18 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 ```
 
 ![Azure AI Services Az CLI Keys | 100x100](./Documentation/Images/AAIServices_AzCLI_Keys.PNG)
+
+### Secure key access with Azure Key Vault
+
+> 1. Discussion and Demo
+
+```powershell
+az ad sp create-for-rbac -n "api://<spName>" --role owner --scopes subscriptions/<subscriptionId>/resourceGroups/<resourceGroup>
+
+az ad sp show --id <appId>
+
+az keyvault set-policy -n <keyVaultName> --object-id <objectId> --secret-permissions get list
+```
 
 ## 4. Monitor Azure AI Services
 
