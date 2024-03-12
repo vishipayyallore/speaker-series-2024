@@ -87,7 +87,11 @@
 ### Retrieve the `Endpoint` and `key`
 
 > 1. Discussion and Demo
-> 1. Please place these inside your `secrets.json`, OR `appsettings.json` which is placed inside `.gitignore`
+> 1. Please place these inside your `secrets.json` which is outside your source code location, OR `appsettings.json` which is placed inside `.gitignore`
+> 1. Please create an `appsettings.example.json` for reference.
+> 1. Please place these inside your `.env` file.
+> 1. Please create an `example.env` for reference.
+> 1. Environment Variables is also another option.
 
 ![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
 
@@ -104,9 +108,9 @@ Ce document est rédigé en Français.
 
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
 
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_1.PNG)
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_SdkClient.PNG)
 
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_2.PNG)
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
 
 ## 3. Manage Azure AI Services Security
 
