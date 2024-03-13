@@ -2,7 +2,7 @@
 
 ## Date Time: 10-Apr-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829](https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723](https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723)
 
 ## YouTube URL: [https://www.youtube.com/watch?v=XJS_9O4WePs](https://www.youtube.com/watch?v=XJS_9O4WePs)
 
