@@ -1,10 +1,10 @@
 # AI 102 - Prepare, Create, and Consume Azure AI services
 
-## Date Time: 29-Feb-2024 at 05:00 PM IST
+## Date Time: 18-Mar-2024 at 09:00 AM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375](https://www.meetup.com/microsoft-reactor-bengaluru/events/299051375)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/299614919](https://www.meetup.com/dot-net-learners-house-hyderabad/events/299614919)
 
-## YouTube URL: [https://www.youtube.com/watch?v=03dh8I5FZpo](https://www.youtube.com/watch?v=03dh8I5FZpo)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
