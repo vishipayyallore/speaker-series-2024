@@ -175,6 +175,51 @@ Reference(s):
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/training/modules/prepare-to-develop-ai-solutions-azure/>
 
+## 8. Get Started with Azure AI Services
+
+> 1. Discussion and Demo
+> 1. <https://github.com/MicrosoftLearning/mslearn-ai-services/tree/main>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+
+### Provision an Azure AI Services resource
+
+> 1. Discussion and Demo
+> 1. Azure AI services multi-service account
+
+![Create Azure AI Services | 100x100](./Documentation/Images/AAIServices_Create.PNG)
+
+### Retrieve the `Endpoint` and `key`
+
+> 1. Discussion and Demo
+> 1. Please place these inside your `secrets.json` which is outside your source code location, OR `appsettings.json` which is placed inside `.gitignore`
+> 1. Please create an `appsettings.example.json` for reference.
+> 1. Please place these inside your `.env` file.
+> 1. Please create an `example.env` for reference.
+> 1. Environment Variables is also another option.
+
+![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
+
+### Executing the Text Analytics Sample in C#, and Python
+
+> 1. Discussion and Demo
+
+```text
+Hola
+Ce document est rédigé en Français.
+おはようございます (ohayo gozaimasu)
+காலை வணக்கம் (Kālai vaṇakkam)
+सुप्रभात!
+```
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_SdkClient.PNG)
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
+
 ## 8. Create and consume Azure AI services
 
 > 1. Discussion and Demo
