@@ -181,6 +181,8 @@ Reference(s):
 > 1. <https://github.com/MicrosoftLearning/mslearn-ai-services/tree/main>
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services>
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+> 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
 
 ### Provision an Azure AI Services resource
 
@@ -214,20 +216,6 @@ Ce document est rédigé en Français.
 
 ![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
 
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_SdkClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
-
-## 8. Create and consume Azure AI services
-
-> 1. Discussion and Demo
-> 1. <https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
-
 ### Virtual Environment Creation
 
 ```powershell
@@ -243,9 +231,11 @@ pip install python-dotenv
 pip install azure-ai-textanalytics==5.3.0
 ```
 
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_1.PNG)
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_SdkClient.PNG)
 
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_2.PNG)
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
+
+![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
 
 ---
 
