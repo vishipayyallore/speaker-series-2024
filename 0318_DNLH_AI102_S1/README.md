@@ -39,7 +39,7 @@
 
 > 1. The Big Picture
 >    - Pre-requisites
->    - Previous Session
+>    - Previous Session(s)
 >    - Current Architecture
 > 1. Study guide for Exam AI-102
 > 1. What is Intelligence?
@@ -47,7 +47,10 @@
 > 1. ELIZA - The early Natural Language Processing (NLP) Chatbot
 > 1. Azure Open AI, Transformer and GPT
 > 1. Prepare to develop AI solutions on Azure
-> 1. Create and consume Azure AI services
+> 1. Get Started with Azure AI Services
+>    - Provision an Azure AI Services resource
+>    - Retrieve the `Endpoint` and `Key`
+>    - Executing the Text Analytics Sample in C#, and Python
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
@@ -65,7 +68,7 @@
 > 1. Azure Open AI, AI/ML
 > 1. Python, C#, and .NET 8
 
-### Previous Session
+### Previous Session(s)
 
 > 1. NA
 
@@ -191,7 +194,7 @@ Reference(s):
 
 ![Create Azure AI Services | 100x100](./Documentation/Images/AAIServices_Create.PNG)
 
-### Retrieve the `Endpoint` and `key`
+### Retrieve the `Endpoint` and `Key`
 
 > 1. Discussion and Demo
 > 1. Please place these inside your `secrets.json` which is outside your source code location, OR `appsettings.json` which is placed inside `.gitignore`
