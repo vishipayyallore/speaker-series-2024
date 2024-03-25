@@ -65,6 +65,7 @@
 ### Previous Session
 
 > 1. <https://www.youtube.com/watch?v=03dh8I5FZpo>
+> 1. <https://www.youtube.com/watch?v=XJS_9O4WePs>
 
 ### Current Architecture
 
