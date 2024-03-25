@@ -1,15 +1,15 @@
-# AI 102 - Secure and Monitor Azure AI Services
+# AI 102 - Build decision support with Azure AI Services
 
-## Date Time: 12-Mar-2024 at 05:00 PM IST
+## Date Time: 26-Mar-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829](https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177](https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177)
 
-## YouTube URL: [https://www.youtube.com/watch?v=XJS_9O4WePs](https://www.youtube.com/watch?v=XJS_9O4WePs)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/MonitorAzureAIservices>
-> 1. <https://aka.ms/SecureAzureAIservices>
+> 1. <https://aka.ms/AIservicesincontainers>
+> 1. <https://aka.ms/Azure-ContentModerator>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
