@@ -47,7 +47,7 @@
 > 1. Monitor Azure AI Services
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
 
 ---
 
@@ -71,85 +71,11 @@
 
 > 1. NA
 
-## 2. Get Started with Azure AI Services
-
-> 1. Discussion and Demo
-> 1. <https://github.com/MicrosoftLearning/mslearn-ai-services/tree/main>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
-
-### Provision an Azure AI Services resource
-
-> 1. Discussion and Demo
-> 1. Azure AI services multi-service account
-
-![Create Azure AI Services | 100x100](./Documentation/Images/AAIServices_Create.PNG)
-
-### Retrieve the `Endpoint` and `key`
-
-> 1. Discussion and Demo
-> 1. Please place these inside your `secrets.json` which is outside your source code location, OR `appsettings.json` which is placed inside `.gitignore`
-> 1. Please create an `appsettings.example.json` for reference.
-> 1. Please place these inside your `.env` file.
-> 1. Please create an `example.env` for reference.
-> 1. Environment Variables is also another option.
-
-![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
-
-### Executing the Text Analytics Sample in C#, and Python
+## 2. Deploy Azure AI services in containers
 
 > 1. Discussion and Demo
 
-```text
-Hola
-Ce document est rédigé en Français.
-おはようございます (ohayo gozaimasu)
-காலை வணக்கம் (Kālai vaṇakkam)
-सुप्रभात!
-```
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_SdkClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
-
-## 3. Manage Azure AI Services Security
-
-> 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
-
-## Manage authentication keys
-
-> 1. Discussion and Demo
-> 1. Using Azure Portal, and Azure CLI
-
-```powershell
-$rgname="rg-ai102-dev-001"
-$aaisvs="azais-ai102-dev-002"
-
-az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
-
-az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
-```
-
-![Azure AI Services Az CLI Keys | 100x100](./Documentation/Images/AAIServices_AzCLI_Keys.PNG)
-
-### Secure key access with Azure Key Vault
-
-> 1. Discussion and Demo
-
-```powershell
-az ad sp create-for-rbac -n "api://<spName>" --role owner --scopes subscriptions/<subscriptionId>/resourceGroups/<resourceGroup>
-
-az ad sp show --id <appId>
-
-az keyvault set-policy -n <keyVaultName> --object-id <objectId> --secret-permissions get list
-```
-
-## 4. Monitor Azure AI Services
+## 3. Classify and moderate text with Azure Content Moderator
 
 > 1. Discussion and Demo
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/03-monitor-ai-services.html>
