@@ -74,6 +74,7 @@
 ## 2. Deploy Azure AI services in containers
 
 > 1. Discussion and Demo
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/04-use-a-container.html>
 
 ## 3. Classify and moderate text with Azure Content Moderator
 
