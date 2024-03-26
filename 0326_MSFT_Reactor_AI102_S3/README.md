@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177](https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=EGP_t1xjpr4](https://www.youtube.com/watch?v=EGP_t1xjpr4)
 
 ## MS Learn Module(s)
 
@@ -55,6 +55,8 @@
 >    - Verify Text Analytics container on Azure Container Instance using `Python` Program
 > 1. Classify and moderate text with Azure Content Moderator
 > 1. SUMMARY / RECAP / Q&A
+
+> 1. An Azure Kubernetes Service (AKS) cluster.
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
 
@@ -125,7 +127,7 @@ docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/language:la
 #### Running the docker image
 
 ```powershell
-docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing="YourEndpoint.cognitiveservices.azure.com/" ApiKey="YourKey"
+docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing="https://YourEndpoint.cognitiveservices.azure.com/" ApiKey="YouAPIKey"
 ```
 
 ### Verify Local Docker Container using `Browser`
@@ -137,7 +139,7 @@ docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-co
 > 1. Discussion and Demo
 
 ```powershell
-curl -X POST "http://localhost:5005/text/analytics/v3.0/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
+curl -X POST "http://localhost:5005/text/analytics/v3.1/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
 ```
 
 ![Text Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Docker_Curl.PNG)
@@ -153,7 +155,7 @@ curl -X POST "http://localhost:5005/text/analytics/v3.0/languages" -H "Content-T
 > 1. Discussion and Demo
 
 ```powershell
-curl -X POST "http://aci-ai102-dev-001.b9fzgkczfab2eugw.eastus.azurecontainer.io:5000/text/analytics/v3.0/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
+curl -X POST "http://YourEndpoint.eastus.azurecontainer.io:5000/text/analytics/v3.1/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
 ```
 
 ![Text Analysis using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Curl.PNG)
