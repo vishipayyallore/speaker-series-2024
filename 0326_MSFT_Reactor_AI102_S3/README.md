@@ -74,11 +74,82 @@
 ## 2. Deploy Azure AI services in containers
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-gb/training/modules/investigate-container-for-use-with-ai-services/1-introduction>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/04-use-a-container.html>
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support>
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview#deploy-on-premises-using-docker-containers>
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/language-detection/how-to/use-containers>
+
+### Local Docker
+
+> 1. Discussion and Demo
+
+### Provision an Azure AI Services resource
+
+> 1. Discussion and Demo
+
+### Retrieving AI Services Keys
+
+> 1. Discussion and Demo
+
+```powershell
+$rgname="rg-ai102-dev-001"
+$aaisvs="azais-ai102-dev-002"
+
+az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
+
+az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
+```
+
+### Deploy and run a Text Analytics container on Local Docker
+
+> 1. Discussion and Demo
+
+#### Pull in docker image
+
+```powershell
+docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/language:latest
+```
+
+#### Running the docker image
+
+```powershell
+docker run --rm -it -p 5000:5000 --memory 4g --cpus 1 \
+mcr.microsoft.com/azure-cognitive-services/textanalytics/language \
+Eula=accept \
+Billing="https://YourEndPoint.cognitiveservices.azure.com/" \
+ApiKey="YourAPIKey"
+```
+
+### Deploy and run a Text Analytics container on Azure Container Instance
+
+> 1. Discussion and Demo
+
+![Azure Container Instance | 100x100](./Documentation/Images/AzureContainerInstance.PNG)
+
+### Verify using `CURL`
+
+> 1. Discussion and Demo
+
+```powershell
+curl -X POST "http://aci-ai102-dev-001.b9fzgkczfab2eugw.eastus.azurecontainer.io:5000/text/analytics/v3.0/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'Hello world.'},{'id':2,'text':'Salut tout le monde.'}]}"
+```
+
+![Text Analysis using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Curl.PNG)
+
+### Verify using `Postman`
+
+> 1. Discussion and Demo
+
+![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
 
 ## 3. Classify and moderate text with Azure Content Moderator
 
 > 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/03-monitor-ai-services.html>
+> 1. <https://learn.microsoft.com/en-gb/training/modules/classify-and-moderate-text-with-azure-content-moderator/>
+> 1. <https://learn.microsoft.com/en-gb/training/modules/classify-and-moderate-text-with-azure-content-moderator/4-exercise-use-the-api-console>
+
+![Content Moderation | 100x100](./Documentation/Images/AAIServices_ContentModeration.PNG)
 
 ---
 
