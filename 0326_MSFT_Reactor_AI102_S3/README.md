@@ -43,6 +43,16 @@
 >    - Previous Session
 >    - Current Architecture
 > 1. Deploy Azure AI services in containers
+>    - `Docker` installed Locally
+>    - Provision an Azure AI Services resource
+>    - Retrieving AI Services Keys
+>    - Deploy and run a Text Analytics container on Local Docker
+>    - Verify Local Docker Container using `Browser`
+>    - Verify Local Docker Container using `CURL`
+>    - Deploy and run a Text Analytics container on Azure Container Instance
+>    - Verify Text Analytics container on Azure Container Instance using `CURL`
+>    - Verify Text Analytics container on Azure Container Instance using `Postman`
+>    - Verify Text Analytics container on Azure Container Instance using `Python` Program
 > 1. Classify and moderate text with Azure Content Moderator
 > 1. SUMMARY / RECAP / Q&A
 
@@ -79,7 +89,7 @@
 > 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview#deploy-on-premises-using-docker-containers>
 > 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/language-detection/how-to/use-containers>
 
-### Local Docker
+### `Docker` installed Locally
 
 > 1. Discussion and Demo
 
@@ -118,9 +128,11 @@ docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/language:la
 docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing="YourEndpoint.cognitiveservices.azure.com/" ApiKey="YourKey"
 ```
 
+### Verify Local Docker Container using `Browser`
+
 ![Text Analytics Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
 
-### Verify Local Docker using `CURL`
+### Verify Local Docker Container using `CURL`
 
 > 1. Discussion and Demo
 
@@ -136,7 +148,7 @@ curl -X POST "http://localhost:5005/text/analytics/v3.0/languages" -H "Content-T
 
 ![Azure Container Instance | 100x100](./Documentation/Images/AzureContainerInstance.PNG)
 
-### Verify using `CURL`
+### Verify Text Analytics container on Azure Container Instance using `CURL`
 
 > 1. Discussion and Demo
 
@@ -146,13 +158,13 @@ curl -X POST "http://aci-ai102-dev-001.b9fzgkczfab2eugw.eastus.azurecontainer.io
 
 ![Text Analysis using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Curl.PNG)
 
-### Verify using `Postman`
+### Verify Text Analytics container on Azure Container Instance using `Postman`
 
 > 1. Discussion and Demo
 
 ![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
 
-### Verify using `Python` Program
+### Verify Text Analytics container on Azure Container Instance using `Python` Program
 
 > 1. Discussion and Demo
 
