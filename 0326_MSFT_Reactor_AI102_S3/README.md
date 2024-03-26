@@ -111,10 +111,12 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/language:latest
 ```
 
+![Text Analytics Docker Image Pull | 100x100](./Documentation/Images/AAIServices_Docker_Pull.PNG)
+
 #### Running the docker image
 
 ```powershell
-docker run --rm -it -p 5000:5000 --memory 4g --cpus 1 \
+docker run --rm -it -p 5005:5005 --memory 4g --cpus 1 \
 mcr.microsoft.com/azure-cognitive-services/textanalytics/language \
 Eula=accept \
 Billing="https://YourEndPoint.cognitiveservices.azure.com/" \
