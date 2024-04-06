@@ -83,6 +83,8 @@
 
 > 1. Discussion and Demo
 > 1. Azure AI services multi-service account
+> 1. Resource Group name `rg-ai102-dev-001`
+> 1. Azure AI Services name `azaisvc-ai102-dev-001`
 
 ![Create Azure AI Services | 100x100](./Documentation/Images/AAIServices_Create.PNG)
 
