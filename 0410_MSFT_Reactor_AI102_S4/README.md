@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723](https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723)
 
-## YouTube URL: [https://www.youtube.com/watch?v=XJS_9O4WePs](https://www.youtube.com/watch?v=XJS_9O4WePs)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
@@ -65,6 +65,8 @@
 ### Previous Session
 
 > 1. <https://www.youtube.com/watch?v=03dh8I5FZpo>
+> 1. <https://www.youtube.com/watch?v=XJS_9O4WePs>
+> 1. <https://www.youtube.com/watch?v=EGP_t1xjpr4>
 
 ### Current Architecture
 
