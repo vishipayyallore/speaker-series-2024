@@ -96,10 +96,17 @@
 
 ![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
 
+### Quick test of `Azure AI service` using Postman
+
+> 1. Discussion and Demo
+
+![Azure AI Services Postman Validation | 100x100](./Documentation/Images/AAIServices_Postman_Validation.PNG)
+
 ## Manage authentication keys
 
 > 1. Discussion and Demo
 > 1. Using Azure Portal, and Azure CLI
+> 1. Test the `curl` command after regenerating the `key1`
 
 ```powershell
 $rgname="rg-ai102-dev-001"
@@ -113,6 +120,21 @@ az cognitiveservices account keys regenerate --name $azaisvc --resource-group $r
 ![Azure AI Services Az CLI Keys | 100x100](./Documentation/Images/AAIServices_AzCLI_Keys.PNG)
 
 ### Secure key access with Azure Key Vault
+
+> 1. Discussion and Demo
+> 1. Discussion on `Soft Delete`, and `Purge Protection`
+
+#### Create a `key vault`
+
+> 1. Discussion and Demo
+
+![Azure Key Vault Creation | 100x100](./Documentation/Images/Azure_KeyVault_Creation.PNG)
+
+#### Add Azure AI Services `key` as secret into `key vault`
+
+> 1. Discussion and Demo
+
+#### Create a service principal
 
 > 1. Discussion and Demo
 
