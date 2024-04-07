@@ -42,7 +42,6 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Get Started with Azure AI Services
 > 1. Manage Azure AI Services Security
 > 1. Monitor Azure AI Services
 > 1. SUMMARY / RECAP / Q&A
@@ -72,12 +71,10 @@
 
 > 1. NA
 
-## 2. Get Started with Azure AI Services
+## 2. Manage Azure AI Services Security
 
 > 1. Discussion and Demo
-> 1. <https://github.com/MicrosoftLearning/mslearn-ai-services/tree/main>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
 
 ### Provision an Azure AI Services resource
 
@@ -98,31 +95,6 @@
 > 1. Environment Variables is also another option.
 
 ![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
-
-### Executing the Text Analytics Sample in C#, and Python
-
-> 1. Discussion and Demo
-
-```text
-Hola
-Ce document est rédigé en Français.
-おはようございます (ohayo gozaimasu)
-காலை வணக்கம் (Kālai vaṇakkam)
-सुप्रभात!
-```
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_SdkClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
-
-## 3. Manage Azure AI Services Security
-
-> 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
 
 ## Manage authentication keys
 
