@@ -134,17 +134,56 @@ az cognitiveservices account keys regenerate --name $azaisvc --resource-group $r
 
 > 1. Discussion and Demo
 
+```text
+AI-Services-Key = key1 value
+```
+
+![Azure Key Vault Creation | 100x100](./Documentation/Images/Azure_KeyVault_Secret.PNG)
+
 #### Create a service principal
 
 > 1. Discussion and Demo
 
+##### Create the `service principal`
+
 ```powershell
-az ad sp create-for-rbac -n "api://<spName>" --role owner --scopes subscriptions/<subscriptionId>/resourceGroups/<resourceGroup>
+az ad sp create-for-rbac -n "api://azaisvcdemo" --role owner --scopes subscriptions/xx111x11-xxx1-11x1-11xx-11x1111x11x1/resourceGroups/rg-ai102-dev-001
 
-az ad sp show --id <appId>
+```
 
+```json
+{
+    "appId": "abcd12345efghi67890jklmn",
+    "displayName": "api://azaisvcdemo",
+    "password": "1a2b3c4d5e6f7g8h9i0j",
+    "tenant": "1234abcd5678fghi90jklm"
+}
+```
+
+##### Retrieve the `Object Id` of the `service principal`
+
+```powershell
+az ad sp show --id "abcd12345efghi67890jklmn"
+```
+
+![Azure Service Principal | 100x100](./Documentation/Images/Azure_Service_Principal.PNG)
+
+##### Set the Azure Key Vault permissions on `Object Id` of the `service principal`
+
+> 1. Discussion and Demo
+> 1. Azure CLI OR Portal
+
+```powershell
 az keyvault set-policy -n <keyVaultName> --object-id <objectId> --secret-permissions get list
 ```
+
+![Azure Key Vault Assign Permission | 100x100](./Documentation/Images/Azure_KeyVault_AssignPermission.PNG)
+
+### Use the service principal in an application
+
+> 1. Discussion and Demo
+
+![Azure Service Pricipal in Application | 100x100](./Documentation/Images/Azure_Service_Principal_InApplication.PNG)
 
 ## 4. Monitor Azure AI Services
 
