@@ -42,7 +42,6 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Get Started with Azure AI Services
 > 1. Manage Azure AI Services Security
 > 1. Monitor Azure AI Services
 > 1. SUMMARY / RECAP / Q&A
@@ -72,12 +71,10 @@
 
 > 1. NA
 
-## 2. Get Started with Azure AI Services
+## 2. Manage Azure AI Services Security
 
 > 1. Discussion and Demo
-> 1. <https://github.com/MicrosoftLearning/mslearn-ai-services/tree/main>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
 
 ### Provision an Azure AI Services resource
 
@@ -99,43 +96,25 @@
 
 ![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
 
-### Executing the Text Analytics Sample in C#, and Python
+### Quick test of `Azure AI service` using Postman
 
 > 1. Discussion and Demo
 
-```text
-Hola
-Ce document est rédigé en Français.
-おはようございます (ohayo gozaimasu)
-காலை வணக்கம் (Kālai vaṇakkam)
-सुप्रभात!
-```
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_SdkClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_RestClient.PNG)
-
-![Text Analysis | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
-
-## 3. Manage Azure AI Services Security
-
-> 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
+![Azure AI Services Postman Validation | 100x100](./Documentation/Images/AAIServices_Postman_Validation.PNG)
 
 ## Manage authentication keys
 
 > 1. Discussion and Demo
 > 1. Using Azure Portal, and Azure CLI
+> 1. Test the `curl` command after regenerating the `key1`
 
 ```powershell
 $rgname="rg-ai102-dev-001"
-$aaisvs="azais-ai102-dev-002"
+$azaisvc="azaisvc-ai102-dev-001"
 
-az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
+az cognitiveservices account keys list --name $azaisvc --resource-group $rgname
 
-az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
+az cognitiveservices account keys regenerate --name $azaisvc --resource-group $rgname --key-name key1
 ```
 
 ![Azure AI Services Az CLI Keys | 100x100](./Documentation/Images/AAIServices_AzCLI_Keys.PNG)
@@ -143,14 +122,68 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 ### Secure key access with Azure Key Vault
 
 > 1. Discussion and Demo
+> 1. Discussion on `Soft Delete`, and `Purge Protection`
+
+#### Create a `key vault`
+
+> 1. Discussion and Demo
+
+![Azure Key Vault Creation | 100x100](./Documentation/Images/Azure_KeyVault_Creation.PNG)
+
+#### Add Azure AI Services `key` as secret into `key vault`
+
+> 1. Discussion and Demo
+
+```text
+AI-Services-Key = key1 value
+```
+
+![Azure Key Vault Creation | 100x100](./Documentation/Images/Azure_KeyVault_Secret.PNG)
+
+#### Create a service principal
+
+> 1. Discussion and Demo
+
+##### Create the `service principal`
 
 ```powershell
-az ad sp create-for-rbac -n "api://<spName>" --role owner --scopes subscriptions/<subscriptionId>/resourceGroups/<resourceGroup>
+az ad sp create-for-rbac -n "api://azaisvcdemo" --role owner --scopes subscriptions/xx111x11-xxx1-11x1-11xx-11x1111x11x1/resourceGroups/rg-ai102-dev-001
 
-az ad sp show --id <appId>
+```
 
+```json
+{
+    "appId": "abcd12345efghi67890jklmn",
+    "displayName": "api://azaisvcdemo",
+    "password": "1a2b3c4d5e6f7g8h9i0j",
+    "tenant": "1234abcd5678fghi90jklm"
+}
+```
+
+##### Retrieve the `Object Id` of the `service principal`
+
+```powershell
+az ad sp show --id "abcd12345efghi67890jklmn"
+```
+
+![Azure Service Principal | 100x100](./Documentation/Images/Azure_Service_Principal.PNG)
+
+##### Set the Azure Key Vault permissions on `Object Id` of the `service principal`
+
+> 1. Discussion and Demo
+> 1. Azure CLI OR Portal
+
+```powershell
 az keyvault set-policy -n <keyVaultName> --object-id <objectId> --secret-permissions get list
 ```
+
+![Azure Key Vault Assign Permission | 100x100](./Documentation/Images/Azure_KeyVault_AssignPermission.PNG)
+
+### Use the service principal in an application
+
+> 1. Discussion and Demo
+
+![Azure Service Pricipal in Application | 100x100](./Documentation/Images/Azure_Service_Principal_InApplication.PNG)
 
 ## 4. Monitor Azure AI Services
 
