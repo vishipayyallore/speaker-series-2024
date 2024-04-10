@@ -66,6 +66,7 @@
 > 1. <https://www.youtube.com/watch?v=03dh8I5FZpo>
 > 1. <https://www.youtube.com/watch?v=XJS_9O4WePs>
 > 1. <https://www.youtube.com/watch?v=EGP_t1xjpr4>
+> 1. <https://www.youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59> Entire playlist
 
 ### Current Architecture
 
