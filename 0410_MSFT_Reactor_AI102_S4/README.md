@@ -190,6 +190,24 @@ az keyvault set-policy -n <keyVaultName> --object-id <objectId> --secret-permiss
 > 1. Discussion and Demo
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/03-monitor-ai-services.html>
 
+### Resources
+
+![Azure All Resources | 100x100](./Documentation/Images/All_Resources.PNG)
+
+### Alerts
+
+![Azure AI Service Alerts | 100x100](./Documentation/Images/AAIServices_Alerts.PNG)
+
+![Azure AI Service Alerts Email | 100x100](./Documentation/Images/AAIServices_Alert_Email.PNG)
+
+### Metrics
+
+![Azure AI Service Metrics | 100x100](./Documentation/Images/AAIServices_Metrics.PNG)
+
+### Diagnostic Log
+
+![Azure AI Service Diagnostic Log | 100x100](./Documentation/Images/AAIServices_Diagnostic_Log.PNG)
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
