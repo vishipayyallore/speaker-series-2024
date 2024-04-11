@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723](https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=ub1cNtvCHWI](https://www.youtube.com/watch?v=ub1cNtvCHWI)
 
 ## MS Learn Module(s)
 
@@ -66,6 +66,7 @@
 > 1. <https://www.youtube.com/watch?v=03dh8I5FZpo>
 > 1. <https://www.youtube.com/watch?v=XJS_9O4WePs>
 > 1. <https://www.youtube.com/watch?v=EGP_t1xjpr4>
+> 1. <https://www.youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59> Entire playlist
 
 ### Current Architecture
 
@@ -189,6 +190,24 @@ az keyvault set-policy -n <keyVaultName> --object-id <objectId> --secret-permiss
 
 > 1. Discussion and Demo
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/03-monitor-ai-services.html>
+
+### Resources
+
+![Azure All Resources | 100x100](./Documentation/Images/All_Resources.PNG)
+
+### Alerts
+
+![Azure AI Service Alerts | 100x100](./Documentation/Images/AAIServices_Alerts.PNG)
+
+![Azure AI Service Alerts Email | 100x100](./Documentation/Images/AAIServices_Alert_Email.PNG)
+
+### Metrics
+
+![Azure AI Service Metrics | 100x100](./Documentation/Images/AAIServices_Metrics.PNG)
+
+### Diagnostic Log
+
+![Azure AI Service Diagnostic Log | 100x100](./Documentation/Images/AAIServices_Diagnostic_Log.PNG)
 
 ---
 
