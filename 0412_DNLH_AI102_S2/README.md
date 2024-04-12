@@ -1,17 +1,17 @@
-# AI 102 - Secure and Monitor Azure AI Services - Part II
+# AI 102 - Secure and Monitor Azure AI Services
 
-## Date Time: 10-Apr-2024 at 05:00 PM IST
+## Date Time: 12-Apr-2024 at 09:00 AM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723](https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/299910542](https://www.meetup.com/dot-net-learners-house-hyderabad/events/299910542)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ub1cNtvCHWI](https://www.youtube.com/watch?v=ub1cNtvCHWI)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/MonitorAzureAIservices>
-> 1. <https://aka.ms/SecureAzureAIservices>
+> 1. <https://learn.microsoft.com/en-gb/training/modules/secure-ai-services>
+> 1. <https://learn.microsoft.com/en-gb/training/modules/monitor-ai-services>
 
-![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
+<!-- ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG) -->
 
 ---
 
@@ -63,10 +63,7 @@
 
 ### Previous Session
 
-> 1. <https://www.youtube.com/watch?v=03dh8I5FZpo>
-> 1. <https://www.youtube.com/watch?v=XJS_9O4WePs>
-> 1. <https://www.youtube.com/watch?v=EGP_t1xjpr4>
-> 1. <https://www.youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59> Entire playlist
+> 1. Watch the entire playlist <https://www.youtube.com/watch?v=LSbvf_Qtwb4&list=PLdLQDTLMjAzrb3Lbg2GrGErISdmg8n7YC>
 
 ### Current Architecture
 
