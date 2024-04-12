@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/299910542](https://www.meetup.com/dot-net-learners-house-hyderabad/events/299910542)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=KDlEw8ZzvAs](https://www.youtube.com/watch?v=KDlEw8ZzvAs)
 
 ## MS Learn Module(s)
 
@@ -46,7 +46,7 @@
 > 1. Monitor Azure AI Services
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
 
 ---
 
