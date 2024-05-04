@@ -83,14 +83,25 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 
 > 1. Prompt Engineering | Clear and specific | Give examples
 > 1. Goal | Context | Source | Expectations
+> 1. Verify the output's accuracy
 
 ### Coversational Style
 
 > 1. Creative | Balanced | Precise
 
+### Gettings Answers, Create Content, and Summaization
+
+> 1. Discussion and Demo
+
+#### Summarize Youtube Video
+
 ![Summarize Youtube Video](Documentation/Images/Summarize_YouTube_Video.PNG)
 
+#### Summarize Azure documentation web page
+
 ![Summarize Web Page](Documentation/Images/Summarize_Web_Page.PNG)
+
+#### Summarize a local PDF document
 
 ![Summarize PDF Documentation](Documentation/Images/Summarize_PDF_Document.PNG)
 
