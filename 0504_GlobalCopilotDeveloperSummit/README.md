@@ -105,6 +105,14 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 
 ![Summarize PDF Documentation](Documentation/Images/Summarize_PDF_Document.PNG)
 
+### Generating Images
+
+> 1. Discussion and Demo
+
+### Generating Code
+
+> 1. Discussion and Demo
+
 ## 3. Copilot and GitHub Copilot for Web Development
 
 > 1. Discussion and Demo
