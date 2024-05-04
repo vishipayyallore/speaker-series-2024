@@ -15,9 +15,8 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 ### Software/Tools
 
 > 1. OS: Windows 10/11 x64
-> 1. Python / .NET 8
-> 1. Visual Studio 2022
-> 1. Visual Studio Code
+> 1. Microsoft Account
+> 1. Chrome / Edge Browser
 
 ### Prior Knowledge
 
@@ -27,7 +26,7 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 
 ## Technology Stack
 
-> 1. .NET 8, Python, Azure
+> 1. AI, Azure Open AI, Open AI
 
 ## Information
 
@@ -36,14 +35,10 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 ## What are we doing today?
 
 > 1. The Big Picture
->    - Pre-requisites
->    - Previous Session
->    - Current Architecture
-> 1. Manage Azure AI Services Security
-> 1. Monitor Azure AI Services
+> 1. To be done
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/speaker-series-2024/tree/main/0504_GlobalCopilotDeveloperSummit) of today's session for more details
 
 ---
 
@@ -53,155 +48,18 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 
 ## 1. The Big Picture
 
-### Pre-requisites
+> 1. Discussion
 
-> 1. Azure Open AI, AI/ML
-> 1. Python, C#, and .NET 8
+## 2. Copilot for Web
 
-### Previous Session
+> 1. Conversational AI Chatbot powered by Bing
+> 1. Powered by Open AI's GPT-4 LLM. Chat Generative Pre-trained Transformer
+> 1. **Chat GPT-4** is an advanced language model developed by OpenAI. It builds upon its predecessors, incorporating improvements in architecture, training data, and fine-tuning techniques. Chat GPT-4 is capable of understanding context, generating coherent responses, and assisting users across a wide range of tasks, making it a powerful tool for natural language understanding and generation. Its underlying neural network architecture, based on transformer models, allows it to handle complex language patterns and relationships, making it a valuable asset for various applications in text generation, chatbots, and more
+> 1. **Large Language Model (LLM)** is an artificial intelligence algorithm that employs neural network techniques with a large number of parameters to process and understand human languages or text using self-supervised learning. These models are highly efficient in capturing complex entity relationships in text and can be used for tasks like text generation, machine translation, chatbots, and more. LLMs operate on the principles of deep learning, leveraging neural network architectures and attention mechanisms to learn intricate patterns and relationships from diverse language data during training. Examples of LLMs include Chat GPT by OpenAI and BERT by Google
 
-> 1. Watch the entire playlist <https://www.youtube.com/watch?v=LSbvf_Qtwb4&list=PLdLQDTLMjAzrb3Lbg2GrGErISdmg8n7YC>
-
-### Current Architecture
-
-> 1. NA
-
-## 2. Manage Azure AI Services Security
+## 3. Copilot and GitHub Copilot for Web Development
 
 > 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html>
-
-### Provision an Azure AI Services resource
-
-> 1. Discussion and Demo
-> 1. Azure AI services multi-service account
-> 1. Resource Group name `rg-ai102-dev-001`
-> 1. Azure AI Services name `azaisvc-ai102-dev-001`
-
-![Create Azure AI Services | 100x100](./Documentation/Images/AAIServices_Create.PNG)
-
-### Retrieve the `Endpoint` and `key`
-
-> 1. Discussion and Demo
-> 1. Please place these inside your `secrets.json` which is outside your source code location, OR `appsettings.json` which is placed inside `.gitignore`
-> 1. Please create an `appsettings.example.json` for reference.
-> 1. Please place these inside your `.env` file.
-> 1. Please create an `example.env` for reference.
-> 1. Environment Variables is also another option.
-
-![Azure AI Services Keys and Endpoints | 100x100](./Documentation/Images/AAIServices_KeysAndEndpoints.PNG)
-
-### Quick test of `Azure AI service` using Postman
-
-> 1. Discussion and Demo
-
-![Azure AI Services Postman Validation | 100x100](./Documentation/Images/AAIServices_Postman_Validation.PNG)
-
-## Manage authentication keys
-
-> 1. Discussion and Demo
-> 1. Using Azure Portal, and Azure CLI
-> 1. Test the `curl` command after regenerating the `key1`
-
-```powershell
-$rgname="rg-ai102-dev-001"
-$azaisvc="azaisvc-ai102-dev-001"
-
-az cognitiveservices account keys list --name $azaisvc --resource-group $rgname
-
-az cognitiveservices account keys regenerate --name $azaisvc --resource-group $rgname --key-name key1
-```
-
-![Azure AI Services Az CLI Keys | 100x100](./Documentation/Images/AAIServices_AzCLI_Keys.PNG)
-
-### Secure key access with Azure Key Vault
-
-> 1. Discussion and Demo
-> 1. Discussion on `Soft Delete`, and `Purge Protection`
-
-#### Create a `key vault`
-
-> 1. Discussion and Demo
-
-![Azure Key Vault Creation | 100x100](./Documentation/Images/Azure_KeyVault_Creation.PNG)
-
-#### Add Azure AI Services `key` as secret into `key vault`
-
-> 1. Discussion and Demo
-
-```text
-AI-Services-Key = key1 value
-```
-
-![Azure Key Vault Creation | 100x100](./Documentation/Images/Azure_KeyVault_Secret.PNG)
-
-#### Create a service principal
-
-> 1. Discussion and Demo
-
-##### Create the `service principal`
-
-```powershell
-az ad sp create-for-rbac -n "api://azaisvcdemo" --role owner --scopes subscriptions/xx111x11-xxx1-11x1-11xx-11x1111x11x1/resourceGroups/rg-ai102-dev-001
-
-```
-
-```json
-{
-    "appId": "abcd12345efghi67890jklmn",
-    "displayName": "api://azaisvcdemo",
-    "password": "1a2b3c4d5e6f7g8h9i0j",
-    "tenant": "1234abcd5678fghi90jklm"
-}
-```
-
-##### Retrieve the `Object Id` of the `service principal`
-
-```powershell
-az ad sp show --id "abcd12345efghi67890jklmn"
-```
-
-![Azure Service Principal | 100x100](./Documentation/Images/Azure_Service_Principal.PNG)
-
-##### Set the Azure Key Vault permissions on `Object Id` of the `service principal`
-
-> 1. Discussion and Demo
-> 1. Azure CLI OR Portal
-
-```powershell
-az keyvault set-policy -n <keyVaultName> --object-id <objectId> --secret-permissions get list
-```
-
-![Azure Key Vault Assign Permission | 100x100](./Documentation/Images/Azure_KeyVault_AssignPermission.PNG)
-
-### Use the service principal in an application
-
-> 1. Discussion and Demo
-
-![Azure Service Pricipal in Application | 100x100](./Documentation/Images/Azure_Service_Principal_InApplication.PNG)
-
-## 4. Monitor Azure AI Services
-
-> 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/03-monitor-ai-services.html>
-
-### Resources
-
-![Azure All Resources | 100x100](./Documentation/Images/All_Resources.PNG)
-
-### Alerts
-
-![Azure AI Service Alerts | 100x100](./Documentation/Images/AAIServices_Alerts.PNG)
-
-![Azure AI Service Alerts Email | 100x100](./Documentation/Images/AAIServices_Alert_Email.PNG)
-
-### Metrics
-
-![Azure AI Service Metrics | 100x100](./Documentation/Images/AAIServices_Metrics.PNG)
-
-### Diagnostic Log
-
-![Azure AI Service Diagnostic Log | 100x100](./Documentation/Images/AAIServices_Diagnostic_Log.PNG)
 
 ---
 
