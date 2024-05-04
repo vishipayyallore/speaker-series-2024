@@ -57,6 +57,43 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 > 1. **Chat GPT-4** is an advanced language model developed by OpenAI. It builds upon its predecessors, incorporating improvements in architecture, training data, and fine-tuning techniques. Chat GPT-4 is capable of understanding context, generating coherent responses, and assisting users across a wide range of tasks, making it a powerful tool for natural language understanding and generation. Its underlying neural network architecture, based on transformer models, allows it to handle complex language patterns and relationships, making it a valuable asset for various applications in text generation, chatbots, and more
 > 1. **Large Language Model (LLM)** is an artificial intelligence algorithm that employs neural network techniques with a large number of parameters to process and understand human languages or text using self-supervised learning. These models are highly efficient in capturing complex entity relationships in text and can be used for tasks like text generation, machine translation, chatbots, and more. LLMs operate on the principles of deep learning, leveraging neural network architectures and attention mechanisms to learn intricate patterns and relationships from diverse language data during training. Examples of LLMs include Chat GPT by OpenAI and BERT by Google
 
+### Microsoft Copilot Suite
+
+> 1. Microsfot Copilot for Web
+> 1. Microsfot Copilot for M365
+> 1. Microsfot Copilot for Power Platform
+> 1. Microsfot Copilot for sales etc
+
+### How do I access?
+
+> 1. It is available in Windows 11.
+> 1. We can use in browsers example: Edge, Chrome, Brave.
+> 1. Simply Navigate to this <https://copilot.microsoft.com/> URL.
+> 1. Using Microsoft Copilot in Edge will give us additional capabilities.
+
+### Microsoft Copilot Tiers
+
+> 1. **Demo Time**
+> 1. Free without sign in
+> 1. Free with sign in with Microsoft's account
+> 1. Microsoft Copilot Pro
+> 1. Microsoft Copilot with Commercial Data Protection
+
+### Prompt Engineering to interact with Microsoft Copilot
+
+> 1. Prompt Engineering | Clear and specific | Give examples
+> 1. Goal | Context | Source | Expectations
+
+### Coversational Style
+
+> 1. Creative | Balanced | Precise
+
+![Summarize Youtube Video](Documentation/Images/Summarize_YouTube_Video.PNG)
+
+![Summarize Web Page](Documentation/Images/Summarize_Web_Page.PNG)
+
+![Summarize PDF Documentation](Documentation/Images/Summarize_PDF_Document.PNG)
+
 ## 3. Copilot and GitHub Copilot for Web Development
 
 > 1. Discussion and Demo
