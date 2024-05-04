@@ -76,8 +76,8 @@ Could you please summerize this "Microsoft for Startups Founders Club Ep. 3" vid
 > 1. **Demo Time**
 > 1. Free without sign in
 > 1. Free with sign in with Microsoft's account
-> 1. Microsoft Copilot Pro
 > 1. Microsoft Copilot with Commercial Data Protection
+> 1. Microsoft Copilot Pro
 
 ### Prompt Engineering to interact with Microsoft Copilot
 
