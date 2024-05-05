@@ -21,4 +21,7 @@ This Repository contains the Demo Script, Code for all the sessions which I will
 | **12th Apr** | Microsoft Learn Community | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/299910542> | Azure AI engineer AI-102 - Secure and Monitor Azure AI Services |
 | **18th Apr** | Microsoft AI Skills Challenge Learn | <https://www.youtube.com/watch?v=tZeCHlfDatY> | **Moderator** in Learn Live: Create an Azure AI Search solution |
 | **30th Apr** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/299947260> | AI 102 - Analyze images, Image classification with Azure AI Vision |
+| **01st May** | Dot Net Learners House | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/300050065> | Golang Series - Working with Values, Basic Types, Variables, and Constants in Go |
+| **04th May** | Microsoft | <https://www.linkedin.com/feed/update/urn:li:activity:7183811218778849281> | In-Person - Global Copilot Summit, Hyderabad, India |
+| **05th May** | Dot Net Learners House | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/300759081> | Exploring GitHub Workflow: Branch Policies, Collaboration, and Pull Requests |
 | -------- | ------- | -------- | ------- |
