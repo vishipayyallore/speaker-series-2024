@@ -16,5 +16,9 @@ This Repository contains the Demo Script, Code for all the sessions which I will
 | **12th Mar** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829> | AI 102 - Secure and Monitor Azure AI Services |
 | **18th Mar** | Microsoft Learn Community | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/299030163> | AI 102 - Prepare, Create, and Consume Azure AI services |
 | **26th Mar** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177> | AI 102 - Build decision support with Azure AI Services |
-| -------- | ------- | -------- | ------- |
+| **01st Apr** | Dot Net Learners House | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/299910615> | Golang Series Introduction, and Getting started with Go - Session 1 |
+| **10th Apr** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723> | AI 102 - Secure and Monitor Azure AI Services - Part II |
+| **12th Apr** | Microsoft Learn Community | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/299910542> | Azure AI engineer AI-102 - Secure and Monitor Azure AI Services |
+| **18th Apr** | Microsoft AI Skills Challenge Learn | <https://www.youtube.com/watch?v=tZeCHlfDatY> | **Moderator** in Learn Live: Create an Azure AI Search solution |
+| **30th Apr** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/299947260> | AI 102 - Analyze images, Image classification with Azure AI Vision |
 | -------- | ------- | -------- | ------- |
