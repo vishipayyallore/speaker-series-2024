@@ -15,4 +15,6 @@ This Repository contains the Demo Script, Code for all the sessions which I will
 | **09th Mar** | C# Corner | <https://www.c-sharpcorner.com/events/c-sharp-corner-global-ai-bootcamp-hyderabad> | Build your own Chat GPT with .NET and Azure Open AI |
 | **12th Mar** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/299209829> | AI 102 - Secure and Monitor Azure AI Services |
 | **18th Mar** | Microsoft Learn Community | <https://www.meetup.com/dot-net-learners-house-hyderabad/events/299030163> | AI 102 - Prepare, Create, and Consume Azure AI services |
+| **26th Mar** | Microsoft Reactor Bengaluru | <https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177> | AI 102 - Build decision support with Azure AI Services |
+| -------- | ------- | -------- | ------- |
 | -------- | ------- | -------- | ------- |
