@@ -104,6 +104,18 @@
 
 ![AI Vision Studio OCR](./Documentation/Images/AIVisionStudio.PNG)
 
+## 4.2. Working with REST API
+
+> 1. Discussion and Demo
+
+### POST Request
+
+![AI Vision Service REST API](./Documentation/Images/AIVisionService_OCR_Post.PNG)
+
+### Get Results
+
+![AI Vision Service REST API](./Documentation/Images/AIVisionService_OCR_Get.PNG)
+
 ## X. SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
