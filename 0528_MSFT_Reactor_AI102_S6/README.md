@@ -87,7 +87,11 @@
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
 
----
+## 3. Image Analysis Query from previous session
+
+> 1. Discussion and Demo
+
+## ![Man Door Image Analysis](./Documentation/Images/Man_Door_Image_Analysis.PNG)
 
 ## X. SUMMARY / RECAP / Q&A
 
