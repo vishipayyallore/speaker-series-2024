@@ -93,6 +93,17 @@
 
 ## ![Man Door Image Analysis](./Documentation/Images/Man_Door_Image_Analysis.PNG)
 
+## 4. Read Text in images and documents with the Azure AI Vision Service
+
+> 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-ocr>
+
+## 4.1. Working with Vision Studio
+
+> 1. Discussion and Demo
+
+![AI Vision Studio OCR](./Documentation/Images/AIVisionStudio.PNG)
+
 ## X. SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
