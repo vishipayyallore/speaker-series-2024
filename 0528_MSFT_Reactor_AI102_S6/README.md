@@ -1,15 +1,15 @@
-# AI 102 - Secure and Monitor Azure AI Services - Part II
+# AI 102 - Azure AI Vision Service & Video Indexer
 
-## Date Time: 10-Apr-2024 at 05:00 PM IST
+## Date Time: 28-May-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723](https://www.meetup.com/microsoft-reactor-bengaluru/events/299764723)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178](https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ub1cNtvCHWI](https://www.youtube.com/watch?v=ub1cNtvCHWI)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/MonitorAzureAIservices>
-> 1. <https://aka.ms/SecureAzureAIservices>
+> 1. <https://aka.ms/Analyze-video>
+> 1. <https://aka.ms/Azure-AI-Vision-Service>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -154,10 +154,10 @@ az ad sp create-for-rbac -n "api://azaisvcdemo" --role owner --scopes subscripti
 
 ```json
 {
-    "appId": "abcd12345efghi67890jklmn",
-    "displayName": "api://azaisvcdemo",
-    "password": "1a2b3c4d5e6f7g8h9i0j",
-    "tenant": "1234abcd5678fghi90jklm"
+  "appId": "abcd12345efghi67890jklmn",
+  "displayName": "api://azaisvcdemo",
+  "password": "1a2b3c4d5e6f7g8h9i0j",
+  "tenant": "1234abcd5678fghi90jklm"
 }
 ```
 
