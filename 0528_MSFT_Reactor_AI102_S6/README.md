@@ -122,6 +122,18 @@
 
 ![Azure AI Vision SDK](./Documentation/Images/AzureAIVisionSDK.PNG)
 
+## 4.4. Working with Azure AI Vision Read Container
+
+> 1. Discussion and Demo
+
+```powershell
+docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
+
+docker run --rm -it -p 5000:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing={ENDPOINT_URI} ApiKey={API_KEY}
+```
+
+![Azure AI Vision Read Container](./Documentation/Images/PullOCRReadContainer.PNG)
+
 ## X. SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
