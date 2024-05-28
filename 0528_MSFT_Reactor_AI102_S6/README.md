@@ -104,7 +104,7 @@
 
 ![AI Vision Studio OCR](./Documentation/Images/AIVisionStudio.PNG)
 
-## 4.2. Working with REST API
+## 4.2. Working with REST API in Postman
 
 > 1. Discussion and Demo
 
@@ -115,6 +115,12 @@
 ### Get Results
 
 ![AI Vision Service REST API](./Documentation/Images/AIVisionService_OCR_Get.PNG)
+
+## 4.3. Working with Azure AI Vision SDK
+
+> 1. Discussion and Demo
+
+![Azure AI Vision SDK](./Documentation/Images/AzureAIVisionSDK.PNG)
 
 ## X. SUMMARY / RECAP / Q&A
 
