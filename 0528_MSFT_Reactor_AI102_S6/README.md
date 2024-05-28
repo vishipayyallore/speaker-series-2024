@@ -42,8 +42,14 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Manage Azure AI Services Security
-> 1. Monitor Azure AI Services
+> 1. Provision an Azure AI Services resource
+>    - Retrieve the Endpoint and key
+> 1. Image Analysis Query from previous session
+> 1. Read Text in images and documents with the Azure AI Vision Service
+>    - Working with Vision Studio
+>    - Working with Read REST API in Postman
+>    - Working with Azure AI Vision SDK
+>    - Working with Azure AI Vision Read Container
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
@@ -104,17 +110,49 @@
 
 ![AI Vision Studio OCR](./Documentation/Images/AIVisionStudio.PNG)
 
-## 4.2. Working with REST API
+## 4.2. Working with Read REST API in Postman
 
 > 1. Discussion and Demo
 
-### POST Request
+### 4.2.1. POST Request
 
 ![AI Vision Service REST API](./Documentation/Images/AIVisionService_OCR_Post.PNG)
 
-### Get Results
+### 4.2.2. Get Results
 
 ![AI Vision Service REST API](./Documentation/Images/AIVisionService_OCR_Get.PNG)
+
+## 4.3. Working with Azure AI Vision SDK
+
+> 1. Discussion and Demo
+
+![Azure AI Vision SDK](./Documentation/Images/AzureAIVisionSDK.PNG)
+
+## 4.4. Working with Azure AI Vision Read Container
+
+> 1. Discussion and Demo
+
+### 4.4.1. Pull the Docker Image
+
+```powershell
+docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
+```
+
+![Azure AI Vision Read Container](./Documentation/Images/PullOCRReadContainer.PNG)
+
+### 4.4.2. Execute the Docker container
+
+```powershell
+docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing="https://azais-ai102-dev-001.cognitiveservices.azure.com/" ApiKey=$apiKey
+```
+
+![Azure AI Vision Read Container](./Documentation/Images/ExecuteOCRReadContainer.PNG)
+
+### 4.4.3. Use the local Read Container
+
+![Azure AI Vision Read Container](./Documentation/Images/UsingLocalReadContainer.PNG)
+
+---
 
 ## X. SUMMARY / RECAP / Q&A
 
