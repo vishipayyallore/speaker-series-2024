@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178](https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=dwjTGTrvoVg](https://www.youtube.com/watch?v=dwjTGTrvoVg)
 
 ## MS Learn Module(s)
 
@@ -52,7 +52,7 @@
 >    - Working with Azure AI Vision Read Container
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos/TextAnalyticsDemos) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
 
 ---
 
