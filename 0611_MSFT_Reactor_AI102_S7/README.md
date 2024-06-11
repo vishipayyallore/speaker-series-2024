@@ -126,7 +126,7 @@
 
 > 1. Discussion and Demo
 
-![Detect People CV](Documentation/Images/Detect_People_CV.PNG)
+![Detect People Face](Documentation/Images/Detect_People_Face.PNG)
 
 ---
 
