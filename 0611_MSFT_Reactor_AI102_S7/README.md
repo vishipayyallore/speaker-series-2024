@@ -1,15 +1,14 @@
-# AI 102 - Azure AI Vision Service & Video Indexer
+# AI 102 - Detect, analyze, recognize faces
 
-## Date Time: 28-May-2024 at 05:00 PM IST
+## Date Time: 11-Jun-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178](https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/300324886](https://www.meetup.com/microsoft-reactor-bengaluru/events/300324886)
 
-## YouTube URL: [https://www.youtube.com/watch?v=dwjTGTrvoVg](https://www.youtube.com/watch?v=dwjTGTrvoVg)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/Analyze-video>
-> 1. <https://aka.ms/Azure-AI-Vision-Service>
+> 1. <https://aka.ms/Detect/analyze/recognize-faces>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
