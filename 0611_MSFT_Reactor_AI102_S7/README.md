@@ -116,6 +116,18 @@
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
 
+## 9. Detect faces in an image using Azure AI Vision SDK
+
+> 1. Discussion and Demo
+
+![Detect People CV](Documentation/Images/Detect_People_CV.PNG)
+
+## 10. Detect faces in an image using Face SDK
+
+> 1. Discussion and Demo
+
+![Detect People CV](Documentation/Images/Detect_People_CV.PNG)
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
