@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/300324886](https://www.meetup.com/microsoft-reactor-bengaluru/events/300324886)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=aJXy1RYpLVQ](https://www.youtube.com/watch?v=aJXy1RYpLVQ)
 
 ## MS Learn Module(s)
 
@@ -115,6 +115,18 @@
 > 1. Please place these inside your `.env` file.
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
+
+## 9. Detect faces in an image using Azure AI Vision SDK
+
+> 1. Discussion and Demo
+
+![Detect People CV](Documentation/Images/Detect_People_CV.PNG)
+
+## 10. Detect faces in an image using Face SDK
+
+> 1. Discussion and Demo
+
+![Detect People Face](Documentation/Images/Detect_People_Face.PNG)
 
 ---
 
