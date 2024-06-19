@@ -129,7 +129,7 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
 ```
 
-![Text Analytics Docker Image Pull | 100x100](./Documentation/Images/AAIServices_Docker_Pull.PNG)
+![Read Analytics Docker Image Pull | 100x100](./Documentation/Images/AAIServices_Docker_Pull.PNG)
 
 #### Running the docker image
 
@@ -137,24 +137,20 @@ docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-202
 $ApiKey="111e11c1b111111c11111c11c1c1f11e"
 $BillingEndpoint="https://YourEndpoint.cognitiveservices.azure.com/"
 
-docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
+docker run --rm -it -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
 
 docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
 ```
 
 ### 4.4. Verify Local Docker Container using `Browser`
 
-![Text Analytics Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
+![Read Analytics Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
 
-### 4.5. Verify Local Docker Container using `CURL`
+### 4.5. Verify Local Docker Container using `Postman`
 
 > 1. Discussion and Demo
 
-```powershell
-curl -X POST "http://localhost:5005/text/analytics/v3.1/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
-```
-
-![Text Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Docker_Curl.PNG)
+![Read Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_Local_Postman.PNG)
 
 ## 5. Deploy and run a Text Analytics container on Azure Container Instance
 
@@ -192,3 +188,7 @@ curl -X POST "http://YourEndpoint.eastus.azurecontainer.io:5000/text/analytics/v
 > 2. Any open queries, I will get back through meetup chat/twitter.
 
 ---
+
+```
+curl -X POST "http://localhost:5005/text/analytics/v3.1/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
+```
