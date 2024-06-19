@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: textanalytics-deployment
+  name: readanalytics-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: textanalytics
+      app: readanalytics
   template:
     metadata:
       labels:
-        app: textanalytics
+        app: readanalytics
     spec:
       containers:
-        - name: textanalytics
-          image: mcr.microsoft.com/azure-cognitive-services/textanalytics/language
+        - name: readanalytics
+          image: mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
           ports:
             - containerPort: 5000
           env:
@@ -32,11 +32,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: textanalytics-service
+  name: readanalytics-service
 spec:
   type: LoadBalancer
   selector:
-    app: textanalytics
+    app: readanalytics
   ports:
   - protocol: TCP
     port: 5000
