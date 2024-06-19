@@ -126,7 +126,7 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 #### Pull in docker image
 
 ```powershell
-docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/language:latest
+docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
 ```
 
 ![Text Analytics Docker Image Pull | 100x100](./Documentation/Images/AAIServices_Docker_Pull.PNG)
@@ -138,6 +138,8 @@ $ApiKey="111e11c1b111111c11111c11c1c1f11e"
 $BillingEndpoint="https://YourEndpoint.cognitiveservices.azure.com/"
 
 docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
+
+docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
 ```
 
 ### 4.4. Verify Local Docker Container using `Browser`
