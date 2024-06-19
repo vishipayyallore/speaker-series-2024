@@ -42,12 +42,13 @@
 > 1. Understand containers
 >    - `Docker` installed Locally
 > 1. Use Azure AI services containers
-> 1. Deploy Azure AI services in containers
+> 1. Deploy Azure AI services in `Local Docker` containers
 >    - Provision an Azure AI Services resource
 >    - Retrieving AI Services Keys
 >    - Deploy and run a Text Analytics container on Local Docker
 >    - Verify Local Docker Container using `Browser`
->    - Verify Local Docker Container using `CURL`
+>    - Verify Local Docker Container using `Postman`
+> 1. Deploy Azure AI services containers on Azure Container Instance
 >    - Deploy and run a Text Analytics container on Azure Container Instance
 >    - Verify Text Analytics container on Azure Container Instance using `CURL`
 >    - Verify Text Analytics container on Azure Container Instance using `Postman`
@@ -90,7 +91,7 @@
 
 > 1. Discussion and Demo
 
-## 4. Deploy Azure AI services in containers
+## 4. Deploy Azure AI services in `Local Docker` containers
 
 > 1. Discussion and Demo
 
@@ -152,33 +153,34 @@ docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-co
 
 ![Read Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_Local_Postman.PNG)
 
-## 5. Deploy and run a Text Analytics container on Azure Container Instance
+## 5. Deploy Azure AI services containers on Azure Container Instance
 
 > 1. Discussion and Demo
+
+### 5.1. Create ACI resource, and host the AI Service container
+
+```text
+mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
+Port=5000
+ApiKey=YourApiKey
+Billing=https://YourAccount.cognitiveservices.azure.com/
+Eula=accept
+FQDN=FriendlyName
+```
 
 ![Azure Container Instance | 100x100](./Documentation/Images/AzureContainerInstance.PNG)
 
-### 5.1. Verify Text Analytics container on Azure Container Instance using `CURL`
+### 5.2. Verify Text Analytics container on Azure Container Instance using `Browser`
 
 > 1. Discussion and Demo
 
-```powershell
-curl -X POST "http://YourEndpoint.eastus.azurecontainer.io:5000/text/analytics/v3.1/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
-```
+![Read Analysis using Browser | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Browser.PNG)
 
-![Text Analysis using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Curl.PNG)
-
-### 5.2. Verify Text Analytics container on Azure Container Instance using `Postman`
+### 5.3. Verify Text Analytics container on Azure Container Instance using `Postman`
 
 > 1. Discussion and Demo
 
-![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
-
-### 5.3. Verify Text Analytics container on Azure Container Instance using `Python` Program
-
-> 1. Discussion and Demo
-
-![Text Analysis using Python Program | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Python.PNG)
+![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Postman.PNG)
 
 ---
 
@@ -189,6 +191,6 @@ curl -X POST "http://YourEndpoint.eastus.azurecontainer.io:5000/text/analytics/v
 
 ---
 
-```
+```powershell
 curl -X POST "http://localhost:5005/text/analytics/v3.1/languages" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'காலை வணக்கம்'},{'id':2,'text':'Salut tout le monde.'}]}"
 ```
