@@ -112,7 +112,7 @@
 
 ```powershell
 $rgname="rg-ai102-dev-001"
-$aaisvs="azais-ai102-dev-002"
+$aaisvs="azais-ai102-dev-001"
 
 az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
 
@@ -134,7 +134,10 @@ docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/language:la
 #### Running the docker image
 
 ```powershell
-docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing="https://YourEndpoint.cognitiveservices.azure.com/" ApiKey="YouAPIKey"
+$ApiKey="111e11c1b111111c11111c11c1c1f11e"
+$BillingEndpoint="https://YourEndpoint.cognitiveservices.azure.com/"
+
+docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
 ```
 
 ### 4.4. Verify Local Docker Container using `Browser`
