@@ -1,17 +1,14 @@
-# AI 102 - Build decision support with Azure AI Services
+# AI 102 - Deploy Azure AI services in containers
 
-## Date Time: 26-Mar-2024 at 05:00 PM IST
+## Date Time: 18-Jun-2024 at 09:00 AM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177](https://www.meetup.com/microsoft-reactor-bengaluru/events/299375177)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/300917624](https://www.meetup.com/dot-net-learners-house-hyderabad/events/300917624)
 
-## YouTube URL: [https://www.youtube.com/watch?v=EGP_t1xjpr4](https://www.youtube.com/watch?v=EGP_t1xjpr4)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
 > 1. <https://aka.ms/AIservicesincontainers>
-> 1. <https://aka.ms/Azure-ContentModerator>
-
-![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
 ---
 
@@ -42,8 +39,10 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Deploy Azure AI services in containers
+> 1. Understand containers
 >    - `Docker` installed Locally
+> 1. Use Azure AI services containers
+> 1. Deploy Azure AI services in containers
 >    - Provision an Azure AI Services resource
 >    - Retrieving AI Services Keys
 >    - Deploy and run a Text Analytics container on Local Docker
@@ -53,10 +52,8 @@
 >    - Verify Text Analytics container on Azure Container Instance using `CURL`
 >    - Verify Text Analytics container on Azure Container Instance using `Postman`
 >    - Verify Text Analytics container on Azure Container Instance using `Python` Program
-> 1. Classify and moderate text with Azure Content Moderator
+> 1. An Azure Kubernetes Service (AKS) cluster. **`Stretch Goal`**
 > 1. SUMMARY / RECAP / Q&A
-
-> 1. An Azure Kubernetes Service (AKS) cluster.
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
 
@@ -75,31 +72,41 @@
 
 ### Previous Session
 
-> 1. <https://www.youtube.com/watch?v=03dh8I5FZpo>
-> 1. <https://www.youtube.com/watch?v=XJS_9O4WePs>
+> 1. **Playlist:** [https://www.youtube.com/watch?v=LSbvf_Qtwb4&list=PLdLQDTLMjAzrb3Lbg2GrGErISdmg8n7YC](https://www.youtube.com/watch?v=LSbvf_Qtwb4&list=PLdLQDTLMjAzrb3Lbg2GrGErISdmg8n7YC)
 
 ### Current Architecture
 
 > 1. NA
 
-## 2. Deploy Azure AI services in containers
+## 2. Understand containers
 
 > 1. Discussion and Demo
+
+### 2.1. `Docker` installed Locally
+
+> 1. Discussion and Demo
+
+## 3. Use Azure AI services containers
+
+> 1. Discussion and Demo
+
+## 4. Deploy Azure AI services in containers
+
+> 1. Discussion and Demo
+
+**Reference(s):**
+
 > 1. <https://learn.microsoft.com/en-gb/training/modules/investigate-container-for-use-with-ai-services/1-introduction>
 > 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/04-use-a-container.html>
 > 1. <https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support>
 > 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview#deploy-on-premises-using-docker-containers>
 > 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/language-detection/how-to/use-containers>
 
-### `Docker` installed Locally
+### 4.1. Provision an Azure AI Services resource
 
 > 1. Discussion and Demo
 
-### Provision an Azure AI Services resource
-
-> 1. Discussion and Demo
-
-### Retrieving AI Services Keys
+### 4.2. Retrieving AI Services Keys
 
 > 1. Discussion and Demo
 
@@ -112,7 +119,7 @@ az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
 az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
 ```
 
-### Deploy and run a Text Analytics container on Local Docker
+### 4.3. Deploy and run a Text Analytics container on Local Docker
 
 > 1. Discussion and Demo
 
@@ -130,11 +137,11 @@ docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/language:la
 docker run --rm -it -p 5005:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing="https://YourEndpoint.cognitiveservices.azure.com/" ApiKey="YouAPIKey"
 ```
 
-### Verify Local Docker Container using `Browser`
+### 4.4. Verify Local Docker Container using `Browser`
 
 ![Text Analytics Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
 
-### Verify Local Docker Container using `CURL`
+### 4.5. Verify Local Docker Container using `CURL`
 
 > 1. Discussion and Demo
 
@@ -144,13 +151,13 @@ curl -X POST "http://localhost:5005/text/analytics/v3.1/languages" -H "Content-T
 
 ![Text Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Docker_Curl.PNG)
 
-### Deploy and run a Text Analytics container on Azure Container Instance
+## 5. Deploy and run a Text Analytics container on Azure Container Instance
 
 > 1. Discussion and Demo
 
 ![Azure Container Instance | 100x100](./Documentation/Images/AzureContainerInstance.PNG)
 
-### Verify Text Analytics container on Azure Container Instance using `CURL`
+### 5.1. Verify Text Analytics container on Azure Container Instance using `CURL`
 
 > 1. Discussion and Demo
 
@@ -160,25 +167,17 @@ curl -X POST "http://YourEndpoint.eastus.azurecontainer.io:5000/text/analytics/v
 
 ![Text Analysis using CURL | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Curl.PNG)
 
-### Verify Text Analytics container on Azure Container Instance using `Postman`
+### 5.2. Verify Text Analytics container on Azure Container Instance using `Postman`
 
 > 1. Discussion and Demo
 
 ![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Postman.PNG)
 
-### Verify Text Analytics container on Azure Container Instance using `Python` Program
+### 5.3. Verify Text Analytics container on Azure Container Instance using `Python` Program
 
 > 1. Discussion and Demo
 
 ![Text Analysis using Python Program | 100x100](./Documentation/Images/AAIServices_TextAnalysis_Python.PNG)
-
-## 3. Classify and moderate text with Azure Content Moderator
-
-> 1. Discussion and Demo
-> 1. <https://learn.microsoft.com/en-gb/training/modules/classify-and-moderate-text-with-azure-content-moderator/>
-> 1. <https://learn.microsoft.com/en-gb/training/modules/classify-and-moderate-text-with-azure-content-moderator/4-exercise-use-the-api-console>
-
-![Content Moderation | 100x100](./Documentation/Images/AAIServices_ContentModeration.PNG)
 
 ---
 
