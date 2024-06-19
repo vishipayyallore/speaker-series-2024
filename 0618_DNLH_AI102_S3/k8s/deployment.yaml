@@ -34,11 +34,10 @@ kind: Service
 metadata:
   name: textanalytics-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: textanalytics
   ports:
-    - protocol: TCP
-      port: 5000
-      targetPort: 5000
-      nodePort: 30000 # NodePort range is usually between 30000-32767
+  - protocol: TCP
+    port: 5000
+    targetPort: 5000
