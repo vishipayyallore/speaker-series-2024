@@ -182,6 +182,12 @@ FQDN=FriendlyName
 
 ![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Postman.PNG)
 
+## 6. Deploy Azure AI services containers on Azure Kubernetes Service
+
+![Azure Container Instance | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS.PNG)
+
+![Azure Container Instance | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS_Browser.PNG)
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
