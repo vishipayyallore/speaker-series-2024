@@ -48,6 +48,10 @@
 >    - Understand Azure Video Indexer capabilities
 >    - Extract custom insights
 >    - Use Video Analyzer widgets and APIs
+> 1. Analyze Video using Azure Video Indexer
+>    - Upload a video to Video Indexer
+>    - Review video insights
+>    - Search for insights
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
