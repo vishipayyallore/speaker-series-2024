@@ -42,14 +42,7 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Provision an Azure AI Services resource
->    - Retrieve the Endpoint and key
-> 1. Image Analysis Query from previous session
-> 1. Read Text in images and documents with the Azure AI Vision Service
->    - Working with Vision Studio
->    - Working with Read REST API in Postman
->    - Working with Azure AI Vision SDK
->    - Working with Azure AI Vision Read Container
+> 1. To be done
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -92,6 +85,24 @@
 > 1. Please place these inside your `.env` file.
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
+
+## 3. Azure Video Indexer
+
+> 1. Discussion on Azure Video Indexer from 30,000 foot view
+
+### 3.1. Understand Azure Video Indexer capabilities
+
+> 1. Discussion
+
+### 3.2. Extract custom insights
+
+> 1. Discussion
+
+### 3.3. Use Video Analyzer widgets and APIs
+
+> 1. Discussion
+> 1. Azure Video Indexer widgets
+> 1. Azure Video Indexer API
 
 ---
 
