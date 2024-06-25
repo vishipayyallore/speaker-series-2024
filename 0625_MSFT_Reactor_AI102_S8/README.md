@@ -42,7 +42,12 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. To be done
+> 1. Provision an Azure AI Services resource
+>    - Retrieve the `Endpoint` and `key`
+> 1. Azure Video Indexer
+>    - Understand Azure Video Indexer capabilities
+>    - Extract custom insights
+>    - Use Video Analyzer widgets and APIs
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -103,6 +108,20 @@
 > 1. Discussion
 > 1. Azure Video Indexer widgets
 > 1. Azure Video Indexer API
+
+## 4. Analyze Video using Azure Video Indexer
+
+> 1. <https://www.videoindexer.ai>
+
+### 4.1. Upload a video to Video Indexer
+
+> 1. Discussion
+
+### 4.2. Review video insights
+
+> 1. Discussion
+
+![Review Video Insights](Documentation/Images/ReviewVideoInsights.PNG)
 
 ---
 
