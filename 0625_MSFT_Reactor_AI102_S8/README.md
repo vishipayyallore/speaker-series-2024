@@ -123,6 +123,12 @@
 
 ![Review Video Insights](Documentation/Images/ReviewVideoInsights.PNG)
 
+### 4.3. Search for insights
+
+> 1. Discussion
+
+![Search For Insights](Documentation/Images/SearchForInsights.PNG)
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
