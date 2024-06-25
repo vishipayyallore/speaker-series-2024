@@ -77,38 +77,14 @@
 
 > 1. NA
 
-## 2. Identify options for face detection analysis and identification
-
-> 1. Discussion
-
-## 3. Understand considerations for face analysis
-
-> 1. Discussion
-
-## 4. Detect faces with the Azure AI Vision service
-
-> 1. Discussion
-
-## 5. Understand capabilities of the face service
-
-> 1. Discussion
-
-## 6. Compare and match detected faces
-
-> 1. Discussion
-
-## 7. Implement facial recognition
-
-> 1. Discussion
-
-## 8. Provision an Azure AI Services resource
+## 2. Provision an Azure AI Services resource
 
 > 1. Discussion and Demo
 > 1. Azure AI services multi-service account
 > 1. Resource Group name `rg-ai102-dev-001`
 > 1. Azure AI Services name `azaisvc-ai102-dev-001`
 
-### 8.1. Retrieve the `Endpoint` and `key`
+### 2.1. Retrieve the `Endpoint` and `key`
 
 > 1. Discussion and Demo
 > 1. Please place these inside your `secrets.json` which is outside your source code location, OR `appsettings.json` which is placed inside `.gitignore`
@@ -116,18 +92,6 @@
 > 1. Please place these inside your `.env` file.
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
-
-## 9. Detect faces in an image using Azure AI Vision SDK
-
-> 1. Discussion and Demo
-
-![Detect People CV](Documentation/Images/Detect_People_CV.PNG)
-
-## 10. Detect faces in an image using Face SDK
-
-> 1. Discussion and Demo
-
-![Detect People Face](Documentation/Images/Detect_People_Face.PNG)
 
 ---
 
