@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301170970](https://www.meetup.com/microsoft-reactor-bengaluru/events/301170970)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=VORLSfx1lsM](https://www.youtube.com/watch?v=VORLSfx1lsM)
 
 ## MS Learn Module(s)
 
