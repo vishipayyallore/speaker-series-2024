@@ -337,7 +337,13 @@ systemctl status webapi.service
 
 > 1. Discussion and Demo
 
+### 7.1. Creating AWS Code Pipeline
+
 ![AWS Code Pipeline](Documentation/Images/AWS_Code_Pipeline.PNG)
+
+### 7.2. Creating AWS Code Pipeline Execution History
+
+![AWS Code Pipeline](Documentation/Images/AWS_Code_Pipeline_History.PNG)
 
 ---
 
