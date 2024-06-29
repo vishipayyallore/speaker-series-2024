@@ -316,6 +316,7 @@ hooks:
 ### Use Code Deploy to deploy the latest binaries to EC2
 
 > 1. Discussion and Demo
+> 1. `s3://aws-ci-cd-demos/school-api-builds/66157743-2269-4bb2-ace8-f42ea64a2c4c/school-api`
 
 ![Code Deploy Binaries to EC2 | 100x100](./Documentation/Images/AWS_CodeDeploy_Binaries_EC2.PNG)
 
@@ -330,6 +331,13 @@ systemctl status webapi.service
 ```
 
 ![Code Deploy Binaries to EC2 | 100x100](./Documentation/Images/AWS_CodeDeploy_WebAPI_Logs.PNG)
+
+## 7. AWS Code Pipeline
+
+> 1. Discussion and Demo
+>
+
+![AWS Code Pipeline](Documentation/Images/AWS_Code_Pipeline.PNG)
 
 ---
 
