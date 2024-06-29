@@ -62,6 +62,7 @@
 >    - Create appspec.yml file
 >    - Use Code Deploy to deploy the latest binaries to EC2
 >    - Verify the deployed Minimal API using EC2's public IP / DNS
+> 1. AWS Code Pipeline
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/minimal-apis) of today's session for more details
@@ -335,7 +336,6 @@ systemctl status webapi.service
 ## 7. AWS Code Pipeline
 
 > 1. Discussion and Demo
->
 
 ![AWS Code Pipeline](Documentation/Images/AWS_Code_Pipeline.PNG)
 
