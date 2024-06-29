@@ -1,12 +1,12 @@
-# AWS - Code Commit, Build, Deploy with .NET 8 Minimal API
+# AWS - Code Commit, Build, Deploy, Pipeline with .NET 8 Minimal API
 
-## Date Time: 05-Feb-2024 at 09:00 AM IST
+## Date Time: 30-Jun-2024 at 09:00 AM IST
 
-## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/297030488](https://www.meetup.com/dot-net-learners-house-hyderabad/events/297030488)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/301436425](https://www.meetup.com/dot-net-learners-house-hyderabad/events/301436425)
 
-## YouTube URL: [https://www.youtube.com/watch?v=4A5j9gl_0uc](https://www.youtube.com/watch?v=4A5j9gl_0uc)
+## YouTube URL: [https://www.youtube.com/watch?v=5zdDnmKtpQ4](https://www.youtube.com/watch?v=5zdDnmKtpQ4)
 
-![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
+<!-- ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG) -->
 
 ---
 
