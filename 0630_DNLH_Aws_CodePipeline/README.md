@@ -84,6 +84,7 @@
 
 > 1. Code Commit <https://www.youtube.com/watch?v=h6l1GoE8qfw>
 > 1. Code Build <https://www.youtube.com/watch?v=hS2CTmgVNK4>
+> 1. Code Deploy <https://www.youtube.com/watch?v=4A5j9gl_0uc>
 
 ### Big Picture Look
 
