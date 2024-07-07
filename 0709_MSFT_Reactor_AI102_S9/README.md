@@ -169,6 +169,41 @@ docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-co
 
 ![Read Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_Local_Postman.PNG)
 
+## 5. Deploy Azure AI services containers on Azure Container Instance
+
+> 1. Discussion and Demo
+
+### 5.1. Create ACI resource, and host the AI Service container
+
+```text
+mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
+Port=5000
+ApiKey=YourApiKey
+Billing=https://YourAccount.cognitiveservices.azure.com/
+Eula=accept
+FQDN=FriendlyName
+```
+
+![Azure Container Instance | 100x100](./Documentation/Images/AzureContainerInstance.PNG)
+
+### 5.2. Verify Text Analytics container on Azure Container Instance using `Browser`
+
+> 1. Discussion and Demo
+
+![Read Analysis using Browser | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Browser.PNG)
+
+### 5.3. Verify Text Analytics container on Azure Container Instance using `Postman`
+
+> 1. Discussion and Demo
+
+![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Postman.PNG)
+
+## 6. Deploy Azure AI services containers on Azure Kubernetes Service
+
+![Azure Container Instance | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS.PNG)
+
+![Azure Container Instance | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS_Browser.PNG)
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
