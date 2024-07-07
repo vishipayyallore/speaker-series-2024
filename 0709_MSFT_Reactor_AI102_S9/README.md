@@ -42,20 +42,23 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
-> 1. Provision an Azure AI Services resource
->    - Retrieve the `Endpoint` and `key`
-> 1. Azure Video Indexer
->    - Understand Azure Video Indexer capabilities
->    - Extract custom insights
->    - Use Video Analyzer widgets and APIs
-> 1. Analyze Video using Azure Video Indexer
->    - Upload a video to Video Indexer
->    - Review video insights
->    - Search for insights
-> 1. Use Video Indexer widgets
-> 1. Use the Video Indexer REST API
->    - PowerShell Scripts
->    - Postman
+> 1. Understand containers
+>    - `Docker` installed Locally
+> 1. Use Azure AI services containers
+> 1. Deploy Azure AI services in `Local Docker` containers
+>    - Provision an Azure AI Services resource
+>    - Retrieving AI Services Keys
+>    - Deploy and run a Text Analytics container on Local Docker
+>    - Verify Local Docker Container using `Browser`
+>    - Verify Local Docker Container using `Postman`
+> 1. Deploy Azure AI services containers on Azure Container Instance
+>    - Deploy and run a Text Analytics container on Azure Container Instance
+>    - Verify Local Docker Container using `Browser`
+>    - Verify Text Analytics container on Azure Container Instance using `Postman`
+> 1. An Azure Kubernetes Service (AKS) cluster
+>    - Deploy and run a Text Analytics container on Azure Kubernetes Service
+>    - Verify Local Docker Container using `Browser`
+>    - Verify Text Analytics container on Azure Container Instance using `Postman`
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
