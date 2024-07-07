@@ -42,6 +42,8 @@
 >    - Pre-requisites
 >    - Previous Session
 >    - Current Architecture
+> 1. Provision an Azure AI Services resource
+>    - Retrieve the `Endpoint` and `key`
 > 1. Understand containers
 >    - `Docker` installed Locally
 > 1. Use Azure AI services containers
@@ -71,7 +73,7 @@
 
 ## 1. The Big Picture
 
-> 1. Discussion on Vision and Video Indexer
+> 1. Discussion on Azure AI Services in Containers
 
 ### Pre-requisites
 
@@ -102,59 +104,71 @@
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
 
-## 3. Azure Video Indexer
+## 3. Understand containers
 
-> 1. Discussion on Azure Video Indexer from 30,000 foot view
+> 1. Discussion and Demo
 
-### 3.1. Understand Azure Video Indexer capabilities
+### 3.1. `Docker` installed Locally
 
-> 1. Discussion
+> 1. Discussion and Demo
 
-### 3.2. Extract custom insights
+## 4. Deploy Azure AI services in `Local Docker` containers
 
-> 1. Discussion
+> 1. Discussion and Demo
 
-### 3.3. Use Video Analyzer widgets and APIs
+**Reference(s):**
 
-> 1. Discussion
-> 1. Azure Video Indexer widgets
-> 1. Azure Video Indexer API
+> 1. <https://learn.microsoft.com/en-gb/training/modules/investigate-container-for-use-with-ai-services/1-introduction>
+> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/04-use-a-container.html>
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support>
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview#deploy-on-premises-using-docker-containers>
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/language-detection/how-to/use-containers>
 
-## 4. Analyze Video using Azure Video Indexer
+### 4.1. Retrieving AI Services Keys
 
-> 1. <https://www.videoindexer.ai>
+> 1. Discussion and Demo
 
-### 4.1. Upload a video to Video Indexer
+```powershell
+$rgname="rg-ai102-dev-001"
+$aaisvs="azais-ai102-dev-001"
 
-> 1. Discussion
+az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
 
-### 4.2. Review video insights
+az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
+```
 
-> 1. Discussion
+### 4.2. Deploy and run a Text Analytics container on Local Docker
 
-![Review Video Insights](Documentation/Images/ReviewVideoInsights.PNG)
+> 1. Discussion and Demo
 
-### 4.3. Search for insights
+#### Pull in docker image
 
-> 1. Discussion
+```powershell
+docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
+```
 
-![Search For Insights](Documentation/Images/SearchForInsights.PNG)
+![Read Analytics Docker Image Pull | 100x100](./Documentation/Images/AAIServices_Docker_Pull.PNG)
 
-## 5. Use Video Indexer widgets
+#### Running the docker image
 
-> 1. Discussion
+```powershell
+$ApiKey="111e11c1b111111c11111c11c1c1f11e"
+$BillingEndpoint="https://YourEndpoint.cognitiveservices.azure.com/"
 
-## 6. Use the Video Indexer REST API
+docker run --rm -it -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
 
-> 1. Discussion
+docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
+```
 
-### 6.1. PowerShell Scripts
+### 4.4. Verify Local Docker Container using `Browser`
 
-> 1. Discussion
+![Read Analytics Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
 
-### 6.2. Postman
+### 4.5. Verify Local Docker Container using `Postman`
 
-> 1. Discussion
+> 1. Discussion and Demo
+
+![Read Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_Local_Postman.PNG)
 
 ---
 
