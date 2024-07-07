@@ -1,10 +1,10 @@
-# AI 102 - Unlocking Insights with Azure's AI Vision Service & Video Indexer
+# AI 102 - Deploy Azure AI Services in Containers, ACI, and AKS
 
-## Date Time: 25-Jun-2024 at 05:00 PM IST
+## Date Time: 09-Jul-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301170970](https://www.meetup.com/microsoft-reactor-bengaluru/events/301170970)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944](https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944)
 
-## YouTube URL: [https://www.youtube.com/watch?v=VORLSfx1lsM](https://www.youtube.com/watch?v=VORLSfx1lsM)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
