@@ -46,7 +46,6 @@
 >    - Retrieve the `Endpoint` and `key`
 > 1. Understand containers
 >    - `Docker` installed Locally
-> 1. Use Azure AI services containers
 > 1. Deploy Azure AI services in `Local Docker` containers
 >    - Provision an Azure AI Services resource
 >    - Retrieving AI Services Keys
