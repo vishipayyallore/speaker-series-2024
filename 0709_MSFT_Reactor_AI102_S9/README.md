@@ -129,7 +129,7 @@
 
 ```powershell
 $rgname="rg-ai102-dev-001"
-$aaisvs="azais-ai102-dev-001"
+$aaisvs="aisvc-central-india-001"
 
 az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
 
