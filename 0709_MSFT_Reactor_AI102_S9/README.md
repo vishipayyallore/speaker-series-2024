@@ -103,15 +103,34 @@
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
 
-## 3. Understand containers
+### 2.2. Retrieving AI Services Keys
 
 > 1. Discussion and Demo
 
-### 3.1. `Docker` installed Locally
+```powershell
+$rgname="rg-ai102-dev-001"
+$aaisvs="aisvc-central-india-001"
+
+az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
+
+az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
+```
+
+## 3. Verifying the Vision Analysis using Azure Service and Postman
 
 > 1. Discussion and Demo
 
-## 4. Deploy Azure AI services in `Local Docker` containers
+![AI Service VisionAnalysis in Postman | 100x100](./Documentation/Images/AISvc_VisionAnalysis_Postman.PNG)
+
+## 4. Understand containers
+
+> 1. Discussion and Demo
+
+### 4.1. `Docker` installed Locally
+
+> 1. Discussion and Demo
+
+## 5. Deploy Azure AI services as `Local Docker` containers
 
 > 1. Discussion and Demo
 
@@ -123,20 +142,7 @@
 > 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview#deploy-on-premises-using-docker-containers>
 > 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/language-detection/how-to/use-containers>
 
-### 4.1. Retrieving AI Services Keys
-
-> 1. Discussion and Demo
-
-```powershell
-$rgname="rg-ai102-dev-001"
-$aaisvs="azais-ai102-dev-001"
-
-az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
-
-az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
-```
-
-### 4.2. Deploy and run a Text Analytics container on Local Docker
+### 5.1. Deploy and run a Vision container on Local Docker
 
 > 1. Discussion and Demo
 
