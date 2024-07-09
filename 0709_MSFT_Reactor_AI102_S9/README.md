@@ -185,13 +185,13 @@ docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-co
 
 > 1. Discussion and Demo
 
-### 5.1. Create ACI resource, and host the AI Service container
+### 6.1. Create ACI resource, and host the AI Service container
 
 ```text
 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
 Port=5000
-ApiKey=YourApiKey
-Billing=https://YourAccount.cognitiveservices.azure.com/
+ApiKey=111e11c1b111111c11111c11c1c1f11e
+Billing=https://YourEndpoint.cognitiveservices.azure.com/
 Eula=accept
 FQDN=FriendlyName
 ```
