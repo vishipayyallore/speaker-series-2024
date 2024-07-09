@@ -218,6 +218,11 @@ FQDN=FriendlyName
 
 ### 7.2. Deploy Vision Container inside AKS
 
+```powershell
+kubectl apply -f .\deployment.yaml
+kubectl delete -f .\deployment.yaml
+```
+
 ```yml
 apiVersion: apps/v1
 kind: Deployment
