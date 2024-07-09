@@ -218,6 +218,8 @@ FQDN=FriendlyName
 
 ### 7.2. Deploy Vision Container inside AKS
 
+![Azure Kubernets Cluster Deploy | 100x100](./Documentation/Images/AKS_VisionService_Deploy.PNG)
+
 ```powershell
 kubectl apply -f .\deployment.yaml
 kubectl delete -f .\deployment.yaml
@@ -271,7 +273,11 @@ spec:
 
 ### 7.3. Verify Vision container inside Azure Kubernetes Cluster using `Browser`
 
-![Azure Container Instance | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS_Browser.PNG)
+![Azure Kubernetes Cluster | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS_Browser.PNG)
+
+### 7.4. Verify Vision container on Azure Kubernetes Cluster using `Postman`
+
+![Azure Kubernetes Cluster | 100x100](./Documentation/Images/AKS_VisionService_Postman.PNG)
 
 ---
 
