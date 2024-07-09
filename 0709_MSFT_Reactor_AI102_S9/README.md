@@ -49,17 +49,17 @@
 > 1. Deploy Azure AI services in `Local Docker` containers
 >    - Provision an Azure AI Services resource
 >    - Retrieving AI Services Keys
->    - Deploy and run a Text Analytics container on Local Docker
+>    - Deploy and run a Vision container on Local Docker
 >    - Verify Local Docker Container using `Browser`
 >    - Verify Local Docker Container using `Postman`
 > 1. Deploy Azure AI services containers on Azure Container Instance
->    - Deploy and run a Text Analytics container on Azure Container Instance
+>    - Deploy and run a Vision container on Azure Container Instance
 >    - Verify Local Docker Container using `Browser`
->    - Verify Text Analytics container on Azure Container Instance using `Postman`
+>    - Verify Vision container on Azure Container Instance using `Postman`
 > 1. An Azure Kubernetes Service (AKS) cluster
->    - Deploy and run a Text Analytics container on Azure Kubernetes Service
+>    - Deploy and run a Vision container on Azure Kubernetes Service
 >    - Verify Local Docker Container using `Browser`
->    - Verify Text Analytics container on Azure Container Instance using `Postman`
+>    - Verify Vision container on Azure Container Instance using `Postman`
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -198,21 +198,73 @@ FQDN=FriendlyName
 
 ![Azure Container Instance | 100x100](./Documentation/Images/AzureContainerInstance.PNG)
 
-### 5.2. Verify Text Analytics container on Azure Container Instance using `Browser`
+### 6.2. Verify Vision container on Azure Container Instance using `Browser`
 
 > 1. Discussion and Demo
 
 ![Read Analysis using Browser | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Browser.PNG)
 
-### 5.3. Verify Text Analytics container on Azure Container Instance using `Postman`
+### 6.3. Verify Vision container on Azure Container Instance using `Postman`
 
 > 1. Discussion and Demo
 
 ![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Postman.PNG)
 
-## 6. Deploy Azure AI services containers on Azure Kubernetes Service
+## 7. Deploy Azure AI services containers on Azure Kubernetes Service
 
-![Azure Container Instance | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS.PNG)
+### 7.1. Create Azure Kubernetes Service
+
+![Azure Kubernets Cluster | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS.PNG)
+
+### 7.2. Deploy Vision Container inside AKS
+
+```yml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: readanalytics-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: readanalytics
+  template:
+    metadata:
+      labels:
+        app: readanalytics
+    spec:
+      containers:
+        - name: readanalytics
+          image: mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
+          ports:
+            - containerPort: 5000
+          env:
+            - name: Eula
+              value: "accept"
+            - name: Billing
+              value: "https://YourEndpoint.cognitiveservices.azure.com/"
+            - name: ApiKey
+              value: "111e11c1b111111c11111c11c1c1f11e"
+          resources:
+            limits:
+              memory: "4Gi"
+              cpu: "1"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: readanalytics-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: readanalytics
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+```
+
+### 7.3. Verify Vision container inside Azure Kubernetes Cluster using `Browser`
 
 ![Azure Container Instance | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS_Browser.PNG)
 
