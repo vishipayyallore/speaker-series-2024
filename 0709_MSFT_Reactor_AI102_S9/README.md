@@ -120,13 +120,13 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 
 > 1. Discussion and Demo
 
-![AI Service VisionAnalysis in Postman | 100x100](./Documentation/Images/AISvc_VisionAnalysis_Postman.PNG)
+![AI Service Vision Analysis in Postman | 100x100](./Documentation/Images/AISvc_VisionAnalysis_Postman.PNG)
 
-## 4. Understand containers
+## 4. Understanding containers
 
 > 1. Discussion and Demo
 
-### 4.1. `Docker` installed Locally
+### 4.1. `Docker` desktop installed Locally
 
 > 1. Discussion and Demo
 
@@ -165,17 +165,23 @@ docker run --rm -it -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-c
 docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
 ```
 
-### 4.4. Verify Local Docker Container using `Browser`
+### 5.2. Verify Local Docker Container using `Browser`
 
-![Read Analytics Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
+![Vision Analysis Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
 
-### 4.5. Verify Local Docker Container using `Postman`
+### 5.3. Verify Local Docker Container using `Postman`
 
 > 1. Discussion and Demo
 
-![Read Analysis Docker using CURL | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_Local_Postman.PNG)
+![Vision Analysis Docker using Postman | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_Local_Postman.PNG)
 
-## 5. Deploy Azure AI services containers on Azure Container Instance
+### 5.4. Regenerate the API Key and verify the `docker` container
+
+> 1. Discussion and Demo
+
+![AAIServices Docker Container After Key Regeneration | 100x100](./Documentation/Images/AAIServices_Docker_Container_After_KeyGen.PNG)
+
+## 6. Deploy Azure AI services containers on Azure Container Instance
 
 > 1. Discussion and Demo
 
