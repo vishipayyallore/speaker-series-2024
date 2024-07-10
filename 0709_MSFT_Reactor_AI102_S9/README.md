@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944](https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=J1QU3rWHutk](https://www.youtube.com/watch?v=J1QU3rWHutk)
 
 ## MS Learn Module(s)
 
@@ -43,23 +43,25 @@
 >    - Previous Session
 >    - Current Architecture
 > 1. Provision an Azure AI Services resource
->    - Retrieve the `Endpoint` and `key`
-> 1. Understand containers
+>    - Retrieve the `Endpoint` and `key` from Portal
+>    - Retrieve/Modify the `key` using PowerShell
+> 1. Verifying the Vision Analysis using Azure Service and Postman
+> 1. Understanding containers
 >    - `Docker` installed Locally
-> 1. Deploy Azure AI services in `Local Docker` containers
->    - Provision an Azure AI Services resource
->    - Retrieving AI Services Keys
+> 1. Deploy Azure AI services as Local Docker containers
 >    - Deploy and run a Vision container on Local Docker
 >    - Verify Local Docker Container using `Browser`
 >    - Verify Local Docker Container using `Postman`
+>    - Regenerate the API Key and verify the docker container
 > 1. Deploy Azure AI services containers on Azure Container Instance
->    - Deploy and run a Vision container on Azure Container Instance
->    - Verify Local Docker Container using `Browser`
+>    - Create ACI resource, and host the AI Service container
+>    - Verify Vision container on Azure Container Instance using `Browser`
 >    - Verify Vision container on Azure Container Instance using `Postman`
-> 1. An Azure Kubernetes Service (AKS) cluster
->    - Deploy and run a Vision container on Azure Kubernetes Service
->    - Verify Local Docker Container using `Browser`
->    - Verify Vision container on Azure Container Instance using `Postman`
+> 1. Deploy Azure AI services containers on Azure Kubernetes Service
+>    - Create Azure Kubernetes Service Cluster
+>    - Deploy Vision Container inside AKS
+>    - Verify Vision container inside Azure Kubernetes Cluster using `Browser`
+>    - Verify Vision container on Azure Kubernetes Cluster using `Postman`
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -94,7 +96,7 @@
 > 1. Resource Group name `rg-ai102-dev-001`
 > 1. Azure AI Services name `azaisvc-ai102-dev-001`
 
-### 2.1. Retrieve the `Endpoint` and `key`
+### 2.1. Retrieve the `Endpoint` and `key` from Portal
 
 > 1. Discussion and Demo
 > 1. Please place these inside your `secrets.json` which is outside your source code location, OR `appsettings.json` which is placed inside `.gitignore`
@@ -103,7 +105,7 @@
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
 
-### 2.2. Retrieving AI Services Keys
+### 2.2. Retrieve/Modify the `key` using PowerShell
 
 > 1. Discussion and Demo
 
@@ -212,7 +214,7 @@ FQDN=FriendlyName
 
 ## 7. Deploy Azure AI services containers on Azure Kubernetes Service
 
-### 7.1. Create Azure Kubernetes Service
+### 7.1. Create Azure Kubernetes Service Cluster
 
 ![Azure Kubernets Cluster | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS.PNG)
 
