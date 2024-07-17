@@ -1,10 +1,10 @@
-# Microservices using .NET 8, and DAPR (Service to Service Invocation)
+# Kickstart Your Journey with Azure OpenAI Service (AI 102)
 
-## Date Time: 15-Jan-2024 at 09:00 AM IST
+## Date Time: 19-Jul-2024 at 07:30 PM IST
 
-## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/296871916](https://www.meetup.com/dot-net-learners-house-hyderabad/events/296871916)
+## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302056811](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302056811)
 
-## YouTube URL: [https://www.youtube.com/watch?v=0YhKUkLHWgM](https://www.youtube.com/watch?v=0YhKUkLHWgM)
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -49,82 +49,99 @@
 
 ---
 
-## The Big Picture
+## 1. The Big Picture
 
-### Pre-requisites
+### 1.1. Pre-requisites
 
-> 1. Docker should be running
-> 1. Installation and Initialization of Dapr
+> 1. Azure Subscription
+> 1. .NET 8 / Python
 
-### Executing Services in dapr using Resiliency
+### 1.2. Previous Session(s)
 
-![Circuit Breaker | 100x100](./Documentation/Images/SessionFirstLook.PNG)
+> 1. To_Be_Done
 
-## DAPR (Distributed Application Runtime) from 30,000 foot
+## 2. What is Intelligence?
 
-Dapr is a portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks. It is created by Microsoft with an open source approach and it is a Cloud Native Computing Foundation (`CNCF`) incubated project.
+> 1. Discussion
 
-> 1. Discussion and Demo
-> 1. <https://docs.dapr.io/concepts/overview/>
+## 3. A few Terms AI, ML, Auto ML, DL, NLP, GAI
+
+> 3.1. **Artificial Intelligence (AI):**
+>
+> - AI refers to the broader field of computer science focused on creating machines and software that can perform tasks that typically require human intelligence.
+> - It encompasses various techniques and approaches, including machine learning and deep learning, to enable systems to reason, learn, perceive, and solve complex problems.
+> - Strong / General AI => Do lots of things
+> - Narrow / Weak AI => Perform specific things
 
 ---
 
-## Creating two Microservices
+> 3.2. **Machine Learning (ML):**
+>
+> - ML is a subset of AI that involves the development of algorithms and models that allow computers to learn from data and make predictions or decisions without being explicitly programmed.
+> - ML includes supervised, unsupervised, and reinforcement learning, among others, and finds applications in areas like image recognition and recommendation systems.
+> - Data Collection | Data Preparation | Model Selection | Train Model | Evaluate Model | Parameter tuning | Prediction | (GAI => New Content)
 
-> 1. Discussion and Demo
+---
 
-### Orders Reservation Service
+> 3.3. **Deep Learning (DL):**
+>
+> - DL is a subfield of ML that focuses on neural networks with many layers (deep neural networks). It handles complex, high-dimensional data, such as images and text.
+> - DL has led to breakthroughs in areas like computer vision, natural language processing, and speech recognition, and it relies on large datasets and powerful hardware like GPUs.
 
-![Orders Service | 100x100](./Documentation/Images/OrdersService.PNG)
+---
 
-### Items Reservation Service
+> 4.4. **Natural Language Processing (NLP):**
+>
+> - NLP is a branch of AI that deals with the interaction between computers and human language. It enables machines to understand, interpret, and generate human language.
+> - NLP is used in chatbots, sentiment analysis, machine translation, and more, and it involves tasks like tokenization, part-of-speech tagging, and language generation.
 
-![Items Reservation Service | 100x100](./Documentation/Images/ItemsReservationService.PNG)
+---
 
-## How communication works between two services
+> 3.5. **Generative AI:**
+>
+> - Generative AI refers to AI systems capable of generating new, original content, such as text, images, or music, often with some creativity.
+> - It includes techniques like Generative Adversarial Networks (GANs) and variational autoencoders (VAEs), which have applications in art generation, content creation, and data augmentation.
+> - 1.1. **Generative Adversarial Networks (GANs):**
+>   - GANs are a class of deep learning models consisting of two neural networks, a generator, and a discriminator, which are trained simultaneously through a competitive process.
+>   - The generator aims to create data (e.g., images) that is indistinguishable from real data, while the discriminator tries to distinguish between real and generated data. This adversarial training process results in the generation of high-quality, realistic data and has applications in image generation, style transfer, and more.
+> - 1.2. **Variational Autoencoders (VAEs):**
+>   - VAEs are another type of generative model used in unsupervised learning. They consist of an encoder network that maps input data into a latent space and a decoder network that reconstructs data from the latent space.
+>   - VAEs are used for generating new data samples and learning meaningful representations of data. They are particularly useful in applications like image generation, anomaly detection, and data compression due to their ability to generate diverse and structured data from a continuous latent space.
 
-> 1. Discussion and Demo
+## 4. ELIZA - The early Natural Language Processing (NLP) Chatbot
 
-![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services.PNG)
+> **ELIZA:**
+>
+> - ELIZA is one of the earliest and most well-known examples of a natural language processing (NLP) chatbot. Developed in the mid-1960s by Joseph Weizenbaum at the Massachusetts Institute of Technology (MIT), ELIZA was designed to simulate a Rogerian psychotherapist. Its primary purpose was to engage users in conversation and provide responses based on simple pattern recognition.
+> - It was one of the first chatbots to use natural language processing techniques to simulate human conversation.
+> - ELIZA demonstrated that even with relatively simple pattern-matching techniques, a computer program could engage users in meaningful conversations. While it was limited in its capabilities compared to modern chatbots, it was a pioneering step in the field of NLP and human-computer interaction.
 
-### Service to Service Invocation
+Reference(s):
 
-> 1. <https://docs.dapr.io/developing-applications/building-blocks/service-invocation/service-invocation-overview/>
-> 1. Dapr facilitates service-to-service invocation by providing a standardized and language-agnostic approach. Through the Dapr API, services can easily communicate with each other using the sidecar pattern, enabling seamless interaction between microservices. Dapr abstracts away the complexities of network communication, making it straightforward to invoke methods on remote services.
+> 1. [https://en.wikipedia.org/wiki/ELIZA](https://en.wikipedia.org/wiki/ELIZA)
 
-![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services_2.PNG)
+## 5. Azure Open AI, Transformer, and GPT
 
-### Name Resolution
+### 5.1. **Azure Open AI:**
 
-> 1. <https://docs.dapr.io/reference/components-reference/supported-name-resolution/>
-> 1. Name resolution in Dapr involves the ability to dynamically discover and address services within a distributed system. Dapr supports service discovery by allowing services to be addressed using their logical names. This abstraction enhances flexibility, as the actual location or IP address of a service can change without affecting the calling service. Dapr's name resolution simplifies the development and deployment of microservices by providing a consistent and adaptable way to identify and communicate with other services.
+> - Azure OpenAI is a cloud-based service provided by Microsoft Azure that offers access to the power of OpenAI's language models, such as GPT-3, GPT-4, and others. It enables developers to integrate natural language understanding and text generation capabilities into their applications and services. Azure OpenAI is designed for a wide range of use cases, including chatbots, content generation, language translation, and more, and it offers scalable and efficient access to advanced AI language capabilities via a RESTful API. It provides developers with the tools they need to build intelligent, language-driven applications.
 
-![Services | 100x100](./Documentation/Images/DAPR_Dashboard_Services_1.PNG)
+### 5.2. **Transformer:**
 
-## Resiliency
+> - A "Transformer" in the context of artificial intelligence and machine learning is not a physical device but a type of deep learning model architecture that has had a significant impact on various natural language processing (NLP) tasks and other machine learning domains.
+> - These topics are interconnected, with AI being the overarching field that encompasses various subfields like ML, DL, NLP, and Generative AI. Each of these subfields has its own set of techniques and applications, contributing to the advancement of artificial intelligence.
 
-> 1. <https://docs.dapr.io/operations/resiliency/resiliency-overview/>
-> 1. Resiliency in Dapr refers to the system's ability to recover gracefully from failures and maintain consistent functionality. Dapr supports resiliency by providing features like retries, timeouts, and circuit breakers, which collectively contribute to building robust and fault-tolerant distributed applications.
-> 1. Dapr's resiliency features, including timeouts, retries, and circuit breakers, collectively contribute to building robust and fault-tolerant distributed systems. They help handle transient failures, set boundaries on operation durations, and prevent cascading failures across microservices.
+---
 
-### Timeouts
+> 4.2. **GPT - Generative Pre-trained Transformer:**
+>
+> - The term "GPT" stands for "Generative Pre-trained Transformer." It refers to a class of deep learning models used for various natural language processing (NLP) tasks. These models are characterized by their ability to generate human-like text and their architecture, which is based on the Transformer neural network.
+>   - **Generative**: GPT models are capable of generating human-readable text. They can be used for tasks like text completion, text summarization, and even creative writing.
+>   - **Pre-trained**: GPT models are initially trained on a large corpus of text data from the internet. This pre-training phase allows them to learn grammar, context, and world knowledge from a wide range of sources.
+>   - **Transformer**: The underlying architecture of GPT models is the Transformer, which is a neural network architecture introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. The Transformer architecture relies on the self-attention mechanism, which allows the model to consider the context and relationships between words in a sequence efficiently.
+> - GPT models, such as GPT-3, GPT-4, and others, have achieved remarkable performance in various NLP tasks and have been widely adopted in the field of artificial intelligence. They have applications in natural language understanding, text generation, language translation, chatbots, and more.
 
-> 1. Timeouts in Dapr represent the maximum allowable duration for an operation to complete. By setting appropriate timeouts, you ensure that your application doesn't wait indefinitely for a response, preventing potential resource exhaustion and improving overall system responsiveness. Timeouts are crucial in managing the performance and reliability of distributed systems.
-
-### Retries
-
-> 1. Dapr supports automatic retries to handle transient failures that might occur during communication with external services. By specifying a retry policy, you can instruct Dapr to reattempt an operation if the initial attempt fails, helping to mitigate temporary issues and enhance the reliability of interactions between microservices.
-
-![Retry | 100x100](./Documentation/Images/DAPR_Retry.PNG)
-
-### Circuit Breaker
-
-> 1. <https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker>
-> 1. The circuit breaker pattern in Dapr is a mechanism to prevent continuous retries during persistent failures. It monitors the health of an external service, and if a predefined failure threshold is reached, the circuit breaker "trips," temporarily preventing further attempts. This helps to avoid overloading the failing service and allows it time to recover before resuming normal operation.
-
-![Circuit Breaker | 100x100](./Documentation/Images/SessionFirstLook.PNG)
-
-![Circuit Breaker | 100x100](./Documentation/Images/DAPR_Circuit_Breaker.PNG)
+---
 
 ## SUMMARY / RECAP / Q&A
 
