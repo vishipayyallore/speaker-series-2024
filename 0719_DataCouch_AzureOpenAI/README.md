@@ -141,6 +141,16 @@ Reference(s):
 >   - **Transformer**: The underlying architecture of GPT models is the Transformer, which is a neural network architecture introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. The Transformer architecture relies on the self-attention mechanism, which allows the model to consider the context and relationships between words in a sequence efficiently.
 > - GPT models, such as GPT-3, GPT-4, and others, have achieved remarkable performance in various NLP tasks and have been widely adopted in the field of artificial intelligence. They have applications in natural language understanding, text generation, language translation, chatbots, and more.
 
+## 5. Tokens Tokens Tokens and more Tokens
+
+> 1. Discussion and Demo
+
+**References:**
+
+> 1. [https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
+
+![Tokenizer | 100x100](./Documentation/Images/Tokenizer.PNG)
+
 ---
 
 ## SUMMARY / RECAP / Q&A
