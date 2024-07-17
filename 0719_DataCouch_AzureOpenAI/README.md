@@ -149,3 +149,7 @@
 > 2. Any open queries, I will get back through meetup chat/twitter.
 
 ---
+
+> 1. https://github.com/vishipayyallore/speaker-series-2023/blob/main/On.NETLiveShows/20231030_BuildYourOwnChatGPT/README.md
+> 1. https://github.com/vishipayyallore/speaker-series-2023/tree/main/AzureOpenAI/2023May20_GettingStarted
+> 1. https://github.com/vishipayyallore/speaker-series-2023/tree/main/microsoft-reactor/20230719_AzureOpenAIStudio
