@@ -93,10 +93,10 @@
 
 > - Generative AI refers to AI systems capable of generating new, original content, such as text, images, or music, often with some creativity.
 > - It includes techniques like Generative Adversarial Networks (GANs) and variational autoencoders (VAEs), which have applications in art generation, content creation, and data augmentation.
-> - 3.5.1. Generative Adversarial Networks (GANs)
+> - **Generative Adversarial Networks (GANs)**
 >   - GANs are a class of deep learning models consisting of two neural networks, a generator, and a discriminator, which are trained simultaneously through a competitive process.
 >   - The generator aims to create data (e.g., images) that is indistinguishable from real data, while the discriminator tries to distinguish between real and generated data. This adversarial training process results in the generation of high-quality, realistic data and has applications in image generation, style transfer, and more.
-> - 3.5.2. Variational Autoencoders (VAEs)
+> - **Variational Autoencoders (VAEs)**
 >   - VAEs are another type of generative model used in unsupervised learning. They consist of an encoder network that maps input data into a latent space and a decoder network that reconstructs data from the latent space.
 >   - VAEs are used for generating new data samples and learning meaningful representations of data. They are particularly useful in applications like image generation, anomaly detection, and data compression due to their ability to generate diverse and structured data from a continuous latent space.
 
