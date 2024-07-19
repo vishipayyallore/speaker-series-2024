@@ -183,9 +183,21 @@ az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --k
 > 1. Discussion and Demo
 > 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line)
 
-### 8.2. Trying couple of Built-in Completion Examples in Azure AI Studio
+### 8.2. Explore types of generative AI models
 
 > 1. Discussion and Demo
+
+### 8.3. Deploy generative AI models
+
+> 1. Discussion and Demo
+
+![Model Deployment | 100x100](./Documentation/Images/AOAI_Model_Deployment.PNG)
+
+### 8.4. Trying couple of Built-in Completion Examples in Azure AI Studio
+
+> 1. Discussion and Demo
+
+![Azure AI Studio Sample | 100x100](./Documentation/Images/AOAI_Studio_Sample.PNG)
 
 ## 9. Tokens Tokens Tokens and more Tokens
 
@@ -202,7 +214,7 @@ az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --k
 > 1. Discussion and Demo
 
 ```text
-Input: Happy Birthday
+Input: Please write a Happy Birthday wishes for my Mother
 
 Input: Give the top 5 food items from South India
 
@@ -218,6 +230,8 @@ Input: Tell me two jokes about simple people
 ## 10. Trying our own Completion Examples using Postman
 
 > 1. Discussion and Demo
+
+![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions.PNG)
 
 ## 11. Trying our own Completion Examples using `C#`
 
