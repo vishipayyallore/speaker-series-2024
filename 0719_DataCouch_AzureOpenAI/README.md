@@ -135,23 +135,20 @@
 
 > 1. Discussion and Demo
 
-**References:**
-
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits)
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models)
-
 ### 6.1. What is Azure OpenAI Service?
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
 
 ### 6.2. Azure OpenAI Service quotas and limits
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits)
 
 ### 6.3. Azure OpenAI Service models
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models)
 
 ## 7. Access Azure OpenAI Service
 
@@ -161,9 +158,21 @@
 
 > 1. Discussion and Demo
 
+![Azure Open AI using Portal | 100x100](./Documentation/Images/AOAI_Using_Portal.PNG)
+
 ### 7.2. Creating Azure Open AI using az CLI
 
 > 1. Discussion and Demo
+
+```powershell
+$aoaiName = "azoai-ai102-dev-" + (Get-Random)
+$resourceGroup = "rg-ai102-dev-001"
+$subscriptionID = "YourSubscriptionId"
+
+az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --kind OpenAI --sku s0 --subscription $subscriptionID
+```
+
+![Azure Open AI using AZ CLI | 100x100](./Documentation/Images/AOAI_Using_AzCLI.PNG)
 
 ## 8. 30,000 foot view of Azure AI Studio
 
