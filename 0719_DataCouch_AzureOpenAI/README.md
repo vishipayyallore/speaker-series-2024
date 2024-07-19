@@ -92,14 +92,14 @@
 
 > - AI refers to the broader field of computer science focused on creating machines and software that can perform tasks that typically require human intelligence.
 > - It encompasses various techniques and approaches, including machine learning and deep learning, to enable systems to reason, learn, perceive, and solve complex problems.
-> - Strong / General AI => Do lots of things
-> - Narrow / Weak AI => Perform specific things
+> - Strong / General AI: Capable of performing a wide range of tasks.
+> - Narrow / Weak AI: Designed to perform specific tasks.
 
 ### 3.2. Machine Learning (ML)
 
 > - ML is a subset of AI that involves the development of algorithms and models that allow computers to learn from data and make predictions or decisions without being explicitly programmed.
 > - ML includes supervised, unsupervised, and reinforcement learning, among others, and finds applications in areas like image recognition and recommendation systems.
-> - Data Collection | Data Preparation | Model Selection | Train Model | Evaluate Model | Parameter tuning | Prediction | (GAI => New Content)
+> - Steps: Data Collection | Data Preparation | Model Selection | Train Model | Evaluate Model | Parameter Tuning | Prediction | (GAI => New Content)
 
 ### 3.3. Deep Learning (DL)
 
