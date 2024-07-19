@@ -93,10 +93,10 @@
 
 > - Generative AI refers to AI systems capable of generating new, original content, such as text, images, or music, often with some creativity.
 > - It includes techniques like Generative Adversarial Networks (GANs) and variational autoencoders (VAEs), which have applications in art generation, content creation, and data augmentation.
-> - 3.5.1. Generative Adversarial Networks (GANs)
+> - **Generative Adversarial Networks (GANs)**
 >   - GANs are a class of deep learning models consisting of two neural networks, a generator, and a discriminator, which are trained simultaneously through a competitive process.
 >   - The generator aims to create data (e.g., images) that is indistinguishable from real data, while the discriminator tries to distinguish between real and generated data. This adversarial training process results in the generation of high-quality, realistic data and has applications in image generation, style transfer, and more.
-> - 3.5.2. Variational Autoencoders (VAEs)
+> - **Variational Autoencoders (VAEs)**
 >   - VAEs are another type of generative model used in unsupervised learning. They consist of an encoder network that maps input data into a latent space and a decoder network that reconstructs data from the latent space.
 >   - VAEs are used for generating new data samples and learning meaningful representations of data. They are particularly useful in applications like image generation, anomaly detection, and data compression due to their ability to generate diverse and structured data from a continuous latent space.
 
@@ -131,7 +131,61 @@
 >   - **Transformer**: The underlying architecture of GPT models is the Transformer, which is a neural network architecture introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. The Transformer architecture relies on the self-attention mechanism, which allows the model to consider the context and relationships between words in a sequence efficiently.
 > - GPT models, such as GPT-3, GPT-4, and others, have achieved remarkable performance in various NLP tasks and have been widely adopted in the field of artificial intelligence. They have applications in natural language understanding, text generation, language translation, chatbots, and more.
 
-## 6. Tokens Tokens Tokens and more Tokens
+## 6. 30,000 foot view of Azure OpenAI
+
+> 1. Discussion and Demo
+
+**References:**
+
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits)
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models)
+
+### 6.1. What is Azure OpenAI Service?
+
+> 1. Discussion and Demo
+
+### 6.2. Azure OpenAI Service quotas and limits
+
+> 1. Discussion and Demo
+
+### 6.3. Azure OpenAI Service models
+
+> 1. Discussion and Demo
+
+## 7. Access Azure OpenAI Service
+
+> 1. Discussion and Demo
+
+### 7.1. Creating Azure Open AI using Azure Portal
+
+> 1. Discussion and Demo
+
+### 7.2. Creating Azure Open AI using az CLI
+
+> 1. Discussion and Demo
+
+## 8. 30,000 foot view of Azure AI Studio
+
+> 1. Discussion and Demo
+
+**References:**
+
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line)
+
+### 8.1. What is Azure AI Studio?
+
+> 1. Discussion and Demo
+
+![Azure AI Studio | 100x100](./Documentation/Images/AzureAIStudio.PNG)
+
+### 8.2. Trying couple of Built-in Completion Examples in Azure AI Studio
+
+> 1. Discussion and Demo
+
+![Azure AI Studio Translation | 100x100](./Documentation/Images/AzureAIStudio_Translation.PNG)
+
+## x. Tokens Tokens Tokens and more Tokens
 
 > 1. Discussion and Demo
 
