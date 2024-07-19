@@ -33,12 +33,31 @@
 ## What are we doing today?
 
 > 1. The Big Picture
-> 1. DAPR (Distributed Application Runtime) from 30,000 foot
-> 1. Creating two Microservices
-> 1. How communication works between two services
->    - Name Resolution
-> 1. Resiliency
->    - Timeouts, Retries, and Circuit Breakers
+>    - Pre-requisites
+>    - Previous Session(s)
+> 1. What is Intelligence?
+> 1. A few Terms AI, ML, Auto ML, DL, NLP, GAI
+>    - Artificial Intelligence (AI)
+>    - Machine Learning (ML)
+>    - Deep Learning (DL)
+>    - Natural Language Processing (NLP)
+>    - Generative AI
+> 1. ELIZA - The early Natural Language Processing (NLP) Chatbot
+> 1. Azure Open AI, Transformer, and GPT
+>    - Azure Open AI
+>    - Transformer
+>    - GPT - Generative Pre-trained Transformer
+> 1. 30,000 foot view of Azure OpenAI
+>    - What is Azure OpenAI Service?
+>    - Azure OpenAI Service quotas and limits
+>    - Azure OpenAI Service models
+> 1. Access Azure OpenAI Service
+>    - Creating Azure Open AI using Azure Portal
+>    - Creating Azure Open AI using az CLI
+> 1. 30,000 foot view of Azure AI Studio
+>    - What is Azure AI Studio?
+>    - Trying couple of Built-in Completion Examples in Azure AI Studio
+> 
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-dapr) of today's session for more details
