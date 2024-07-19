@@ -47,6 +47,17 @@
 >    - Azure Open AI
 >    - Transformer
 >    - GPT - Generative Pre-trained Transformer
+> 1. 30,000 foot view of Azure OpenAI
+>    - What is Azure OpenAI Service?
+>    - Azure OpenAI Service quotas and limits
+>    - Azure OpenAI Service models
+> 1. Access Azure OpenAI Service
+>    - Creating Azure Open AI using Azure Portal
+>    - Creating Azure Open AI using az CLI
+> 1. 30,000 foot view of Azure AI Studio
+>    - What is Azure AI Studio?
+>    - Trying couple of Built-in Completion Examples in Azure AI Studio
+> 
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-dapr) of today's session for more details
