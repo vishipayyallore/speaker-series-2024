@@ -178,13 +178,10 @@ az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --k
 
 > 1. Discussion and Demo
 
-**References:**
-
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line)
-
 ### 8.1. What is Azure AI Studio?
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line)
 
 ### 8.2. Trying couple of Built-in Completion Examples in Azure AI Studio
 
