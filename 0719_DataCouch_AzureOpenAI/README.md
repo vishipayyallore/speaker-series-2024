@@ -231,11 +231,13 @@ Input: Tell me two jokes about simple people
 
 > 1. Discussion and Demo
 
-![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions.PNG)
+![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions_Postman.PNG)
 
 ## 11. Trying our own Completion Examples using `C#`
 
 > 1. Discussion and Demo
+
+![Completions with CS | 100x100](./Documentation/Images/AOAI_Completions_CS.PNG)
 
 ---
 
