@@ -177,15 +177,11 @@
 
 > 1. Discussion and Demo
 
-![Azure AI Studio | 100x100](./Documentation/Images/AzureAIStudio.PNG)
-
 ### 8.2. Trying couple of Built-in Completion Examples in Azure AI Studio
 
 > 1. Discussion and Demo
 
-![Azure AI Studio Translation | 100x100](./Documentation/Images/AzureAIStudio_Translation.PNG)
-
-## x. Tokens Tokens Tokens and more Tokens
+## 9. Tokens Tokens Tokens and more Tokens
 
 > 1. Discussion and Demo
 
@@ -195,6 +191,32 @@
 
 ![Tokenizer | 100x100](./Documentation/Images/Tokenizer.PNG)
 
+## 9. Trying our own Completion Examples in Azure AI Studio
+
+> 1. Discussion and Demo
+
+```text
+Input: Happy Birthday
+
+Input: Give the top 5 food items from South India
+
+Input: Give the top 5 Populated states in India
+
+Inputs:
+1. Which is the tallest building in the world
+2. Which is the tallest building in Hyderabad
+
+Input: Tell me two jokes about simple people
+```
+
+## 10. Trying our own Completion Examples using Postman
+
+> 1. Discussion and Demo
+
+## 11. Trying our own Completion Examples using `C#`
+
+> 1. Discussion and Demo
+
 ---
 
 ## SUMMARY / RECAP / Q&A
@@ -203,7 +225,3 @@
 > 2. Any open queries, I will get back through meetup chat/twitter.
 
 ---
-
-> 1. https://github.com/vishipayyallore/speaker-series-2023/blob/main/On.NETLiveShows/20231030_BuildYourOwnChatGPT/README.md
-> 1. https://github.com/vishipayyallore/speaker-series-2023/tree/main/AzureOpenAI/2023May20_GettingStarted
-> 1. https://github.com/vishipayyallore/speaker-series-2023/tree/main/microsoft-reactor/20230719_AzureOpenAIStudio
