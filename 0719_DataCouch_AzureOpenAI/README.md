@@ -57,10 +57,13 @@
 > 1. 30,000 foot view of Azure AI Studio
 >    - What is Azure AI Studio?
 >    - Trying couple of Built-in Completion Examples in Azure AI Studio
-> 
+> 1. Tokens Tokens Tokens and more Tokens
+> 1. Trying our own Completion Examples in Azure AI Studio
+> 1. Trying our own Completion Examples using Postman
+> 1. Trying our own Completion Examples using `C#`
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-dapr) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
 
 ---
 
@@ -154,23 +157,20 @@
 
 > 1. Discussion and Demo
 
-**References:**
-
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits)
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models)
-
 ### 6.1. What is Azure OpenAI Service?
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
 
 ### 6.2. Azure OpenAI Service quotas and limits
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits)
 
 ### 6.3. Azure OpenAI Service models
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models)
 
 ## 7. Access Azure OpenAI Service
 
@@ -180,31 +180,48 @@
 
 > 1. Discussion and Demo
 
+![Azure Open AI using Portal | 100x100](./Documentation/Images/AOAI_Using_Portal.PNG)
+
 ### 7.2. Creating Azure Open AI using az CLI
 
 > 1. Discussion and Demo
+
+```powershell
+$aoaiName = "azoai-ai102-dev-" + (Get-Random)
+$resourceGroup = "rg-ai102-dev-001"
+$subscriptionID = "YourSubscriptionId"
+
+az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --kind OpenAI --sku s0 --subscription $subscriptionID
+```
+
+![Azure Open AI using AZ CLI | 100x100](./Documentation/Images/AOAI_Using_AzCLI.PNG)
 
 ## 8. 30,000 foot view of Azure AI Studio
 
 > 1. Discussion and Demo
 
-**References:**
-
-> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line)
-
 ### 8.1. What is Azure AI Studio?
 
 > 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line)
 
-![Azure AI Studio | 100x100](./Documentation/Images/AzureAIStudio.PNG)
-
-### 8.2. Trying couple of Built-in Completion Examples in Azure AI Studio
+### 8.2. Explore types of generative AI models
 
 > 1. Discussion and Demo
 
-![Azure AI Studio Translation | 100x100](./Documentation/Images/AzureAIStudio_Translation.PNG)
+### 8.3. Deploy generative AI models
 
-## x. Tokens Tokens Tokens and more Tokens
+> 1. Discussion and Demo
+
+![Model Deployment | 100x100](./Documentation/Images/AOAI_Model_Deployment.PNG)
+
+### 8.4. Trying couple of Built-in Completion Examples in Azure AI Studio
+
+> 1. Discussion and Demo
+
+![Azure AI Studio Sample | 100x100](./Documentation/Images/AOAI_Studio_Sample.PNG)
+
+## 9. Tokens Tokens Tokens and more Tokens
 
 > 1. Discussion and Demo
 
@@ -214,6 +231,36 @@
 
 ![Tokenizer | 100x100](./Documentation/Images/Tokenizer.PNG)
 
+## 10. Trying our own Completion Examples in Azure AI Studio
+
+> 1. Discussion and Demo
+
+```text
+Input: Please write a Happy Birthday wishes for my Mother
+
+Input: Give the top 5 food items from South India
+
+Input: Give the top 5 Populated states in India
+
+Inputs:
+1. Which is the tallest building in the world
+2. Which is the tallest building in Hyderabad
+
+Input: Tell me two jokes about simple people
+```
+
+## 11. Trying our own Completion Examples using Postman
+
+> 1. Discussion and Demo
+
+![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions_Postman.PNG)
+
+## 12. Trying our own Completion Examples using `C#`
+
+> 1. Discussion and Demo
+
+![Completions with CS | 100x100](./Documentation/Images/AOAI_Completions_CS.PNG)
+
 ---
 
 ## SUMMARY / RECAP / Q&A
@@ -222,7 +269,3 @@
 > 2. Any open queries, I will get back through meetup chat/twitter.
 
 ---
-
-> 1. https://github.com/vishipayyallore/speaker-series-2023/blob/main/On.NETLiveShows/20231030_BuildYourOwnChatGPT/README.md
-> 1. https://github.com/vishipayyallore/speaker-series-2023/tree/main/AzureOpenAI/2023May20_GettingStarted
-> 1. https://github.com/vishipayyallore/speaker-series-2023/tree/main/microsoft-reactor/20230719_AzureOpenAIStudio
