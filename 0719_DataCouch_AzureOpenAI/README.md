@@ -57,10 +57,13 @@
 > 1. 30,000 foot view of Azure AI Studio
 >    - What is Azure AI Studio?
 >    - Trying couple of Built-in Completion Examples in Azure AI Studio
-> 
+> 1. Tokens Tokens Tokens and more Tokens
+> 1. Trying our own Completion Examples in Azure AI Studio
+> 1. Trying our own Completion Examples using Postman
+> 1. Trying our own Completion Examples using `C#`
 > 1. SUMMARY / RECAP / Q&A
 
-### Please refer to the [**Source Code**](https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/learn-dapr) of today's session for more details
+### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
 
 ---
 
@@ -228,7 +231,7 @@ az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --k
 
 ![Tokenizer | 100x100](./Documentation/Images/Tokenizer.PNG)
 
-## 9. Trying our own Completion Examples in Azure AI Studio
+## 10. Trying our own Completion Examples in Azure AI Studio
 
 > 1. Discussion and Demo
 
@@ -246,13 +249,13 @@ Inputs:
 Input: Tell me two jokes about simple people
 ```
 
-## 10. Trying our own Completion Examples using Postman
+## 11. Trying our own Completion Examples using Postman
 
 > 1. Discussion and Demo
 
 ![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions_Postman.PNG)
 
-## 11. Trying our own Completion Examples using `C#`
+## 12. Trying our own Completion Examples using `C#`
 
 > 1. Discussion and Demo
 
