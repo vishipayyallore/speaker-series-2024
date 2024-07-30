@@ -46,23 +46,8 @@
 > 1. Provision an Azure AI Services resource
 >    - Retrieve the `Endpoint` and `key` from Portal
 >    - Retrieve/Modify the `key` using PowerShell
-> 1. Verifying the Vision Analysis using Azure Service and Postman
-> 1. Understanding containers
->    - `Docker` installed Locally
-> 1. Deploy Azure AI services as Local Docker containers
->    - Deploy and run a Vision container on Local Docker
->    - Verify Local Docker Container using `Browser`
->    - Verify Local Docker Container using `Postman`
->    - Regenerate the API Key and verify the docker container
-> 1. Deploy Azure AI services containers on Azure Container Instance
->    - Create ACI resource, and host the AI Service container
->    - Verify Vision container on Azure Container Instance using `Browser`
->    - Verify Vision container on Azure Container Instance using `Postman`
-> 1. Deploy Azure AI services containers on Azure Kubernetes Service
->    - Create Azure Kubernetes Service Cluster
->    - Deploy Vision Container inside AKS
->    - Verify Vision container inside Azure Kubernetes Cluster using `Browser`
->    - Verify Vision container on Azure Kubernetes Cluster using `Postman`
+> 1. Analyze images
+> 1. OCR
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -138,6 +123,25 @@ py image-analysis.py images/street.jpg
 ```
 
 ![Analyze Images](Documentation/Images/AnalyzeImages.PNG)
+
+## 4. OCR
+
+> 1. Discussion and Demo
+> 1. <https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html>
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+
+python.exe -m pip install --upgrade pip
+
+pip install python-dotenv
+pip install Pillow
+pip install matplotlib
+py read-text.py
+```
+
+![Analyze OCR](Documentation/Images/AnalyzeOCR.PNG)
 
 ## X. SUMMARY / RECAP / Q&A
 
