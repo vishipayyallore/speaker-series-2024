@@ -124,7 +124,20 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 > 1. Discussion and Demo
 > 1. <https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html>
 
----
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+
+python.exe -m pip install --upgrade pip
+
+pip install azure-ai-vision-imageanalysis==1.0.0b1
+pip install python-dotenv
+pip install Pillow
+pip install matplotlib
+py image-analysis.py images/street.jpg
+```
+
+![Analyze Images](Documentation/Images/AnalyzeImages.PNG)
 
 ## X. SUMMARY / RECAP / Q&A
 
