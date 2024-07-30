@@ -122,6 +122,7 @@ az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rg
 ## 3. Analyze images
 
 > 1. Discussion and Demo
+> 1. <https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html>
 
 ---
 
