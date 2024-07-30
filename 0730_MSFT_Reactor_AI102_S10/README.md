@@ -1,15 +1,16 @@
-# AI 102 - Deploy Azure AI Services in Containers, ACI, and AKS
+# AI 102 - Unlocking Insights with Azure AI Vision and Custom Vision in Python
 
-## Date Time: 09-Jul-2024 at 05:00 PM IST
+## Date Time: 30-Jul-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944](https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301458311](https://www.meetup.com/microsoft-reactor-bengaluru/events/301458311)
 
-## YouTube URL: [https://www.youtube.com/watch?v=J1QU3rWHutk](https://www.youtube.com/watch?v=J1QU3rWHutk)
+## YouTube URL: [https://www.youtube.com/watch?v=ioQnb3ExJsk](https://www.youtube.com/watch?v=ioQnb3ExJsk)
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/Analyzevideo>
-> 1. <https://aka.ms/AIVisionService>
+> 1. <https://aka.ms/AIVision-Service>
+> 1. <https://aka.ms/AIVisionmodels>
+> 1. <https://aka.ms/Analyzei-mages>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
