@@ -75,7 +75,7 @@
 
 ## 1. The Big Picture
 
-> 1. Discussion on Azure AI Services in Containers
+> 1. Unlocking Insights with Azure AI Vision and Custom Vision in Python
 
 ### Pre-requisites
 
