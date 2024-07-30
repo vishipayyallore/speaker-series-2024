@@ -1,15 +1,16 @@
-# AI 102 - Deploy Azure AI Services in Containers, ACI, and AKS
+# AI 102 - Unlocking Insights with Azure AI Vision and Custom Vision in Python
 
-## Date Time: 09-Jul-2024 at 05:00 PM IST
+## Date Time: 30-Jul-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944](https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301458311](https://www.meetup.com/microsoft-reactor-bengaluru/events/301458311)
 
-## YouTube URL: [https://www.youtube.com/watch?v=J1QU3rWHutk](https://www.youtube.com/watch?v=J1QU3rWHutk)
+## YouTube URL: [https://www.youtube.com/watch?v=ioQnb3ExJsk](https://www.youtube.com/watch?v=ioQnb3ExJsk)
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/Analyzevideo>
-> 1. <https://aka.ms/AIVisionService>
+> 1. <https://aka.ms/AIVision-Service>
+> 1. <https://aka.ms/AIVisionmodels>
+> 1. <https://aka.ms/Analyzei-mages>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -74,7 +75,7 @@
 
 ## 1. The Big Picture
 
-> 1. Discussion on Azure AI Services in Containers
+> 1. Unlocking Insights with Azure AI Vision and Custom Vision in Python
 
 ### Pre-requisites
 
@@ -118,170 +119,25 @@ az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
 az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
 ```
 
-## 3. Verifying the Vision Analysis using Azure Service and Postman
+## 3. Analyze images
 
 > 1. Discussion and Demo
-
-![AI Service Vision Analysis in Postman | 100x100](./Documentation/Images/AISvc_VisionAnalysis_Postman.PNG)
-
-## 4. Understanding containers
-
-> 1. Discussion and Demo
-
-### 4.1. `Docker` desktop installed Locally
-
-> 1. Discussion and Demo
-
-## 5. Deploy Azure AI services as `Local Docker` containers
-
-> 1. Discussion and Demo
-
-**Reference(s):**
-
-> 1. <https://learn.microsoft.com/en-gb/training/modules/investigate-container-for-use-with-ai-services/1-introduction>
-> 1. <https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/04-use-a-container.html>
-> 1. <https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support>
-> 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview#deploy-on-premises-using-docker-containers>
-> 1. <https://learn.microsoft.com/en-us/azure/ai-services/language-service/language-detection/how-to/use-containers>
-
-### 5.1. Deploy and run a Vision container on Local Docker
-
-> 1. Discussion and Demo
-
-#### Pull in docker image
+> 1. <https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html>
 
 ```powershell
-docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
+python -m venv .venv
+.\.venv\Scripts\activate
+
+python.exe -m pip install --upgrade pip
+
+pip install azure-ai-vision-imageanalysis==1.0.0b1
+pip install python-dotenv
+pip install Pillow
+pip install matplotlib
+py image-analysis.py images/street.jpg
 ```
 
-![Read Analytics Docker Image Pull | 100x100](./Documentation/Images/AAIServices_Docker_Pull.PNG)
-
-#### Running the docker image
-
-```powershell
-$ApiKey="111e11c1b111111c11111c11c1c1f11e"
-$BillingEndpoint="https://YourEndpoint.cognitiveservices.azure.com/"
-
-docker run --rm -it -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
-
-docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing=$BillingEndpoint ApiKey=$ApiKey
-```
-
-### 5.2. Verify Local Docker Container using `Browser`
-
-![Vision Analysis Docker Image Run | 100x100](./Documentation/Images/AAIServices_Docker_Run.PNG)
-
-### 5.3. Verify Local Docker Container using `Postman`
-
-> 1. Discussion and Demo
-
-![Vision Analysis Docker using Postman | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_Local_Postman.PNG)
-
-### 5.4. Regenerate the API Key and verify the `docker` container
-
-> 1. Discussion and Demo
-
-![AAIServices Docker Container After Key Regeneration | 100x100](./Documentation/Images/AAIServices_Docker_Container_After_KeyGen.PNG)
-
-## 6. Deploy Azure AI services containers on Azure Container Instance
-
-> 1. Discussion and Demo
-
-### 6.1. Create ACI resource, and host the AI Service container
-
-```text
-mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
-Port=5000
-ApiKey=111e11c1b111111c11111c11c1c1f11e
-Billing=https://YourEndpoint.cognitiveservices.azure.com/
-Eula=accept
-FQDN=FriendlyName
-```
-
-![Azure Container Instance | 100x100](./Documentation/Images/AzureContainerInstance.PNG)
-
-### 6.2. Verify Vision container on Azure Container Instance using `Browser`
-
-> 1. Discussion and Demo
-
-![Read Analysis using Browser | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Browser.PNG)
-
-### 6.3. Verify Vision container on Azure Container Instance using `Postman`
-
-> 1. Discussion and Demo
-
-![Text Analysis using Postman | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_ACI_Postman.PNG)
-
-## 7. Deploy Azure AI services containers on Azure Kubernetes Service
-
-### 7.1. Create Azure Kubernetes Service Cluster
-
-![Azure Kubernets Cluster | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS.PNG)
-
-### 7.2. Deploy Vision Container inside AKS
-
-![Azure Kubernets Cluster Deploy | 100x100](./Documentation/Images/AKS_VisionService_Deploy.PNG)
-
-```powershell
-kubectl apply -f .\deployment.yaml
-kubectl delete -f .\deployment.yaml
-```
-
-```yml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: readanalytics-deployment
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: readanalytics
-  template:
-    metadata:
-      labels:
-        app: readanalytics
-    spec:
-      containers:
-        - name: readanalytics
-          image: mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
-          ports:
-            - containerPort: 5000
-          env:
-            - name: Eula
-              value: "accept"
-            - name: Billing
-              value: "https://YourEndpoint.cognitiveservices.azure.com/"
-            - name: ApiKey
-              value: "111e11c1b111111c11111c11c1c1f11e"
-          resources:
-            limits:
-              memory: "4Gi"
-              cpu: "1"
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: readanalytics-service
-spec:
-  type: LoadBalancer
-  selector:
-    app: readanalytics
-  ports:
-    - protocol: TCP
-      port: 5000
-      targetPort: 5000
-```
-
-### 7.3. Verify Vision container inside Azure Kubernetes Cluster using `Browser`
-
-![Azure Kubernetes Cluster | 100x100](./Documentation/Images/AAIServices_ReadAnalysis_AKS_Browser.PNG)
-
-### 7.4. Verify Vision container on Azure Kubernetes Cluster using `Postman`
-
-![Azure Kubernetes Cluster | 100x100](./Documentation/Images/AKS_VisionService_Postman.PNG)
-
----
+![Analyze Images](Documentation/Images/AnalyzeImages.PNG)
 
 ## X. SUMMARY / RECAP / Q&A
 
