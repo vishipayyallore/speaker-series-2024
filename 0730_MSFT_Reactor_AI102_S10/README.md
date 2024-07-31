@@ -119,7 +119,11 @@ pip install azure-ai-vision-imageanalysis==1.0.0b1
 pip install python-dotenv
 pip install Pillow
 pip install matplotlib
-py image-analysis.py images/street.jpg
+
+pip freeze > ./requirements.txt
+pip install -r .\requirements.txt
+
+py image-analysis.py
 ```
 
 ![Analyze Images](Documentation/Images/AnalyzeImages.PNG)
@@ -135,9 +139,14 @@ python -m venv .venv
 
 python.exe -m pip install --upgrade pip
 
+pip install azure-ai-vision-imageanalysis==1.0.0b1
 pip install python-dotenv
 pip install Pillow
 pip install matplotlib
+
+pip freeze > ./requirements.txt
+pip install -r .\requirements.txt
+
 py read-text.py
 ```
 
