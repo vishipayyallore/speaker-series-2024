@@ -140,6 +140,8 @@ Inputs:
 2. Which is the tallest building in Hyderabad
 
 Input: Tell me two jokes about simple people
+
+Write a promotional email for a new wildlife rescue, including the following: - Rescue name is Contoso - It specializes in elephants, as well as zebras and giraffes - Call for donations to be given at our website \n Include a list of the current animals we have at our rescue after the signature, in the form of a table. These animals include elephants, zebras, gorillas, lizards, and jackrabbits.
 ```
 
 ## X. Trying our own Completion Examples using Postman
