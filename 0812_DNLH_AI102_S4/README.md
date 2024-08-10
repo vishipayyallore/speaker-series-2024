@@ -1,17 +1,17 @@
-# AI 102 - Azure AI Vision Service & Video Indexer
+# AI 102 - Analyze images, Image classification with Azure AI Vision
 
-## Date Time: 28-May-2024 at 05:00 PM IST
+## Date Time: 12-Aug-2024 at 09:00 AM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178](https://www.meetup.com/microsoft-reactor-bengaluru/events/300465178)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/300367723](https://www.meetup.com/dot-net-learners-house-hyderabad/events/300367723)
 
-## YouTube URL: [https://www.youtube.com/watch?v=dwjTGTrvoVg](https://www.youtube.com/watch?v=dwjTGTrvoVg)
+## YouTube URL: [https://www.youtube.com/watch?v=TiM9O5nPiHU](https://www.youtube.com/watch?v=TiM9O5nPiHU)
 
 ## MS Learn Module(s)
 
 > 1. <https://aka.ms/Analyze-video>
 > 1. <https://aka.ms/Azure-AI-Vision-Service>
 
-![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
+<!-- ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG) -->
 
 ---
 
@@ -71,7 +71,7 @@
 
 ### Previous Session
 
-> 1. `Entire playlist` <https://www.youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59>
+> 1. `Entire playlist` <https://www.youtube.com/watch?v=LSbvf_Qtwb4&list=PLdLQDTLMjAzrb3Lbg2GrGErISdmg8n7YC&pp=iAQB>
 
 ### Current Architecture
 
