@@ -216,6 +216,31 @@ az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --k
 
 ![Azure Open AI using AZ CLI | 100x100](./Documentation/Images/AOAI_Using_AzCLI.PNG)
 
+## 9. 30,000 foot view of Azure AI Studio
+
+> 1. Discussion and Demo
+
+### 9.1. What is Azure AI Studio?
+
+> 1. Discussion and Demo
+> 1. [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-studio&tabs=command-line)
+
+### 9.2. Explore types of generative AI models
+
+> 1. Discussion and Demo
+
+### 9.3. Deploy generative AI models
+
+> 1. Discussion and Demo
+
+![Model Deployment | 100x100](./Documentation/Images/AOAI_Model_Deployment.PNG)
+
+### 9.4. Trying couple of Built-in Completion Examples in Azure AI Studio
+
+> 1. Discussion and Demo
+
+![Azure AI Studio Sample | 100x100](./Documentation/Images/AOAI_Studio_Sample.PNG)
+
 ## X. SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
