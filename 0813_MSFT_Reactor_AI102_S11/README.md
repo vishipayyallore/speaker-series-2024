@@ -2,15 +2,13 @@
 
 ## Date Time: 30-Jul-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301458311](https://www.meetup.com/microsoft-reactor-bengaluru/events/301458311)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/302151637](https://www.meetup.com/microsoft-reactor-bengaluru/events/302151637)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ioQnb3ExJsk](https://www.youtube.com/watch?v=ioQnb3ExJsk)
+## YouTube URL: [https://www.youtube.com/watch?v=10QTfHsVxwk](https://www.youtube.com/watch?v=10QTfHsVxwk)
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/AIVision-Service>
-> 1. <https://aka.ms/AIVisionmodels>
-> 1. <https://aka.ms/Analyzei-mages>
+> 1. <https://aka.ms/AzureOpen-AI>
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
