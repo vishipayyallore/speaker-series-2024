@@ -58,18 +58,18 @@
 
 ## 1. The Big Picture
 
-> 1. Unlocking Insights with Azure AI Vision and Custom Vision in Python
+> 1. Kickstart Your Journey with Azure OpenAI Service
 
-### Pre-requisites
+### 1.1. Pre-requisites
 
 > 1. Azure Open AI, AI/ML
 > 1. Python, C#, and .NET 8
 
-### Previous Session
+### 1.2. Previous Session
 
 > 1. `Entire playlist` <https://www.youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59>
 
-### Current Architecture
+### 1.3. Current Architecture
 
 > 1. NA
 
@@ -101,54 +101,6 @@ az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
 
 az cognitiveservices account keys regenerate --name $aaisvs --resource-group $rgname --key-name key1
 ```
-
-## 3. Analyze images
-
-> 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html>
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\activate
-
-python.exe -m pip install --upgrade pip
-
-pip install azure-ai-vision-imageanalysis==1.0.0b1
-pip install python-dotenv
-pip install Pillow
-pip install matplotlib
-
-pip freeze > ./requirements.txt
-pip install -r .\requirements.txt
-
-py image-analysis.py
-```
-
-![Analyze Images](Documentation/Images/AnalyzeImages.PNG)
-
-## 4. OCR
-
-> 1. Discussion and Demo
-> 1. <https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html>
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\activate
-
-python.exe -m pip install --upgrade pip
-
-pip install azure-ai-vision-imageanalysis==1.0.0b1
-pip install python-dotenv
-pip install Pillow
-pip install matplotlib
-
-pip freeze > ./requirements.txt
-pip install -r .\requirements.txt
-
-py read-text.py
-```
-
-![Analyze OCR](Documentation/Images/AnalyzeOCR.PNG)
 
 ## X. SUMMARY / RECAP / Q&A
 
