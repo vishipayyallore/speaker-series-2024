@@ -1,6 +1,6 @@
-# AI 102 - Unlocking Insights with Azure AI Vision and Custom Vision in Python
+# AI 102 - Kickstart Your Journey with Azure OpenAI Service
 
-## Date Time: 30-Jul-2024 at 05:00 PM IST
+## Date Time: 13-Aug-2024 at 05:00 PM IST
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/302151637](https://www.meetup.com/microsoft-reactor-bengaluru/events/302151637)
 
