@@ -44,8 +44,32 @@
 > 1. Provision an Azure AI Services resource
 >    - Retrieve the `Endpoint` and `key` from Portal
 >    - Retrieve/Modify the `key` using PowerShell
-> 1. Analyze images
-> 1. OCR
+> 1. What is Intelligence?
+> 1. A few Terms AI, ML, Auto ML, DL, NLP, GAI
+>    - Artificial Intelligence (AI)
+>    - Machine Learning (ML)
+>    - Deep Learning (DL)
+>    - Natural Language Processing (NLP)
+>    - Generative AI
+> 1. ELIZA - The early Natural Language Processing (NLP) Chatbot
+> 1. Azure Open AI, Transformer, and GPT
+>    - Azure Open AI
+>    - Transformer
+>    - GPT - Generative Pre-trained Transformer
+> 1. 30,000 foot view of Azure OpenAI
+>    - What is Azure OpenAI Service?
+>    - Azure OpenAI Service quotas and limits
+>    - Azure OpenAI Service models
+> 1. Access Azure OpenAI Service
+>    - Creating Azure Open AI using Azure Portal
+>    - Creating Azure Open AI using az CLI
+> 1. 30,000 foot view of Azure AI Studio
+>    - What is Azure AI Studio?
+>    - Trying couple of Built-in Completion Examples in Azure AI Studio
+> 1. Tokens Tokens Tokens and more Tokens
+> 1. Trying our own Completion Examples in Azure AI Studio
+> 1. Trying our own Completion Examples using Postman
+> 1. Trying our own Completion Examples using `C#`
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -240,6 +264,46 @@ az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --k
 > 1. Discussion and Demo
 
 ![Azure AI Studio Sample | 100x100](./Documentation/Images/AOAI_Studio_Sample.PNG)
+
+## 10. Tokens Tokens Tokens and more Tokens
+
+> 1. Discussion and Demo
+
+**References:**
+
+> 1. [https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
+
+![Tokenizer | 100x100](./Documentation/Images/Tokenizer.PNG)
+
+## 11. Trying our own Completion Examples in Azure AI Studio
+
+> 1. Discussion and Demo
+
+```text
+Input: Please write a Happy Birthday wishes for my Mother
+
+Input: Give the top 5 food items from South India
+
+Input: Give the top 5 Populated states in India
+
+Inputs:
+1. Which is the tallest building in the world
+2. Which is the tallest building in Hyderabad
+
+Input: Tell me two jokes about simple people
+```
+
+## 12. Trying our own Completion Examples using Postman
+
+> 1. Discussion and Demo
+
+![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions_Postman.PNG)
+
+## 13. Trying our own Completion Examples using `C#`
+
+> 1. Discussion and Demo
+
+![Completions with CS | 100x100](./Documentation/Images/AOAI_Completions_CS.PNG)
 
 ## X. SUMMARY / RECAP / Q&A
 
