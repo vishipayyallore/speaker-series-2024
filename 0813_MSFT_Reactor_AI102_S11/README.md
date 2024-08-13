@@ -235,6 +235,8 @@ $aoaiName = "azoai-ai102-dev-" + (Get-Random)
 $resourceGroup = "rg-ai102-dev-001"
 $subscriptionID = "YourSubscriptionId"
 
+az cognitiveservices account list --subscription $subscriptionID --output table
+
 az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --kind OpenAI --sku s0 --subscription $subscriptionID
 ```
 
