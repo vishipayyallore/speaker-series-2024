@@ -101,6 +101,7 @@
 ### 3.1. Working with Vision Studio
 
 > 1. Discussion and Demo
+> 1. <https://portal.vision.cognitive.azure.com/gallery/featured>
 
 ![Azure AI Vision Studio](Documentation/Images/AIVisionStudio.PNG)
 
