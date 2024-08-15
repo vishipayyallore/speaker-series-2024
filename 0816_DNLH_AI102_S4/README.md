@@ -1,4 +1,4 @@
-# AI 102 - Analyze images, Image classification with Azure AI Vision
+# AI 102 - Mastering Image Analysis and Text Recognition with Azure AI Vision
 
 ## Date Time: 12-Aug-2024 at 09:00 AM IST
 
