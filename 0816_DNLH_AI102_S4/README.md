@@ -1,4 +1,4 @@
-# AI 102 - Mastering Image Analysis and Text Recognition with Azure AI Vision
+# AI 102 - Mastering Image Analysis with Azure AI Vision
 
 ## Date Time: 12-Aug-2024 at 09:00 AM IST
 
@@ -42,12 +42,11 @@
 >    - Current Architecture
 > 1. Provision an Azure AI Services resource
 >    - Retrieve the Endpoint and key
-> 1. Image Analysis Query from previous session
-> 1. Read Text in images and documents with the Azure AI Vision Service
+> 1. Image Analysis with Azure AI Vision
 >    - Working with Vision Studio
 >    - Working with Read REST API in Postman
->    - Working with Azure AI Vision SDK
->    - Working with Azure AI Vision Read Container
+>    - Working with Azure AI Vision SDK C#
+>    - Working with Azure AI Vision SDK Python
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -91,27 +90,47 @@
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
 
-## 3. Analyze images
+## 3. Image Analysis with Azure AI Vision
 
 > 1. Discussion and Demo
 > 1. With the Azure AI Vision service, you can use pre-trained models to analyze images and extract insights and information from them.
 > 1. Provision an Azure AI Vision resource.
 > 1. Analyze an image.
 > 1. Remove an image background.
-> 1. Generate a smart cropped thumbnail.
+
+### 3.1. Working with Vision Studio
+
+> 1. Discussion and Demo
+
+![Azure AI Vision Studio](Documentation/Images/AIVisionStudio.PNG)
+
+### 3.2. Working with Read REST API in Postman
+
+> 1. Discussion and Demo
+
+![Azure AI Vision Postman](Documentation/Images/AIVision_Postman.PNG)
+
+### 3.3. Working with Azure AI Vision SDK `C#`
+
+> 1. Discussion and Demo
 > 1. [**Exercise / Lab**](https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html)
 
-### 3.1. Analyze an image
+#### Analyze an image
 
 > 1. Discussion and Demo
 
-### 3.2. Generate a smart-cropped thumbnail
+#### Remove background
 
 > 1. Discussion and Demo
 
-### 3.3. Remove background
+![Azure AI Vision C# SDK](Documentation/Images/AzureAIVisionSDKCS.PNG)
+
+### 3.4. Working with Azure AI Vision SDK `Python`
 
 > 1. Discussion and Demo
+> 1. [**Exercise / Lab**](https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html)
+
+![Azure AI Vision C# Python](Documentation/Images/AzureAIVisionSDKPY.PNG)
 
 ---
 
