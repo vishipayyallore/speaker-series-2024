@@ -261,7 +261,7 @@ az cognitiveservices account create -n $aoaiName -g $resourceGroup -l eastus --k
 > 1. Discussion and Demo
 
 ```powershell
-az cognitiveservices account deployment create  -g OAIResourceGroup  -n MyOpenAIResource  --deployment-name MyModel  --model-name gpt-35-turbo  --model-version "0301"   --model-format OpenAI  --sku-name "Standard"  --sku-capacity 1
+az cognitiveservices account deployment create -g $resourceGroup -n $aoaiName --deployment-name gpt-4o-mini-dname --model-name gpt-4o-mini  --model-version "2024-07-18" --model-format OpenAI --sku-name "Standard" --sku-capacity 1
 ```
 
 ### 9.3. Deploy generative AI models
