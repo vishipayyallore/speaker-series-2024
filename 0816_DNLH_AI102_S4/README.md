@@ -8,10 +8,8 @@
 
 ## MS Learn Module(s)
 
-> 1. <https://aka.ms/Analyze-video>
-> 1. <https://aka.ms/Azure-AI-Vision-Service>
-
-<!-- ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG) -->
+> 1. <https://learn.microsoft.com/en-gb/training/modules/analyze-images/>
+> 1. <https://learn.microsoft.com/en-gb/training/modules/read-text-images-documents-with-computer-vision-service/>
 
 ---
 
@@ -62,7 +60,7 @@
 
 ## 1. The Big Picture
 
-> 1. <https://go.microsoft.com/fwlink/?linkid=2226361&clcid=0x4009>
+> 1. Image Analysis and Text Recognition with Azure AI Vision
 
 ### Pre-requisites
 
@@ -71,7 +69,7 @@
 
 ### Previous Session
 
-> 1. `Entire playlist` <https://www.youtube.com/watch?v=LSbvf_Qtwb4&list=PLdLQDTLMjAzrb3Lbg2GrGErISdmg8n7YC&pp=iAQB>
+> 1. `Entire playlist` <https://www.youtube.com/watch?v=LSbvf_Qtwb4&list=PLdLQDTLMjAzrb3Lbg2GrGErISdmg8n7YC>
 
 ### Current Architecture
 
@@ -92,65 +90,6 @@
 > 1. Please place these inside your `.env` file.
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
-
-## 3. Image Analysis Query from previous session
-
-> 1. Discussion and Demo
-
-## ![Man Door Image Analysis](./Documentation/Images/Man_Door_Image_Analysis.PNG)
-
-## 4. Read Text in images and documents with the Azure AI Vision Service
-
-> 1. Discussion and Demo
-> 1. <https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-ocr>
-
-## 4.1. Working with Vision Studio
-
-> 1. Discussion and Demo
-
-![AI Vision Studio OCR](./Documentation/Images/AIVisionStudio.PNG)
-
-## 4.2. Working with Read REST API in Postman
-
-> 1. Discussion and Demo
-
-### 4.2.1. POST Request
-
-![AI Vision Service REST API](./Documentation/Images/AIVisionService_OCR_Post.PNG)
-
-### 4.2.2. Get Results
-
-![AI Vision Service REST API](./Documentation/Images/AIVisionService_OCR_Get.PNG)
-
-## 4.3. Working with Azure AI Vision SDK
-
-> 1. Discussion and Demo
-
-![Azure AI Vision SDK](./Documentation/Images/AzureAIVisionSDK.PNG)
-
-## 4.4. Working with Azure AI Vision Read Container
-
-> 1. Discussion and Demo
-
-### 4.4.1. Pull the Docker Image
-
-```powershell
-docker pull mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30
-```
-
-![Azure AI Vision Read Container](./Documentation/Images/PullOCRReadContainer.PNG)
-
-### 4.4.2. Execute the Docker container
-
-```powershell
-docker run --rm -d -p 5005:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/vision/read:3.2-model-2022-04-30 Eula=accept Billing="https://azais-ai102-dev-001.cognitiveservices.azure.com/" ApiKey=$apiKey
-```
-
-![Azure AI Vision Read Container](./Documentation/Images/ExecuteOCRReadContainer.PNG)
-
-### 4.4.3. Use the local Read Container
-
-![Azure AI Vision Read Container](./Documentation/Images/UsingLocalReadContainer.PNG)
 
 ---
 
