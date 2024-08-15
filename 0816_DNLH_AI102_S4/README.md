@@ -114,6 +114,7 @@
 ### 3.3. Working with Azure AI Vision SDK `C#`
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/how-to/call-analyze-image-40?pivots=programming-language-csharp>
 > 1. [**Exercise / Lab**](https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html)
 
 #### Analyze an image
@@ -129,6 +130,7 @@
 ### 3.4. Working with Azure AI Vision SDK `Python`
 
 > 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/how-to/call-analyze-image-40?pivots=programming-language-csharp>
 > 1. [**Exercise / Lab**](https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html)
 
 ![Azure AI Vision C# Python](Documentation/Images/AzureAIVisionSDKPY.PNG)
