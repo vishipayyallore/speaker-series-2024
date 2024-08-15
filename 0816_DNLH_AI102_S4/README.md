@@ -91,6 +91,28 @@
 > 1. Please create an `example.env` for reference.
 > 1. Environment Variables is also another option.
 
+## 3. Analyze images
+
+> 1. Discussion and Demo
+> 1. With the Azure AI Vision service, you can use pre-trained models to analyze images and extract insights and information from them.
+> 1. Provision an Azure AI Vision resource.
+> 1. Analyze an image.
+> 1. Remove an image background.
+> 1. Generate a smart cropped thumbnail.
+> 1. [**Exercise / Lab**](https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-analyze-images.html)
+
+### 3.1. Analyze an image
+
+> 1. Discussion and Demo
+
+### 3.2. Generate a smart-cropped thumbnail
+
+> 1. Discussion and Demo
+
+### 3.3. Remove background
+
+> 1. Discussion and Demo
+
 ---
 
 ## X. SUMMARY / RECAP / Q&A
