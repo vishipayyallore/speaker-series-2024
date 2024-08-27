@@ -6,11 +6,11 @@
 
 ## YouTube URL: [https://www.youtube.com/watch?v=FLbuIphXiPY](https://www.youtube.com/watch?v=FLbuIphXiPY)
 
+> ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
+
 ## MS Learn Modules
 
 > 1. <https://aka.ms/OpenAI.Service>
-
-> ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
 ---
 
@@ -39,7 +39,10 @@
 > 1. The Big Picture
 >    - Pre-requisites
 >    - Previous Session(s)
-> 1.
+> 1. What is Prompt Engineering ?
+> 1. Components of Effective Prompt Engineering
+> 1. Techniques in Prompt Engineering
+> 1. Best Practices for Text-Based Prompt Engineering
 > 1. Trying our own Completion Examples in Azure AI Studio
 > 1. Trying our own Completion Examples using Postman
 > 1. Trying our own Completion Examples using `C#`
@@ -128,7 +131,7 @@ Regularly monitor the outputs and adjust your prompts to address any inaccuracie
 
 > Prompt engineering in the context of Azure OpenAI is about using these techniques to maximize the efficiency and effectiveness of AI-driven text generation, making it a powerful tool for developers and content creators alike.
 
-## X. Trying our own Completion Examples in Azure AI Studio
+## 6. Trying our own Completion Examples in Azure AI Studio
 
 > 1. Discussion and Demo
 
@@ -148,7 +151,7 @@ Input: Tell me two jokes about simple people
 Write a promotional email for a new wildlife rescue, including the following: - Rescue name is Contoso - It specializes in elephants, as well as zebras and giraffes - Call for donations to be given at our website \n Include a list of the current animals we have at our rescue after the signature, in the form of a table. These animals include elephants, zebras, gorillas, lizards, and jackrabbits.
 ```
 
-## X. Trying our own Completion Examples using Postman
+## 7. Trying our own Completion Examples using Postman
 
 > 1. Discussion and Demo
 
