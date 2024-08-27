@@ -1,12 +1,16 @@
-# Kickstart Your Journey with Azure OpenAI Service (AI 102)
+# AI 102 - Mastering Prompt Engineering with Azure OpenAI Service
 
-## Date Time: 19-Jul-2024 at 07:30 PM IST
+## Date Time: 27-Aug-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302056811](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302056811)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/302192473](https://www.meetup.com/microsoft-reactor-bengaluru/events/302192473)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/watch?v=FLbuIphXiPY](https://www.youtube.com/watch?v=FLbuIphXiPY)
 
-![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
+## MS Learn Modules
+
+> 1. <https://aka.ms/OpenAI.Service>
+
+> ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
 ---
 
@@ -24,7 +28,7 @@
 
 ## Technology Stack
 
-> 1. .NET 8, DAPR
+> 1. NET 8, Python, Azure
 
 ## Information
 
@@ -58,7 +62,7 @@
 
 ### 1.2. Previous Session(s)
 
-> 1. To_Be_Done
+> 1. `Entire playlist` <https://www.youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59>
 
 ## 2. What is Prompt Engineering ?
 
