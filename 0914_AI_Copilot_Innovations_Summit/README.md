@@ -1,10 +1,13 @@
-# AI 102 - Deploy Azure AI Services in Containers, ACI, and AKS
+# Deploy Azure AI Services in Containers, ACI, and AKS
 
-## Date Time: 09-Jul-2024 at 05:00 PM IST
+## Date Time: 14-Sep-2024 at 02:15 PM IST
 
-## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944](https://www.meetup.com/microsoft-reactor-bengaluru/events/301436944)
+## Event URL(s)
 
-## YouTube URL: [https://www.youtube.com/watch?v=J1QU3rWHutk](https://www.youtube.com/watch?v=J1QU3rWHutk)
+> 1. [https://www.linkedin.com/feed/update/urn:li:activity:7231736869372182529](https://www.linkedin.com/feed/update/urn:li:activity:7231736869372182529)
+> 1. [https://techskillsource.com/agenda](https://techskillsource.com/agenda)
+
+## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
 ## MS Learn Module(s)
 
