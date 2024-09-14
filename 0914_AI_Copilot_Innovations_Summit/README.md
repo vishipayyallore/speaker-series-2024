@@ -96,8 +96,8 @@
 
 > 1. Discussion and Demo
 > 1. Azure AI services multi-service account
-> 1. Resource Group name `rg-ai102-dev-001`
-> 1. Azure AI Services name `azaisvc-ai102-dev-001`
+> 1. Resource Group name `rg-ai102-ai-summit`
+> 1. Azure AI Services name `azaisvc-ai102-summit`
 
 ### 2.1. Retrieve the `Endpoint` and `key` from Portal
 
@@ -113,8 +113,8 @@
 > 1. Discussion and Demo
 
 ```powershell
-$rgname="rg-ai102-dev-001"
-$aaisvs="aisvc-central-india-001"
+$rgname="rg-ai102-ai-summit"
+$aaisvs="azaisvc-ai102-summit"
 
 az cognitiveservices account keys list --name $aaisvs --resource-group $rgname
 
