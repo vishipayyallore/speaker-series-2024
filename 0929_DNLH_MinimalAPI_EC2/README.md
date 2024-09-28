@@ -106,7 +106,7 @@ sudo apt-get update && \
 ## Push the binaries into the Ubuntu EC2
 
 > 1. Discussion & Demo
-> 1. Save the .pem to .ppk
+> 1. Save the .pem to .ppk if you want to login using Putty.
 > 1. Login into EC2 using WinSCP. Use WinSCP to convert PEM to PPK.
 > 1. Push the binaries into Ubuntu EC2.
 
