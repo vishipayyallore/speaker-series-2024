@@ -60,7 +60,39 @@
 > 1. Discussion
 > 1. Port 22, 80 are enabled
 
-![Ubuntu VM 22.04](Documentation/Images/Enabled_Ports_2.PNG)
+![Ports Enabled](Documentation/Images/Enabled_Ports_2.PNG)
+
+## Installing Nginx on Ubuntu EC2
+
+> 1. Discussion & Demo
+
+```bash
+sudo apt-get -y update
+sudo apt-get -y install nginx
+curl -I http://localhost
+```
+
+![Install Nginx](Documentation/Images/Install_Nginx_3.PNG)
+
+## Installing .NET 8 on Ubuntu EC2
+
+> 1. Discussion & Demo
+
+### Reference(s)
+
+> 1. <https://learn.microsoft.com/en-gb/dotnet/core/install/linux-ubuntu#2004->
+> 1. <https://learn.microsoft.com/en-gb/dotnet/core/install/linux-ubuntu-install?pivots=os-linux-ubuntu-2204&tabs=dotnet8>
+
+```bash
+sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-8.0
+```
+
+![Installing .NET 8](Documentation/Images/Installing_.NET_8_4.PNG)
+
+## Verifying the .NET 6 Web API on the local box
+
+> 1. Discussion & Demo
 
 ## SUMMARY / RECAP / Q&A
 
