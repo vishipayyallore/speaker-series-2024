@@ -143,6 +143,58 @@ sudo apt-get update && \
 
 ![Verifiying API outside EC2](Documentation/Images/Verifying_API_Outside_EC2_11_2.PNG)
 
+## Execute .NET 8 Web API as a service on Ubuntu EC2
+
+> 1. Discussion & Demo
+> 1. Rename the `urls` to `urlx` inside `appsettings.json` file.
+> 1. `nano appsettings.json`, and `cat appsettings.json`
+> 1. Create a service file for our Web API
+
+```bash
+sudo nano /etc/systemd/system/webapiinaws.service
+```
+
+**Note:**
+
+> 1. The service file is created in the /etc/systemd/system folder
+> 1. Update the permissions of the service file to 0644
+> 1. Update the webapiinaws.service file with the content given below
+
+```bash
+[Unit]
+Description=.NET 8 Core Web API on Ubuntu
+
+[Service]
+WorkingDirectory=/home/ubuntu/webapiinaws
+ExecStart=/usr/bin/dotnet /home/ubuntu/webapiinaws/School.API.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=offershare-web-app
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
+```
+
+![Verifiying API outside EC2](Documentation/Images/Web_API_As_Service_EC2_12.PNG)
+
+### Enable the service and run it
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable webapiinaws.service
+sudo systemctl start webapiinaws.service
+sudo systemctl status webapiinaws.service
+```
+
+### Few commands for reference
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl stop webapiinaws.service
+sudo systemctl disable webapiinaws.service
+```
+
 ## SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
