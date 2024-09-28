@@ -100,6 +100,8 @@ sudo apt-get update && \
 
 > 1. Discussion & Demo
 
+![Publishing Locally](Documentation/Images/Publish_To_Local_6.PNG)
+
 ## Push the binaries into the Ubuntu EC2
 
 > 1. Discussion & Demo
