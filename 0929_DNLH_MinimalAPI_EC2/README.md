@@ -90,7 +90,7 @@ sudo apt-get update && \
 
 ![Installing .NET 8](Documentation/Images/Installing_.NET_8_4.PNG)
 
-## Verifying the .NET 6 Web API on the local box
+## Verifying the .NET 8 Web API on the local box
 
 > 1. Discussion & Demo
 
