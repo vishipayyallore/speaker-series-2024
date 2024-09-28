@@ -96,6 +96,14 @@ sudo apt-get update && \
 
 ![Installing .NET 8](Documentation/Images/Installing_.NET_8_5.PNG)
 
+## Publish the binaries into local folder
+
+> 1. Discussion & Demo
+
+## Push the binaries into the Ubuntu EC2
+
+> 1. Discussion & Demo
+
 ## SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
