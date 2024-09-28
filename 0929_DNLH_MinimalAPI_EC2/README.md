@@ -48,19 +48,25 @@
 
 > 1. Discussion
 
-## 2. Create a New EC2
+## Verifying the .NET 8 Web API on the local box
+
+> 1. Discussion & Demo
+
+![Verifying AP Locally](Documentation/Images/Verifying_API_Locally_1.PNG)
+
+## Create a New EC2
 
 > 1. Discussion
 > 1. Ubuntu 22.04
 
-![Ubuntu VM 22.04](Documentation/Images/EC2_1.PNG)
+![Ubuntu VM 22.04](Documentation/Images/EC2_2.PNG)
 
-## 3. Current Inbound Ports enables
+## Current Inbound Ports enables
 
 > 1. Discussion
 > 1. Port 22, 80 are enabled
 
-![Ports Enabled](Documentation/Images/Enabled_Ports_2.PNG)
+![Ports Enabled](Documentation/Images/Enabled_Ports_3.PNG)
 
 ## Installing Nginx on Ubuntu EC2
 
@@ -72,7 +78,7 @@ sudo apt-get -y install nginx
 curl -I http://localhost
 ```
 
-![Install Nginx](Documentation/Images/Install_Nginx_3.PNG)
+![Install Nginx](Documentation/Images/Install_Nginx_4.PNG)
 
 ## Installing .NET 8 on Ubuntu EC2
 
@@ -88,15 +94,10 @@ sudo apt-get update && \
   sudo apt-get install -y dotnet-sdk-8.0
 ```
 
-![Installing .NET 8](Documentation/Images/Installing_.NET_8_4.PNG)
-
-## Verifying the .NET 8 Web API on the local box
-
-> 1. Discussion & Demo
+![Installing .NET 8](Documentation/Images/Installing_.NET_8_5.PNG)
 
 ## SUMMARY / RECAP / Q&A
 
 > 1. SUMMARY / RECAP / Q&A
-> 2. Any open queries, I will get back through meetup chat/twitter.
 
 ---
