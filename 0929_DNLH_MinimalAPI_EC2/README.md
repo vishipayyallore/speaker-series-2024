@@ -187,6 +187,8 @@ sudo systemctl start webapiinaws.service
 sudo systemctl status webapiinaws.service
 ```
 
+![Verifiying API outside EC2](Documentation/Images/Web_API_As_Service_EC2_12_2.PNG)
+
 ### Few commands for reference
 
 ```bash
