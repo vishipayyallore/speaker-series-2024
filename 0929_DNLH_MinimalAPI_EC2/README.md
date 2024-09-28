@@ -73,6 +73,7 @@
 > 1. Discussion & Demo
 
 ```bash
+sudo apt install net-tools
 sudo apt-get -y update
 sudo apt-get -y install nginx
 curl -I http://localhost
@@ -114,6 +115,33 @@ sudo apt-get update && \
 ![Login into EC2](Documentation/Images/Login_Into_EC2_8.PNG)
 
 ![Push into EC2](Documentation/Images/Push_Into_EC2_9.PNG)
+
+## Verify the .NET 8 Web API inside Ubuntu EC2
+
+> 1. Discussion & Demo
+> 1. Execute `dotnet --list-sdks`
+> 1. Execute `dotnet School.API.dll`
+> 1. Open another instance of the terminal and execute
+> 1. `curl -I http://localhost:5000`
+> 1. netstat -tnlp
+
+![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_1.PNG)
+
+![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_2.PNG)
+
+## Verify the .NET 8 Web API outside Ubuntu EC2
+
+> 1. Discussion & Demo
+> 1. Update appsettings.json file with the `"urls": "http://0.0.0.0:5000;https://0.0.0.0:5001"`
+> 1. `nano appsettings.json`, and `cat appsettings.json`
+> 1. Please ensure port `5000`, and `5001` are added inside the Inbound Rules.
+> 1. Execute `dotnet School.API.dll`
+> 1. netstat -tnlp
+> 1. Open the Web Browser and navigate to `http://PublicIP:5000`
+
+![Modify AppSettings.json](Documentation/Images/Modify_AppSetting_11_1.PNG)
+
+![Verifiying API outside EC2](Documentation/Images/Verifying_API_Outside_EC2_11_2.PNG)
 
 ## SUMMARY / RECAP / Q&A
 
