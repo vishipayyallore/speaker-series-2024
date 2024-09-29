@@ -129,6 +129,7 @@ sudo apt-get update && \
 ```bash
 curl http://localhost:5000
 curl http://localhost:5000/api/courses
+netstat -tnlp
 ```
 
 ![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_2.PNG)
@@ -141,7 +142,7 @@ curl http://localhost:5000/api/courses
 > 1. Discussion & Demo
 > 1. Please ensure port `5000`, and `5001` are added inside the Inbound Rules.
 > 1. Execute `dotnet School.API.dll --urls "http://0.0.0.0:5000;https://0.0.0.0:5001"`
-> 1. netstat -tnlp
+> 1. Execute the command to view the port number `netstat -tnlp`
 > 1. Open the Web Browser and navigate to `http://PublicIP:5000`
 
 ![Modify AppSettings.json](Documentation/Images/Modify_AppSetting_11_1.PNG)
