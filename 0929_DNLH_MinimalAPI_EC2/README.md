@@ -61,7 +61,7 @@
 
 ![Ubuntu VM 22.04](Documentation/Images/EC2_2.PNG)
 
-## Current Inbound Ports enables
+## Current Inbound Ports enable
 
 > 1. Discussion
 > 1. Port 22, 80 are enabled
@@ -97,7 +97,7 @@ sudo apt-get update && \
 
 ![Installing .NET 8](Documentation/Images/Installing_.NET_8_5.PNG)
 
-## Publish the binaries into local folder
+## Publish the binaries into the local folder
 
 > 1. Discussion & Demo
 
@@ -120,26 +120,37 @@ sudo apt-get update && \
 
 > 1. Discussion & Demo
 > 1. Execute `dotnet --list-sdks`
-> 1. Execute `dotnet School.API.dll`
+> 1. Execute `dotnet School.API.dll --urls "http://localhost:5000"`
 > 1. Open another instance of the terminal and execute
-> 1. `curl -I http://localhost:5000`
-> 1. netstat -tnlp
+> 1. Execute the command to view the port number `netstat -tnlp`
 
 ![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_1.PNG)
+
+```bash
+curl http://localhost:5000
+curl http://localhost:5000/api/courses
+netstat -tnlp
+```
 
 ![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_2.PNG)
 
 ## Verify the .NET 8 Web API outside Ubuntu EC2
 
+<!-- > 1. Update appsettings.json file with the `"urls": "http://0.0.0.0:5000;https://0.0.0.0:5001"`
+> 1. `nano appsettings.json`, and `cat appsettings.json` -->
+
 > 1. Discussion & Demo
-> 1. Update appsettings.json file with the `"urls": "http://0.0.0.0:5000;https://0.0.0.0:5001"`
-> 1. `nano appsettings.json`, and `cat appsettings.json`
 > 1. Please ensure port `5000`, and `5001` are added inside the Inbound Rules.
-> 1. Execute `dotnet School.API.dll`
-> 1. netstat -tnlp
+> 1. Execute `dotnet School.API.dll --urls "http://0.0.0.0:5000;https://0.0.0.0:5001"`
+> 1. Execute the command to view the port number `netstat -tnlp`
 > 1. Open the Web Browser and navigate to `http://PublicIP:5000`
 
 ![Modify AppSettings.json](Documentation/Images/Modify_AppSetting_11_1.PNG)
+
+```bash
+http://54.149.219.200:5000/
+http://54.149.219.200:5000/api/courses
+```
 
 ![Verifiying API outside EC2](Documentation/Images/Verifying_API_Outside_EC2_11_2.PNG)
 
@@ -185,6 +196,10 @@ sudo systemctl daemon-reload
 sudo systemctl enable webapiinaws.service
 sudo systemctl start webapiinaws.service
 sudo systemctl status webapiinaws.service
+sudo systemctl stop webapiinaws.service
+sudo systemctl disable webapiinaws.service
+
+curl -I http://localhost:5000
 ```
 
 ![Verifiying API outside EC2](Documentation/Images/Web_API_As_Service_EC2_12_2.PNG)
@@ -195,6 +210,43 @@ sudo systemctl status webapiinaws.service
 sudo systemctl daemon-reload
 sudo systemctl stop webapiinaws.service
 sudo systemctl disable webapiinaws.service
+```
+
+## Configure Reverse proxy Nginx to route the traffic to the .NET 8 Web API
+
+> 1. Discussion and Demo
+> 1. Navigate to `http://public-ip-address` in the browser
+> 1. We should be able to see the default page of the Nginx
+> 1. Update `/etc/nginx/sites-available/default` file with the content given below
+> 1. `sudo nano /etc/nginx/sites-available/default`
+
+```bash
+server {
+    listen 80;
+
+    location / {
+        proxy_pass http://localhost:5000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection keep-alive;
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+```bash
+sudo service nginx start
+sudo service nginx restart
+
+sudo nano /etc/nginx/sites-available/default
+cat nano /etc/nginx/sites-available/default
+
+sudo systemctl status nginx.service
+
+sudo journalctl -xe
 ```
 
 ## SUMMARY / RECAP / Q&A
