@@ -61,7 +61,7 @@
 
 ![Ubuntu VM 22.04](Documentation/Images/EC2_2.PNG)
 
-## Current Inbound Ports enables
+## Current Inbound Ports enable
 
 > 1. Discussion
 > 1. Port 22, 80 are enabled
@@ -97,7 +97,7 @@ sudo apt-get update && \
 
 ![Installing .NET 8](Documentation/Images/Installing_.NET_8_5.PNG)
 
-## Publish the binaries into local folder
+## Publish the binaries into the local folder
 
 > 1. Discussion & Demo
 
@@ -196,6 +196,8 @@ sudo systemctl daemon-reload
 sudo systemctl stop webapiinaws.service
 sudo systemctl disable webapiinaws.service
 ```
+
+https://github.com/vishipayyallore/speaker_series_2021/tree/master/aws-learning/S2_18Dec2021_.NET6_In_AWS_EC2
 
 ## SUMMARY / RECAP / Q&A
 
