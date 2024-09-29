@@ -122,14 +122,14 @@ sudo apt-get update && \
 > 1. Execute `dotnet --list-sdks`
 > 1. Execute `dotnet School.API.dll --urls "http://localhost:5000"`
 > 1. Open another instance of the terminal and execute
-> 1. netstat -tnlp
+> 1. Execute the command to view the port number `netstat -tnlp`
+
+![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_1.PNG)
 
 ```bash
 curl http://localhost:5000
 curl http://localhost:5000/api/courses
 ```
-
-![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_1.PNG)
 
 ![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_2.PNG)
 
@@ -195,6 +195,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable webapiinaws.service
 sudo systemctl start webapiinaws.service
 sudo systemctl status webapiinaws.service
+sudo systemctl stop webapiinaws.service
+sudo systemctl disable webapiinaws.service
 
 curl -I http://localhost:5000
 ```
