@@ -120,10 +120,14 @@ sudo apt-get update && \
 
 > 1. Discussion & Demo
 > 1. Execute `dotnet --list-sdks`
-> 1. Execute `dotnet School.API.dll`
+> 1. Execute `dotnet School.API.dll --urls "http://localhost:5000"`
 > 1. Open another instance of the terminal and execute
-> 1. `curl -I http://localhost:5000`
 > 1. netstat -tnlp
+
+```bash
+curl http://localhost:5000
+curl http://localhost:5000/api/courses
+```
 
 ![Verifiying API inside EC2](Documentation/Images/Verifying_API_EC2_10_1.PNG)
 
@@ -140,6 +144,11 @@ sudo apt-get update && \
 > 1. Open the Web Browser and navigate to `http://PublicIP:5000`
 
 ![Modify AppSettings.json](Documentation/Images/Modify_AppSetting_11_1.PNG)
+
+```bash
+http://54.149.219.200:5000/
+http://54.149.219.200:5000/api/courses
+```
 
 ![Verifiying API outside EC2](Documentation/Images/Verifying_API_Outside_EC2_11_2.PNG)
 
@@ -185,6 +194,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable webapiinaws.service
 sudo systemctl start webapiinaws.service
 sudo systemctl status webapiinaws.service
+
+curl -I http://localhost:5000
 ```
 
 ![Verifiying API outside EC2](Documentation/Images/Web_API_As_Service_EC2_12_2.PNG)
@@ -197,7 +208,42 @@ sudo systemctl stop webapiinaws.service
 sudo systemctl disable webapiinaws.service
 ```
 
-https://github.com/vishipayyallore/speaker_series_2021/tree/master/aws-learning/S2_18Dec2021_.NET6_In_AWS_EC2
+## Configure Reverse proxy Nginx to route the traffic to the .NET 8 Web API
+
+> 1. Discussion and Demo
+> 1. Navigate to `http://public-ip-address` in the browser
+> 1. We should be able to see the default page of the Nginx
+> 1. Update `/etc/nginx/sites-available/default` file with the content given below
+> 1. `sudo nano /etc/nginx/sites-available/default`
+
+```bash
+server {
+    listen 80;
+
+    location / {
+        proxy_pass http://localhost:5000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection keep-alive;
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+```bash
+sudo service nginx start
+sudo service nginx restart
+
+sudo nano /etc/nginx/sites-available/default
+cat nano /etc/nginx/sites-available/default
+
+sudo systemctl status nginx.service
+
+sudo journalctl -xe
+```
 
 ## SUMMARY / RECAP / Q&A
 
