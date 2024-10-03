@@ -1,8 +1,8 @@
-# Kickstart Your Journey with Azure OpenAI Service (AI 102)
+# Deep Dive into Azure AI Studio and Advanced Prompt Engineering (AI 102)
 
-## Date Time: 19-Jul-2024 at 07:30 PM IST
+## Date Time: 04-Oct-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302056811](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302056811)
+## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302926813](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302926813)
 
 ## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
