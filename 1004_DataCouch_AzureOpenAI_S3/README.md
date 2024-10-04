@@ -95,7 +95,7 @@ Feel free to use this prompt and example to practice or guide others in using th
 
 > 1. Discussion and Demo
 
-![Completions with CS | 100x100](./Documentation/Images/AOAI_Completions_CS.PNG)
+![Completions with CS | 100x100](./Documentation/Images/Chat_Completions_CS.PNG)
 
 ## X. Trying our own Completion Examples using `Python`
 
