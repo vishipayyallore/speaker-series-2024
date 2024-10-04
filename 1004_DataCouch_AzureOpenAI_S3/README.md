@@ -58,6 +58,14 @@
 
 > 1. <https://www.youtube.com/@DataCouch/videos>
 
+## Azure AI Studio Features
+
+> 1. Discussion and Demo
+
+## Prompt Engineering Techniques
+
+> 1. Discussion and Demo
+
 ## X. Trying our own Completion Examples using Postman
 
 > 1. Discussion and Demo
@@ -69,6 +77,10 @@
 > 1. Discussion and Demo
 
 ![Completions with CS | 100x100](./Documentation/Images/AOAI_Completions_CS.PNG)
+
+## X. Trying our own Completion Examples using `Python`
+
+> 1. Discussion and Demo
 
 ---
 
