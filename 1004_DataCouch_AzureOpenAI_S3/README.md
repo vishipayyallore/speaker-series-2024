@@ -66,12 +66,6 @@
 
 > 1. Discussion and Demo
 
-## X. Trying our own Completion Examples using Postman
-
-> 1. Discussion and Demo
-
-![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions_Postman.PNG)
-
 ## X. Trying our own Completion Examples using `C#`
 
 > 1. Discussion and Demo
@@ -81,6 +75,12 @@
 ## X. Trying our own Completion Examples using `Python`
 
 > 1. Discussion and Demo
+
+## X. Trying our own Completion Examples using Postman
+
+> 1. Discussion and Demo
+
+![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions_Postman.PNG)
 
 ---
 
