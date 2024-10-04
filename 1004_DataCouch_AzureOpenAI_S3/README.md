@@ -80,7 +80,7 @@
 
 > 1. Discussion and Demo
 
-![Completions with Postman | 100x100](./Documentation/Images/AOAI_Completions_Postman.PNG)
+![Completions with Postman | 100x100](./Documentation/Images/Chat_Completions_Postman.PNG)
 
 ---
 
