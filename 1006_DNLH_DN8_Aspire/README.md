@@ -33,6 +33,13 @@
 ## What are we doing today?
 
 > 1. The Big Picture
+> 1. .NET Aspire overview
+> 1. Setup and tooling
+> 1. Build .NET Aspire solution - Web API
+> 1. Orchestration overview
+> 1. Service defaults
+> 1. The Big Picture
+> 1. The Big Picture
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aspire-2024) of today's session for more details
@@ -60,8 +67,6 @@
 ## Build .NET Aspire solution - Web API
 
 > 1. Discussion and Demo
-> 1. Web API Project + Blazor Frontend
-> 1. Web API Project + Blazor Frontend + Cache (Docker Container)
 > 1. <https://learn.microsoft.com/en-us/dotnet/aspire/get-started/build-your-first-aspire-app?pivots=visual-studio>
 
 ## Orchestration overview
