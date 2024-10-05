@@ -34,6 +34,7 @@
 > 1. The Big Picture
 >    - Pre-requisites
 >    - Previous Session(s)
+> 1. Azure AI Studio Features
 > 1. Trying our own Completion Examples in Azure AI Studio
 > 1. Trying our own Completion Examples using Postman
 > 1. Trying our own Completion Examples using `C#`
@@ -62,9 +63,32 @@
 
 > 1. Discussion and Demo
 > 1. Token per minimte
-> 1. Memory / Context between Completions VS Chat
+> 1. Total Response Length
 
 ## Prompt Engineering Techniques
+
+> 1. Discussion and Demo
+
+### Context in Chat Completions
+
+> 1. Discussion and Demo
+> 1. Memory / Context between Completions VS Chat
+
+### Role play
+
+> 1. Discussion and Demo
+> 1. `Cardiologist` versus `Assistant`
+> 1. Prompt: What is `TV`?
+
+### Zero Shot
+
+> 1. Discussion and Demo
+
+### Single Shot
+
+> 1. Discussion and Demo
+
+### Few Shots
 
 > 1. Discussion and Demo
 
