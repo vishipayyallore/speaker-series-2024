@@ -38,8 +38,10 @@
 > 1. Build .NET Aspire solution - Web API
 > 1. Orchestration overview
 > 1. Service defaults
-> 1. The Big Picture
-> 1. The Big Picture
+> 1. Launch profiles
+> 1. .NET Aspire solution - Web API + Blazor Frontend
+> 1. Service discovery
+> 1. .NET Aspire solution - Web API Project + Blazor Frontend + Cache (Docker Container)
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aspire-2024) of today's session for more details
@@ -84,7 +86,7 @@
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/launch-profiles>
 
-## Build .NET Aspire solution - Web API + Blazor Frontend
+## .NET Aspire solution - Web API + Blazor Frontend
 
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/dotnet/aspire/get-started/build-your-first-aspire-app?pivots=visual-studio>
@@ -93,7 +95,7 @@
 
 > 1. Discussion and Demo
 
-## Build .NET Aspire solution - Web API Project + Blazor Frontend + Cache (Docker Container)
+## .NET Aspire solution - Web API Project + Blazor Frontend + Cache (Docker Container)
 
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/dotnet/aspire/get-started/build-your-first-aspire-app?pivots=visual-studio>
