@@ -45,7 +45,45 @@
 
 ## 1. The Big Picture
 
-> 1. Discussion
+> 1. Discussion and Demo
+
+## .NET Aspire overview
+
+> 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview>
+
+## Setup and tooling
+
+> 1. Discussion and Demo
+> 1. <https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/setup-tooling>
+
+## Build 3 .NET Aspire solutions
+
+> 1. Discussion and Demo
+> 1. Web API Project
+> 1. Web API Project + Blazor Frontend
+> 1. Web API Project + Blazor Frontend + Cache (Docker Container)
+> 1. <https://learn.microsoft.com/en-us/dotnet/aspire/get-started/build-your-first-aspire-app?pivots=visual-studio>
+
+## Orchestration overview
+
+> 1. Discussion and Demo
+
+## Service discovery
+
+> 1. Discussion and Demo
+
+## Service defaults
+
+> 1. Discussion and Demo
+
+## Launch profiles
+
+> 1. Discussion and Demo
+
+## Dashboard overview
+
+> 1. Discussion and Demo
 
 ## SUMMARY / RECAP / Q&A
 
