@@ -1,10 +1,10 @@
-# AWS - Deploy .NET 8 Minimal API on Ubuntu EC2 Nginx
+# Kick start Your Journey with .NET 8 Aspire
 
-## Date Time: 29-Sep-2024 at 09:00 AM IST
+## Date Time: 06-Oct-2024 at 09:00 AM IST
 
-## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/301436462](https://www.meetup.com/dot-net-learners-house-hyderabad/events/301436462)
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/302915003](https://www.meetup.com/dot-net-learners-house-hyderabad/events/302915003)
 
-## YouTube URL: [https://www.youtube.com/watch?v=DiTCaNKe-9k](https://www.youtube.com/watch?v=DiTCaNKe-9k)
+## YouTube URL: [https://www.youtube.com/watch?v=kHctHNkBljs](https://www.youtube.com/watch?v=kHctHNkBljs)
 
 <!-- ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG) -->
 
