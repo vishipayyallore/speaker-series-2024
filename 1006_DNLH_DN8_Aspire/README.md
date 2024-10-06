@@ -66,6 +66,12 @@
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/setup-tooling>
 
+```powershell
+dotnet workload list
+dotnet workload update
+dotnet workload install aspire
+```
+
 ## Build .NET Aspire solution - Web API
 
 > 1. Discussion and Demo
