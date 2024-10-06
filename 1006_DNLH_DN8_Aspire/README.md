@@ -108,9 +108,13 @@ dotnet workload install aspire
 
 ![Session First Look](Documentation/Images/SessionFirstLook.PNG)
 
+![Sample 3](Documentation/Images/Sample3.PNG)
+
 ## Dashboard overview
 
 > 1. Discussion and Demo
+
+![Aspire Dashboard](Documentation/Images/Aspire_Dashboard.PNG)
 
 ## SUMMARY / RECAP / Q&A
 
