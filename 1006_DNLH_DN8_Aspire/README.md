@@ -100,6 +100,8 @@
 > 1. Discussion and Demo
 > 1. <https://learn.microsoft.com/en-us/dotnet/aspire/get-started/build-your-first-aspire-app?pivots=visual-studio>
 
+![Session First Look](Documentation/Images/SessionFirstLook.PNG)
+
 ## Dashboard overview
 
 > 1. Discussion and Demo
