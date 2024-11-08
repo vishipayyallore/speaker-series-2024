@@ -154,15 +154,11 @@ Category:
 
 ![Completions with CS | 100x100](./Documentation/Images/Chat_Completions_PY.PNG)
 
-## X. Trying our own Completion Examples using `C#`
+## 7. Trying our own Completion Examples using `C#`
 
 > 1. Discussion and Demo
 
 ![Completions with CS | 100x100](./Documentation/Images/Chat_Completions_CS.PNG)
-
-## X. Trying our own Completion Examples using Postman
-
-> 1. Discussion and Demo
 
 ---
 
