@@ -1,8 +1,8 @@
-# Deep Dive into Azure AI Studio and Advanced Prompt Engineering (AI 102)
+# Building Natural Language Solutions with Azure OpenAI Service (AI 102)
 
-## Date Time: 04-Oct-2024 at 05:00 PM IST
+## Date Time: 08-Nov-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302926813](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302926813)
+## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327)
 
 ## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
