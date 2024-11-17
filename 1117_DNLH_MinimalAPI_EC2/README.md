@@ -1,6 +1,6 @@
 # AWS - Deploying .NET 8 Minimal API on Ubuntu EC2
 
-## Date Time: 29-Sep-2024 at 09:00 AM IST
+## Date Time: 17-Nov-2024 at 09:00 AM IST
 
 ## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/301436430](https://www.meetup.com/dot-net-learners-house-hyderabad/events/301436430)
 
