@@ -1,10 +1,10 @@
-# Building Natural Language Solutions with Azure OpenAI Service (AI 102)
+# AI-102 - Building Natural Language Solutions with Azure OpenAI Service
 
-## Date Time: 08-Nov-2024 at 05:00 PM IST
+## Date Time: 19-Nov-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/304037702](https://www.meetup.com/microsoft-reactor-bengaluru/events/304037702)
 
-## YouTube URL: [https://www.youtube.com/@DataCouch/videos](https://www.youtube.com/@DataCouch/videos)
+## YouTube URL: [https://www.youtube.com/ToBeDeon](https://www.youtube.com/ToBeDeon)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
