@@ -4,7 +4,7 @@
 
 ## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/304037702](https://www.meetup.com/microsoft-reactor-bengaluru/events/304037702)
 
-## YouTube URL: [https://www.youtube.com/ToBeDeon](https://www.youtube.com/ToBeDeon)
+## YouTube URL: [https://www.youtube.com/watch?v=GNlddGUnND4](https://www.youtube.com/watch?v=GNlddGUnND4)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -63,7 +63,7 @@
 
 ### 1.2. Previous Session(s)
 
-> 1. <https://www.youtube.com/@DataCouch/videos>
+> 1. <https://youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59&si=5vlmcUqOuWqFiCRR>
 
 ## 2. Choose and deploy a model
 
