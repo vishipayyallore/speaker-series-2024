@@ -34,6 +34,16 @@
 > 1. The Big Picture
 >    - Pre-requisites
 >    - Previous Session(s)
+> 1. Choose and deploy a model
+>    - Model Families
+>    - Capabilities of Newer Models
+>    - Naming Conventions
+>    - Model Deployment
+> 1. Authentication and specification of deployed model
+> 1. Prompt Engineering
+> 1. Use Azure OpenAI REST API
+> 1. Trying our own Completion Examples using Python
+> 1. Trying our own Completion Examples using C#
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
