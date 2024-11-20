@@ -1,10 +1,10 @@
-# Building Natural Language Solutions with Azure OpenAI Service (AI 102)
+# AI-102 - Building Natural Language Solutions with Azure OpenAI Service
 
-## Date Time: 08-Nov-2024 at 05:00 PM IST
+## Date Time: 19-Nov-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/304037702](https://www.meetup.com/microsoft-reactor-bengaluru/events/304037702)
 
-## YouTube URL: [https://www.youtube.com/@DataCouch/videos](https://www.youtube.com/@DataCouch/videos)
+## YouTube URL: [https://www.youtube.com/watch?v=GNlddGUnND4](https://www.youtube.com/watch?v=GNlddGUnND4)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -34,6 +34,16 @@
 > 1. The Big Picture
 >    - Pre-requisites
 >    - Previous Session(s)
+> 1. Choose and deploy a model
+>    - Model Families
+>    - Capabilities of Newer Models
+>    - Naming Conventions
+>    - Model Deployment
+> 1. Authentication and specification of deployed model
+> 1. Prompt Engineering
+> 1. Use Azure OpenAI REST API
+> 1. Trying our own Completion Examples using Python
+> 1. Trying our own Completion Examples using C#
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/vishipayyallore/aiml-2024/tree/main/ai102demos) of today's session for more details
@@ -53,7 +63,7 @@
 
 ### 1.2. Previous Session(s)
 
-> 1. <https://www.youtube.com/@DataCouch/videos>
+> 1. <https://youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59&si=5vlmcUqOuWqFiCRR>
 
 ## 2. Choose and deploy a model
 
