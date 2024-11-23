@@ -1,8 +1,8 @@
-# Deep Dive into Azure AI Studio and Advanced Prompt Engineering (AI 102)
+# Generate Code with Azure OpenAI Service (AI 102)
 
-## Date Time: 04-Oct-2024 at 05:00 PM IST
+## Date Time: 22-Nov-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302926813](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/302926813)
+## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304158852](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304158852)
 
 ## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
 
