@@ -82,6 +82,14 @@ Palindrome Checking Algorithm using Two Pointers in java. Write algo in one file
 
 ![Write Unit Test cases | 100x100](Documentation/Images/WriteUnitTests.PNG)
 
+## 5. Fixing the code
+
+> 1. Discussion and Demo
+
+![Fixing the code | 100x100](Documentation/Images/FixingTheCode.PNG)
+
+![Running the Fixed code | 100x100](Documentation/Images/FixingTheCode_Run.PNG)
+
 ---
 
 ## SUMMARY / RECAP / Q&A
