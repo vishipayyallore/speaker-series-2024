@@ -1,10 +1,10 @@
-# Building Natural Language Solutions with Azure OpenAI Service (AI 102)
+# AI-102 - Generate Code with Azure OpenAI Service
 
-## Date Time: 08-Nov-2024 at 05:00 PM IST
+## Date Time: 26-Nov-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/303994327)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/304141238](https://www.meetup.com/microsoft-reactor-bengaluru/events/304141238)
 
-## YouTube URL: [https://www.youtube.com/@DataCouch/videos](https://www.youtube.com/@DataCouch/videos)
+## YouTube URL: [https://www.youtube.com/watch?v=NFfigXuLt-U](https://www.youtube.com/watch?v=NFfigXuLt-U)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -53,7 +53,11 @@
 
 ### 1.2. Previous Session(s)
 
-> 1. <https://www.youtube.com/@DataCouch/videos>
+> 1. <https://youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59&si=5vlmcUqOuWqFiCRR>
+
+### 1.3. Microsoft Learn Module(s)
+
+> 1. <https://aka.ms/Azure-Open-AIService>
 
 ## 2. Choose and deploy a model
 
