@@ -59,6 +59,29 @@
 
 > 1. <https://aka.ms/Azure-Open-AIService>
 
+## 2. Construct code from natural language
+
+> 1. Discussion and Demo
+> 1. Algorithm code in C#, Go, Java, JavaScript, Python, TypeScript
+
+```text
+Palindrome Checking Algorithm using Two Pointers in java. Write algo in one file, and main program in another file
+```
+
+![Palindrome Checking | 100x100](Documentation/Images/PalindromeCheckingAlgo.PNG)
+
+## 3. Adding comments to the existing code
+
+> 1. Discussion and Demo
+
+![Adding comments to the existing code | 100x100](Documentation/Images/AddingComments.PNG)
+
+## 4. Writing Unit Test cases
+
+> 1. Discussion and Demo
+
+![Write Unit Test cases | 100x100](Documentation/Images/WriteUnitTests.PNG)
+
 ---
 
 ## SUMMARY / RECAP / Q&A
