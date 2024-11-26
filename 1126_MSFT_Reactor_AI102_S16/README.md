@@ -65,7 +65,36 @@
 > 1. Algorithm code in C#, Go, Java, JavaScript, Python, TypeScript
 
 ```text
-Palindrome Checking Algorithm using Two Pointers in java. Write algo in one file, and main program in another file
+Palindrome Checking Algorithm using Two Pointers in java.
+
+Palindrome Checking Algorithm using Two Pointers in java. Write algo in one file, and main program in another file.
+
+Could you please add more test cases in the main()?
+
+Give code if needed
+Could you please rewrite this code in C#. .NET 8, top level statements in program.cs. Algo should be in another file.
+
+Could you please rewirte this in go lang?
+
+Could you please rewrite this in python?
+
+Could you please rewrite in JavaScript?
+
+Could you please rewrite this in typescript?
+
+<!DOCTYPE html>
+<html lang="en">
+</html>
+
+I have this html mark up. Could you please add Bootstrap CDN, and font awsome CND?
+
+Could you please write a h1 tag for our shoping products page. Also, use few font awsome icons
+
+Could you pelase create a table with some products information. Use some colors too
+
+Top nav bar please?
+
+Footer please
 ```
 
 ![Palindrome Checking | 100x100](Documentation/Images/PalindromeCheckingAlgo.PNG)
