@@ -1,0 +1,17 @@
+{
+  "name": "palindromechecker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "Viswanatha Swamy",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "palindromechecker": "file:",
+    "ts": "file:"
+  }
+}

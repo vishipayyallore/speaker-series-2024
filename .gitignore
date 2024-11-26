@@ -398,3 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 1126_MSFT_Reactor_AI102_S16/src/Java/Main.class
 1126_MSFT_Reactor_AI102_S16/src/Java/PalindromeChecker.class
+1126_MSFT_Reactor_AI102_S16/src/TS/dist/main.js
+1126_MSFT_Reactor_AI102_S16/src/TS/dist/palindromeChecker.js
