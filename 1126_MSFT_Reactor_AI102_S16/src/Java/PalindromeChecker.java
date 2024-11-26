@@ -2,6 +2,10 @@
 public class PalindromeChecker {
 
     public static boolean isPalindrome(String s) {
+        if (s == null) {
+            return false;
+        }
+
         int left = 0;
         int right = s.length() - 1;
 
@@ -11,7 +15,7 @@ public class PalindromeChecker {
                 return false;
             }
 
-            left++; 
+            left++;
             right--;
         }
 

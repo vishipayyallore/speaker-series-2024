@@ -19,3 +19,16 @@ public class Main {
         }
     }
 }
+
+
+// // Test cases  
+// String test1 = "A man, a plan, a canal, Panama";  
+// String test2 = "race a car";  
+// String test3 = "";  // Empty string  
+// String test4 = " "; // Single space  
+// String test5 = "No lemon, no melon";  
+// String test6 = "Was it a car or a cat I saw?";  
+// String test7 = "Able was I, I saw Elba";  
+// String test8 = "Never odd or even";  
+// String test9 = "12321"; // Numeric palindrome  
+// String test10 = "12345"; // Not a palindrome  
