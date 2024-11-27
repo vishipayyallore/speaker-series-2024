@@ -1,6 +1,6 @@
 // palindromeChecker.js
 function isPalindrome(s) {
-    if (s === null || s === "") {
+    if (s === null || s === "" || s === undefined) {
         return false;
     }
 

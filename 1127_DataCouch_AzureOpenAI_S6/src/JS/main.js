@@ -15,3 +15,43 @@ function main() {
 }
 
 main();
+
+// // Test cases  
+// const testStrings = [  
+//     "racecar",          // Palindrome  
+//     "hello",            // Not a palindrome  
+//     "level",            // Palindrome  
+//     "",                 // Palindrome (empty string)  
+//     "a",                // Palindrome (single character)  
+//     "A man a plan a canal Panama", // Not a palindrome due to spaces and case  
+//     "No lemon, no melon", // Not a palindrome due to spaces and punctuation  
+//     "Madam",            // Not a palindrome due to case sensitivity  
+//     "12321",            // Palindrome (numeric characters)  
+//     "12345"             // Not a palindrome (numeric characters)  
+// ];  
+
+
+// // main.js  
+  
+// const isPalindrome = require('./palindromeChecker');  
+  
+// // Test cases  
+// const testStrings = [  
+//     "racecar",          // Palindrome  
+//     "hello",            // Not a palindrome  
+//     "level",            // Palindrome  
+//     "",                 // Palindrome (empty string)  
+//     "a",                // Palindrome (single character)  
+//     "A man a plan a canal Panama", // Not a palindrome due to spaces and case  
+//     "No lemon, no melon", // Not a palindrome due to spaces and punctuation  
+//     "Madam",            // Not a palindrome due to case sensitivity  
+//     "12321",            // Palindrome (numeric characters)  
+//     "12345"             // Not a palindrome (numeric characters)  
+// ];  
+  
+// // Checking and printing results  
+// for (const testStr of testStrings) {  
+//     // Normalize the string: remove spaces and convert to lowercase  
+//     const cleanedStr = testStr.replace(/\s+/g, '').toLowerCase();  
+//     console.log(`"${testStr}" is a palindrome: ${isPalindrome(cleanedStr)}`);  
+// }  

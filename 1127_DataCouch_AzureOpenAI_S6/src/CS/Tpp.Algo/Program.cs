@@ -14,3 +14,17 @@ foreach (string s in testCases)
     WriteLine(new string('-', 100));
     i++;
 }
+
+// // Test cases  
+// string[] testStrings = {  
+//     "racecar",          // Palindrome  
+//     "hello",            // Not a palindrome  
+//     "level",            // Palindrome  
+//     "",                 // Palindrome (empty string)  
+//     "a",                // Palindrome (single character)  
+//     "A man a plan a canal Panama", // Not a palindrome due to spaces and case  
+//     "No lemon, no melon", // Not a palindrome due to spaces and punctuation  
+//     "Madam",            // Not a palindrome due to case sensitivity  
+//     "12321",            // Palindrome (numeric characters)  
+//     "12345"             // Not a palindrome (numeric characters)  
+// };
