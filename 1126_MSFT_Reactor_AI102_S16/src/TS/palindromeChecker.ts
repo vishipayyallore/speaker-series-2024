@@ -1,6 +1,10 @@
 // palindromeChecker.ts
 
 export function isPalindromeTS(s: string): boolean {
+    if (s === null || s === "") {
+        return false;
+    }
+
     let left = 0;
     let right = s.length - 1;
 

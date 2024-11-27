@@ -1,6 +1,9 @@
 # palindrome_checker.py
 
 def is_palindrome(s):
+    if s is None or s == "":
+        return False
+
     left, right = 0, len(s) - 1
 
     while left < right:

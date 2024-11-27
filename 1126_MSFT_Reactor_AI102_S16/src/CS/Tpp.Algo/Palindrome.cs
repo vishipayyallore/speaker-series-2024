@@ -6,6 +6,11 @@ public static class PalindromeChecker
 {
     public static bool IsPalindrome(string s)
     {
+        if (s == null)
+        {
+            return false;
+        }
+
         int left = 0;
         int right = s.Length - 1;
 

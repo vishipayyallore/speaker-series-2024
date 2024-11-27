@@ -1,5 +1,9 @@
 // palindromeChecker.js
 function isPalindrome(s) {
+    if (s === null || s === "") {
+        return false;
+    }
+
     let left = 0,
         right = s.length - 1;
 

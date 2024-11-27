@@ -6,6 +6,10 @@ import (
 )
 
 func isPalindrome(s string) bool {
+	if s == "" {
+		return false
+	}
+
 	left := 0
 	right := len(s) - 1
 
