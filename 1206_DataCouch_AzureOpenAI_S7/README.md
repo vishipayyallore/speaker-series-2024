@@ -57,9 +57,9 @@
 
 ### 1.3. Microsoft Learn Module(s)
 
-> 1. <https://aka.ms/Azure-Open-AIService>
+> 1. <https://learn.microsoft.com/en-gb/training/modules/use-own-data-azure-openai/1-introduction>
 
-## Retrieval Augmented Generation (RAG)
+## 2. Retrieval Augmented Generation (RAG)
 
 `Retrieval Augmented Generation (RAG)` is an advanced AI framework that enhances the capabilities of language models by combining `retrieval-based methods` with `generative models`. In essence, RAG integrates external knowledge sources into the generative process, making the model's responses more accurate, up-to-date, and relevant to specific contexts.
 
@@ -99,7 +99,41 @@
 > 1. **Enterprise Knowledge Management**: Leveraging private, secure repositories to assist employees with organizational knowledge.
 > 1. **Research Assistance**: Summarizing and generating insights based on scientific papers or datasets.
 
-## Implement RAG with Azure OpenAI Service
+## 3. Provision Azure Resources
+
+> 1. Azure OpenAI Resource: For running GPT models.
+> 1. Azure AI Search Resource: For indexing and retrieving data.
+> 1. Azure Storage Account: For storing your dataset (e.g., brochures).
+
+## 4. Upload Your Data
+
+> 1. Store your data (e.g., PDF brochures) in an Azure Blob Storage container.
+> 1. Example: Create a container margies-travel and upload the brochures.
+
+## 5. Deploy AI Models
+
+> 1. Embedding Model (text-embedding-ada-002): Converts text into vectors for indexing.
+> 1. Generative Model (gpt-35-turbo-16k): Generates responses using your indexed data.
+
+## 6. Create an Index
+
+> 1. Use Azure AI Search to index the brochures:
+>    - Set up a connection to your Blob Storage container.
+>    - Use the embedding model to vectorize the text.
+>    - Enable semantic ranking for better search relevance.
+> 1. Result: A searchable index (margies-index) is created.
+
+## 7. Retrieval `without` RAG
+
+> 1. Discussion and Demo
+
+```text
+Tell me about India
+```
+
+![Wihtout RAG Demo 1| 100x100](Documentation/Images/Without_RAG_1.PNG)
+
+## 8. Implement RAG with Azure OpenAI Service
 
 > 1. Discussion and Demo
 
