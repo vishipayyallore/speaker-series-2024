@@ -59,6 +59,31 @@
 
 > 1. <https://aka.ms/Azure-Open-AIService>
 
+## RAG with Azure OpenAI Service
+
+> 1. Discussion and Demo
+
+```text
+Tell me about Dubai
+
+Tell me about Las Vegas
+
+Tell me about Margies Travel Company
+
+Tell me about London
+
+Tell me about New York
+
+Tell me about San Francisco
+```
+
+![RAG | 100x100](Documentation/Images/RAGWithAzureOpenAI_1.PNG)
+
+```text
+Tell me about India
+```
+
+![RAG Demo 2| 100x100](Documentation/Images/RAGWithAzureOpenAI_2.PNG)
 
 ---
 
