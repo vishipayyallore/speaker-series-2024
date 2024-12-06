@@ -1,10 +1,10 @@
-# Generate Code with Azure OpenAI Service (AI 102)
+# Implement Retrieval-Augmented Generation (RAG) with Azure OpenAI Service (AI 102)
 
-## Date Time: 27-Nov-2024 at 05:00 PM IST
+## Date Time: 06-Dec-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304158852](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304158852)
+## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304636793](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304636793)
 
-## YouTube URL: [https://www.youtube.com/watch?v=ToBeDone](https://www.youtube.com/watch?v=ToBeDone)
+## YouTube URL: [https://www.youtube.com/@DataCouch/videos](https://www.youtube.com/@DataCouch/videos)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
