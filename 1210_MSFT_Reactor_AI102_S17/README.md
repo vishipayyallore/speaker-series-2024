@@ -137,15 +137,25 @@ Tell me about India
 
 > 1. Discussion and Demo
 
+```text
+System Message: You are a helpful assistant assisting users with travel recommendations.
+User: I want to go to New York. Where should I stay?
+```
+
 ![RAG with Azure AI Studio | 100x100](Documentation/Images/RAGWith_AzureOpenAIStudio.PNG)
 
 ## 9. RAG with your data in Postman
 
 > 1. Discussion and Demo
 
-![RAG with Azure AI Studio | 100x100](Documentation/Images/RAGWith_AzureOpenAIStudio.PNG)
+```text
+System Message: You are a helpful assistant assisting users with travel recommendations.
+User: I want to go to New York. Where should I stay?
+```
 
-## 8. Implement RAG with Azure OpenAI Service
+![RAG with Azure AI Studio | 100x100](Documentation/Images/RAGWith_AzureOpen_Postman.PNG)
+
+## 9. Implement RAG with Azure OpenAI Service in C#
 
 > 1. Discussion and Demo
 
