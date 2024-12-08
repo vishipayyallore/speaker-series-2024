@@ -1,10 +1,10 @@
-# Implement Retrieval-Augmented Generation (RAG) with Azure OpenAI Service (AI 102)
+# AI-102 - Implement Retrieval-Augmented Generation (RAG) with Azure OpenAI Service
 
-## Date Time: 06-Dec-2024 at 05:00 PM IST
+## Date Time: 10-Dec-2024 at 05:00 PM IST
 
-## Event URL: [https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304636793](https://www.meetup.com/aiminds-the-hub-for-ai-intellectuals/events/304636793)
+## Event URL: [https://www.meetup.com/microsoft-reactor-bengaluru/events/304539378](https://www.meetup.com/microsoft-reactor-bengaluru/events/304539378)
 
-## YouTube URL: [https://www.youtube.com/@DataCouch/videos](https://www.youtube.com/@DataCouch/videos)
+## YouTube URL: [https://www.youtube.com/watch?v=cHgZU5dqjyc](https://www.youtube.com/watch?v=cHgZU5dqjyc)
 
 ![Viswanatha Swamy P K |150x150](./Documentation/Images/ViswanathaSwamyPK.PNG)
 
@@ -53,11 +53,11 @@
 
 ### 1.2. Previous Session(s)
 
-> 1. <https://www.youtube.com/@DataCouch/videos>
+> 1. <https://youtube.com/playlist?list=PLmsFUfdnGr3wmIh-glyiMkhHS6byEuI59&si=5vlmcUqOuWqFiCRR>
 
 ### 1.3. Microsoft Learn Module(s)
 
-> 1. <https://learn.microsoft.com/en-gb/training/modules/use-own-data-azure-openai/1-introduction>
+> 1. <https://aka.ms/OpenAI-RAG>
 
 ## 2. Retrieval Augmented Generation (RAG)
 
