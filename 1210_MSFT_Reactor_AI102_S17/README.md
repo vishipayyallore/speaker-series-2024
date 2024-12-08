@@ -34,6 +34,20 @@
 > 1. The Big Picture
 >    - Pre-requisites
 >    - Previous Session(s)
+>    - Microsoft Learn Module(s)
+> 1. Retrieval without RAG
+> 1. Retrieval Augmented Generation (RAG)
+>    - Key Components of RAG
+>    - Benefits of RAG
+>    - Example Workflow in Azure OpenAI
+>    - Use Cases
+> 1. Provision Azure Resources
+> 1. Upload Your Data
+> 1. Deploy AI Models
+> 1. Create an Index
+> 1. RAG with your data in Azure AI Studio
+> 1. RAG with your data in Postman
+> 1. Implement RAG with Azure OpenAI Service in `C#`
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/Swamy-s-Tech-Skills-Academy/learn-ai-102-code) of today's session for more details
@@ -73,7 +87,7 @@ Tell me about India
 
 `Retrieval Augmented Generation (RAG)` is an advanced AI framework that enhances the capabilities of language models by combining `retrieval-based methods` with `generative models`. In essence, RAG integrates external knowledge sources into the generative process, making the model's responses more accurate, up-to-date, and relevant to specific contexts.
 
-### Key Components of RAG
+### 3.1. Key Components of RAG
 
 #### **Retrieval**
 
@@ -89,21 +103,21 @@ Tell me about India
 
 - A generative language model (e.g., Azure OpenAI's GPT models) processes the retrieved context alongside the input query to produce a coherent and informed response.
 
-### Benefits of RAG
+### 3.2. Benefits of RAG
 
 > 1. **Accuracy**: Ensures responses are based on the most relevant and up-to-date information.
 > 1. **Contextual Awareness**: Incorporates domain-specific or private knowledge sources that the model wouldn't have seen during its training.
 > 1. **Scalability**: Works well for large-scale deployments where models need to adapt to varied or niche information domains.
 > 1. **Cost Efficiency**: Reduces reliance on larger models by leveraging external knowledge effectively.
 
-### Example Workflow in Azure OpenAI
+### 3.3. Example Workflow in Azure OpenAI
 
 > 1. **User Query**: A user asks, _"What are the latest features of Azure OpenAI?"_.
 > 1. **Information Retrieval**: The system queries an indexed knowledge base containing Azure OpenAI documentation, release notes, and other materials.
 > 1. **Augmented Prompt**: The retrieved documents are appended to the query as part of the prompt.
 > 1. **Response Generation**: Azure OpenAI GPT generates a response based on both the query and the retrieved context.
 
-### Use Cases
+### 3.4. Use Cases
 
 > 1. **Customer Support**: Providing real-time, accurate answers using product manuals or troubleshooting guides.
 > 1. **Enterprise Knowledge Management**: Leveraging private, secure repositories to assist employees with organizational knowledge.
@@ -155,7 +169,7 @@ User: I want to go to New York. Where should I stay?
 
 ![RAG with Azure AI Studio | 100x100](Documentation/Images/RAGWith_AzureOpen_Postman.PNG)
 
-## 9. Implement RAG with Azure OpenAI Service in C#
+## 10. Implement RAG with Azure OpenAI Service in `C#`
 
 > 1. Discussion and Demo
 
