@@ -133,6 +133,18 @@ Tell me about India
 >    - Enable semantic ranking for better search relevance.
 > 1. Result: A searchable index (margies-index) is created.
 
+## 8. RAG with your data in Azure AI Studio
+
+> 1. Discussion and Demo
+
+![RAG with Azure AI Studio | 100x100](Documentation/Images/RAGWith_AzureOpenAIStudio.PNG)
+
+## 9. RAG with your data in Postman
+
+> 1. Discussion and Demo
+
+![RAG with Azure AI Studio | 100x100](Documentation/Images/RAGWith_AzureOpenAIStudio.PNG)
+
 ## 8. Implement RAG with Azure OpenAI Service
 
 > 1. Discussion and Demo
