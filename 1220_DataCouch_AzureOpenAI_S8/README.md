@@ -92,9 +92,11 @@
 
 > 1. Discussion and Demo
 
-## 2. Provision an Azure AI Language resource
+## 7. Extract key phrases
 
 > 1. Discussion and Demo
+
+![Text Analysis Azure SDK |150x150](./Documentation/Images/TextAnalysis_AzureSDK.PNG)
 
 ## 2. Provision an Azure AI Language resource
 
