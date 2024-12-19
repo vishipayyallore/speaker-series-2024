@@ -38,6 +38,7 @@
 > 1. Provision an Azure AI Language resource
 > 1. Started with language detection
 > 1. Language studio
+> 1. Detect language using Postman
 > 1. SUMMARY / RECAP / Q&A
 
 ### Please refer to the [**Source Code**](https://github.com/Swamy-s-Tech-Skills-Academy/learn-ai-102-code) of today's session for more details
@@ -71,8 +72,8 @@
 
 > 1. Discussion and Demo
 > 1. Language studio <https://language.cognitive.azure.com/tryout/detectLanguage>
-> 1. Client library (Azure SDK)
 > 1. Postman (REST API)
+> 1. Client library (Azure SDK)
 
 ## 4. Language studio
 
@@ -81,7 +82,13 @@
 
 ![Language Studio |150x150](./Documentation/Images/Language_Studio.PNG)
 
-## 3. Detect language
+## 5. Detect language using Postman
+
+> 1. Discussion and Demo
+
+![Detect language using Postman |150x150](./Documentation/Images/DetectLanguage_Postman.PNG)
+
+## 6. Detect language - Azure SDK
 
 > 1. Discussion and Demo
 
