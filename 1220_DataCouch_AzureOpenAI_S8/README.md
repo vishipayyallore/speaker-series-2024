@@ -74,6 +74,7 @@
 > 1. Language studio <https://language.cognitive.azure.com/tryout/detectLanguage>
 > 1. Postman (REST API)
 > 1. Client library (Azure SDK)
+> 1. Docker Containers
 
 ## 4. Language studio
 
