@@ -96,19 +96,19 @@
 
 > 1. Discussion and Demo
 
+## 8. Analyze sentiment
+
+> 1. Discussion and Demo
+
+## 9. Extract entities
+
+> 1. Discussion and Demo
+
+## 10. Extract linked entities
+
+> 1. Discussion and Demo
+
 ![Text Analysis Azure SDK |150x150](./Documentation/Images/TextAnalysis_AzureSDK.PNG)
-
-## 2. Provision an Azure AI Language resource
-
-> 1. Discussion and Demo
-
-## 2. Provision an Azure AI Language resource
-
-> 1. Discussion and Demo
-
-## 2. Provision an Azure AI Language resource
-
-> 1. Discussion and Demo
 
 ---
 
